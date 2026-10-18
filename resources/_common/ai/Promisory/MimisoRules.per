@@ -1,0 +1,206 @@
+; ============================================================
+; Mimiso LOE 2 - PromiAI(.per/.per2) 适配规则
+; 由模组侧 drs\gamedata_x2\PromiDE.per2 末尾 (load) 载入，
+; 覆盖官方 Promisory AI 后追加的模组专属行为。
+;
+; 内容:
+;   1) 点 早期长矛兵 -> 长矛兵 的升级      (研究 3001)
+;   2) 反应式出弩手系: 敌方骑士/黑光铠/剑士成规模 (训练 4002)
+;   3) 升级精锐弩手(劲弩手)                (研究 3007)
+;   4) 经济适配 (2026-10-17):
+;      模组把大量科技的费用改成/加重黄金, 官方 Promi 的金农
+;      比例与攒金阈值按原版费用调校, 不调整会升时代/科技明显
+;      拖后、长期金赤字。本块只做三件事:
+;        a. 分时代接管 sn-gold-gatherer-percentage (多派金农)
+;        b. 市场"为升城卖粮木"停手线 200 -> 400 (补官方常量缺口)
+;        c. 城堡时代起提前补贸易车 (官方多在帝王才成规模)
+;
+; 说明: 模组对象(dat 单位/科技 ID 4001/4002/4003/3001/3006/3007)
+;       不在引擎内置符号表内, 必须先 defconst 起名再用。
+;
+; 附: 长矛兵线已在 unitlines.json 注册
+;     (spearman-line = [4001, 93, 358, 359]),
+;     官方规则里若按线符号(spearman-line)取材, 引擎会按当前已研究
+;     形态自动解析(黑暗=早期长矛兵, 研究3001后=长矛兵, …),
+;     全程无需改写官方 AI；弩手线同理(loe-loe-crossbowman-line=[4002,4003])。
+; ============================================================
+
+(defconst mimiso-u-crossbowman 4002)      ; 弩手 (城堡, 科技3006自动启用)
+(defconst mimiso-t-spearman-upg 3001)     ; 长矛兵 升级科技 (早期长矛兵 -> 长矛兵)
+(defconst mimiso-t-arbalester-upg 3007)   ; 劲弩手 升级科技 (弩手 -> 劲弩手)
+
+; ---- 1) 早期长矛兵 -> 长矛兵 ----
+; can-research 自动处理前置(时代+资源), 到封建即可研究
+(defrule
+    (unit-type-count-total spearman-line > 0)
+    (can-research mimiso-t-spearman-upg)
+=>
+    (research mimiso-t-spearman-upg)
+)
+
+; ---- 2) 出弩手系 (反应式: 敌方重甲目标成规模才出) ----
+; 科技3006 城堡时代自动研究完成 -> can-train 4002 变真
+; 触发: 任一敌方 骑士系 >= 8 / 黑光铠骑兵系 >= 8 / 剑士系 >= 10
+; (线符号均在 unitlines.json 注册, 引擎直接解析;
+;  阈值按兵种造价与威胁度区分, 可调)
+; 数量上限用于演示/防刷爆, 实装可交回战略目标控制
+(defrule
+    (can-train mimiso-u-crossbowman)
+    (unit-type-count-total mimiso-u-crossbowman < 30)
+(or (players-unit-type-count any-enemy knight-line >= 8)
+(or (players-unit-type-count any-enemy hei-guang-cavalry-line >= 8)
+    (players-unit-type-count any-enemy militia-line >= 10)))
+=>
+    (train mimiso-u-crossbowman)
+)
+
+; ---- 3) 升级劲弩手 ----
+; 研究后所有 4002 原位变为 4003, 靶场训练按钮同步变为劲弩手
+(defrule
+    (can-research mimiso-t-arbalester-upg)
+=>
+    (research mimiso-t-arbalester-upg)
+)
+
+; ============================================================
+; 4) 经济适配 (对照官方 Promisory, 2026-10-17 版本)
+; ------------------------------------------------------------
+; 成本事实 (模组 dat vs 官方 dat 实测):
+;   城堡时代  200金 -> 400金
+;   帝王时代  1000食/800金 -> 1600食/800金
+;   织金      50金 -> 75金
+;   经济科技全面金化(原版只花食/木):
+;     马轭100金 重犁250金 轮作500金
+;     双刃斧100金 弓锯250金 双人锯900金
+;     采金125金 金矿井采400金 采石900金 石矿井采1000金
+;   军事升级普涨: 封建铁匠铺 50~100金 -> 150~275金,
+;     城堡/帝王精锐升级普遍 900金 (共61项科技黄金上涨)
+;
+; 官方机制与本块的关系:
+;   * escrow.per 用 up-add-research-cost 读取 dat 当前真实费用
+;     攒钱, 所以"攒多少"会自动跟随模组涨价, 不会硬点负担不起
+;     的科技 —— 不用改; 会出问题的是"攒钱速度": 官方金农比例
+;     (封建13~18%/城堡16%)和触发阈值 castle-gold=200 都是按原版
+;     费用写死的, 收入端跟不上 -> 升城/升级整体拖后。
+;   * 本文件在加载链最末尾, 每个决策扫描最后执行, 这里的
+;     set-strategic-number 覆盖 gatherers.per 同期设定; 条件不
+;     满足时不 set, 自动回退官方分配, 不会把经济锁死。
+;   * 木/食/金/石四项之和始终给满 100。
+; ============================================================
+
+; ---- 4a) 封建时代: 存城金费翻倍(400金)+封建科技普遍要金 ----
+; 存金期(<400金, 覆盖400升城+织金/杂项缓冲): 18% -> 28% 金农
+(defrule
+    (current-age == feudal-age)
+    (unit-type-count-total villager >= 18)
+    (up-compare-goal total-gold-amount < 400)
+=>
+    (set-strategic-number sn-wood-gatherer-percentage 25)
+    (set-strategic-number sn-food-gatherer-percentage 47)
+    (set-strategic-number sn-gold-gatherer-percentage 28)
+    (set-strategic-number sn-stone-gatherer-percentage 0)
+)
+; 过线后(400~850金)降到 20%, 再多就不干预, 交回官方
+(defrule
+    (current-age == feudal-age)
+    (unit-type-count-total villager >= 18)
+    (up-compare-goal total-gold-amount >= 400)
+    (up-compare-goal total-gold-amount < 850)
+=>
+    (set-strategic-number sn-wood-gatherer-percentage 35)
+    (set-strategic-number sn-food-gatherer-percentage 45)
+    (set-strategic-number sn-gold-gatherer-percentage 20)
+    (set-strategic-number sn-stone-gatherer-percentage 0)
+)
+
+; ---- 4b) 城堡时代: 升级海单项250~900金, 16% -> 24% ----
+(defrule
+    (current-age == castle-age)
+    (unit-type-count-total villager >= 35)
+    (up-compare-goal total-gold-amount < 900)
+=>
+    (set-strategic-number sn-wood-gatherer-percentage 35)
+    (set-strategic-number sn-food-gatherer-percentage 41)
+    (set-strategic-number sn-gold-gatherer-percentage 24)
+    (set-strategic-number sn-stone-gatherer-percentage 0)
+)
+; 900~1500 金过渡档 18%; 1500+ 交回官方
+(defrule
+    (current-age == castle-age)
+    (unit-type-count-total villager >= 35)
+    (up-compare-goal total-gold-amount >= 900)
+    (up-compare-goal total-gold-amount < 1500)
+=>
+    (set-strategic-number sn-wood-gatherer-percentage 38)
+    (set-strategic-number sn-food-gatherer-percentage 44)
+    (set-strategic-number sn-gold-gatherer-percentage 18)
+    (set-strategic-number sn-stone-gatherer-percentage 0)
+)
+
+; ---- 4c) 帝王时代: 900金科技排队, 金农 20% 兜底, 主力靠贸易 ----
+(defrule
+    (current-age == imperial-age)
+    (unit-type-count-total villager >= 50)
+    (up-compare-goal total-gold-amount < 1200)
+=>
+    (set-strategic-number sn-wood-gatherer-percentage 38)
+    (set-strategic-number sn-food-gatherer-percentage 42)
+    (set-strategic-number sn-gold-gatherer-percentage 20)
+    (set-strategic-number sn-stone-gatherer-percentage 0)
+)
+
+; ---- 4d) 市场补升城金: 只补官方常量缺口, 不做通用倾销 ----
+; 官方 trade.per 已有"为升城卖余粮/余木"规则, 但停手线写死
+; castle-gold=200; 模组升城要 400 金, 官方规则在攒到 200 时就
+; 停卖 -> 少补 200 金。这里照官方同款条件把停手线延到 400:
+;   卖粮: 总食物 >= castle-fs(900) 才卖, 不会饿肚子
+;   卖木: 总食物已过 castle-f2(600) 且 木材 >= 100
+; (官方为升时代卖资源本就不设卖价底线, 这里保持一致;
+;  帝王升代金目标仍是 800(未改), 无需补; 平时的余粮/余木
+;  倾销官方 excessFood/excessWood 规则已覆盖, 不重复加)
+(defrule
+    (building-type-count town-center >= 1)
+    (research-available castle-age)
+    (gold-amount < 400)
+    (up-compare-goal total-food-amount >= castle-fs)
+    (can-sell-commodity food)
+=>
+    (sell-commodity food)
+)
+(defrule
+    (building-type-count town-center >= 1)
+    (research-available castle-age)
+    (gold-amount < 400)
+    (up-compare-goal total-food-amount >= castle-f2)
+    (wood-amount >= 100)
+    (can-sell-commodity wood)
+=>
+    (sell-commodity wood)
+)
+
+; ---- 4e) 贸易车提前: 城堡起铺车, 帝王补到40 ----
+; 官方 traincart 目标每扫描在 units.per 开头重置, 这里直接 train
+; 最可靠; can-train 已要求存在可去的市场(同盟或盖亚)
+(defrule
+    (current-age == castle-age)
+    (building-type-count market >= 1)
+    (unit-type-count-total trade-cart < 25)
+(or (up-compare-goal excessWood >= 600)
+(or (dropsite-min-distance gold >= 12)
+    (up-compare-goal total-gold-amount < 200)))
+(or (players-building-type-count any-ally market >= 1)
+    (cc-players-building-type-count 0 market >= 1))
+    (can-train trade-cart)
+=>
+    (train trade-cart)
+)
+(defrule
+    (current-age == imperial-age)
+    (building-type-count market >= 1)
+    (unit-type-count-total trade-cart < 40)
+(or (players-building-type-count any-ally market >= 1)
+    (cc-players-building-type-count 0 market >= 1))
+    (can-train trade-cart)
+=>
+    (train trade-cart)
+)

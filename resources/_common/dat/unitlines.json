@@ -1,0 +1,1125 @@
+{
+    "Hint": "LineIDs have to be between (-400, -199). DefConst Identifiers can be strings or arrays of strings",
+    "UnitLines": [
+        {
+            "Name": "Wall Line",
+            "Identifier": "stone-wall-line",
+            "Building": true,
+            "LineID": -399,
+            "IDChain": [
+                117,
+                155
+            ]
+        },
+        {
+            "Name": "Tower Line",
+            "Identifier": "watch-tower-line",
+            "Building": true,
+            "LineID": -398,
+            "IDChain": [
+                79,
+                234,
+                235
+            ]
+        },
+        {
+            "Name": "Outpost Line",
+            "Identifier": "outpost-line",
+            "LineID": -310,
+            "IDChain": [
+                598,
+                2415
+            ]
+        },
+        {
+            "Name": "Sannahya Line",
+            "Identifier": "sannahya-line",
+            "LineID": -300,
+            "IDChain": [
+                2390,
+                2391
+            ]
+        },
+        {
+            "Name": "Archery Line",
+            "Identifier": "archer-line",
+            "LineID": -299,
+            "IDChain": [
+                4,
+                24,
+                492
+            ]
+        },
+        {
+            "Name": "Cavalry Archer Line",
+            "Identifier": "cavalry-archer-line",
+            "LineID": -298,
+            "IDChain": [
+                39,
+                474
+            ]
+        },
+        {
+            "Name": "Skirmisher Line",
+            "Identifier": "skirmisher-line",
+            "LineID": -297,
+            "IDChain": [
+                7,
+                6,
+                1155
+            ]
+        },
+        {
+            "Name": "Eagle Warrior Line",
+            "Identifier": [
+                "eagle-warrior-line",
+                "eagle-scout-line"
+            ],
+            "LineID": -266,
+            "IDChain": [
+                751,
+                753,
+                752
+            ]
+        },
+        {
+            "Name": "Militia Line",
+            "Identifier": [
+                "militiaman-line",
+                "militia-line"
+            ],
+            "LineID": -296,
+            "IDChain": [
+                74,
+                75,
+                77,
+                473,
+                567,
+                1793
+            ]
+        },
+        {
+            "Name": "Spearman Line",
+            "Identifier": "spearman-line",
+            "LineID": -295,
+            "IDChain": [
+                4001,
+                93,
+                358,
+                359
+            ]
+        },
+        {
+            "Name": "Demolition Ship Line",
+            "Identifier": [
+                "demolition-ship-line",
+                "demolition-raft-line"
+            ],
+            "LineID": -294,
+            "IDChain": [
+                1104,
+                527,
+                528
+            ]
+        },
+        {
+            "Name": "Fire Ship Line",
+            "Identifier": [
+                "fire-ship-line",
+                "fire-galley-line"
+            ],
+            "LineID": -293,
+            "IDChain": [
+                1103,
+                529,
+                532
+            ]
+        },
+        {
+            "Name": "War Galley Line",
+            "Identifier": "galley-line",
+            "LineID": -292,
+            "IDChain": [
+                539,
+                21,
+                442
+            ]
+        },
+        {
+            "Name": "Battering Ram Line",
+            "Identifier": "battering-ram-line",
+            "LineID": -291,
+            "IDChain": [
+                1258,
+                35,
+                422,
+                548
+            ]
+        },
+        {
+            "Name": "Mangonel Line",
+            "Identifier": "mangonel-line",
+            "LineID": -290,
+            "IDChain": [
+                280,
+                550,
+                588
+            ]
+        },
+        {
+            "Name": "Scorpion Line",
+            "Identifier": "scorpion-line",
+            "LineID": -289,
+            "IDChain": [
+                279,
+                542
+            ]
+        },
+        {
+            "Name": "Camel Line",
+            "Identifier": [
+                "camel-line",
+                "camel-rider-line"
+            ],
+            "LineID": -288,
+            "IDChain": [
+                1755,
+                329,
+                330,
+                207
+            ]
+        },
+        {
+            "Name": "Knight Line",
+            "Identifier": "knight-line",
+            "LineID": -287,
+            "IDChain": [
+                38,
+                283,
+                569,
+                1813
+            ]
+        },
+        {
+            "Name": "Scout Cavalry Line",
+            "Identifier": "scout-cavalry-line",
+            "LineID": -286,
+            "IDChain": [
+                448,
+                546,
+                441,
+                1707
+            ]
+        },
+        {
+            "Name": "Camel Archer Line",
+            "Identifier": "camel-archer-line",
+            "LineID": -285,
+            "IDChain": [
+                1007,
+                1009
+            ]
+        },
+        {
+            "Name": "Cannon Galleon Line",
+            "Identifier": "cannon-galleon-line",
+            "LineID": -284,
+            "IDChain": [
+                420,
+                691
+            ]
+        },
+        {
+            "Name": "Longboat Line",
+            "Identifier": [
+                "longboat-line",
+                "longship-line"
+            ],
+            "LineID": -283,
+            "IDChain": [
+                250,
+                533
+            ]
+        },
+        {
+            "Name": "Turtle Ship Line",
+            "Identifier": "turtle-ship-line",
+            "LineID": -282,
+            "IDChain": [
+                831,
+                832
+            ]
+        },
+        {
+            "Name": "Berserker Line",
+            "Identifier": "berserk-line",
+            "LineID": -281,
+            "IDChain": [
+                692,
+                694
+            ]
+        },
+        {
+            "Name": "Cataphract Line",
+            "Identifier": "cataphract-line",
+            "LineID": -280,
+            "IDChain": [
+                40,
+                553
+            ]
+        },
+        {
+            "Name": "Cho Ko Nu Line",
+            "Identifier": "chu-ko-nu-line",
+            "LineID": -279,
+            "IDChain": [
+                73,
+                559
+            ]
+        },
+        {
+            "Name": "Conquistador Line",
+            "Identifier": "conquistador-line",
+            "LineID": -263,
+            "IDChain": [
+                771,
+                773
+            ]
+        },
+        {
+            "Name": "Jaguar Warrior Line",
+            "Identifier": [
+                "jaguar-man-line",
+                "jaguar-warrior-line"
+            ],
+            "LineID": -267,
+            "IDChain": [
+                725,
+                726
+            ]
+        },
+        {
+            "Name": "Huskarl Line",
+            "Identifier": "huskarl-line",
+            "LineID": -278,
+            "IDChain": [
+                41,
+                555
+            ]
+        },
+        {
+            "Name": "Janissary Line",
+            "Identifier": "janissary-line",
+            "LineID": -277,
+            "IDChain": [
+                46,
+                557
+            ]
+        },
+        {
+            "Name": "Longbow Man Line",
+            "Identifier": "longbowman-line",
+            "LineID": -276,
+            "IDChain": [
+                4004,
+                8,
+                530
+            ]
+        },
+        {
+            "Name": "Mameluke Line",
+            "Identifier": "mameluke-line",
+            "LineID": -275,
+            "IDChain": [
+                282,
+                556
+            ]
+        },
+        {
+            "Name": "Mangudai Line",
+            "Identifier": "mangudai-line",
+            "LineID": -274,
+            "IDChain": [
+                11,
+                561
+            ]
+        },
+        {
+            "Name": "Plumed Archer Line",
+            "Identifier": "plumed-archer-line",
+            "LineID": -265,
+            "IDChain": [
+                763,
+                765
+            ]
+        },
+        {
+            "Name": "Samurai Line",
+            "Identifier": "samurai-line",
+            "LineID": -273,
+            "IDChain": [
+                291,
+                560
+            ]
+        },
+        {
+            "Name": "Tarkan Line",
+            "Identifier": "tarkan-line",
+            "LineID": -264,
+            "IDChain": [
+                755,
+                757
+            ]
+        },
+        {
+            "Name": "Teutonic Knight Line",
+            "Identifier": "teutonic-knight-line",
+            "LineID": -272,
+            "IDChain": [
+                25,
+                554
+            ]
+        },
+        {
+            "Name": "Throwing Axeman Line",
+            "Identifier": "throwing-axeman-line",
+            "LineID": -271,
+            "IDChain": [
+                281,
+                531
+            ]
+        },
+        {
+            "Name": "War Elephant Line",
+            "Identifier": "war-elephant-line",
+            "LineID": -270,
+            "IDChain": [
+                239,
+                558
+            ]
+        },
+        {
+            "Name": "War Wagon Line",
+            "Identifier": "war-wagon-line",
+            "LineID": -269,
+            "IDChain": [
+                827,
+                829
+            ]
+        },
+        {
+            "Name": "Woad Raider Line",
+            "Identifier": "woad-raider-line",
+            "LineID": -268,
+            "IDChain": [
+                232,
+                534
+            ]
+        },
+        {
+            "Name": "Genoese Crossbow Line",
+            "Identifier": "genoese-crossbowman-line",
+            "LineID": -262,
+            "IDChain": [
+                866,
+                868
+            ]
+        },
+        {
+            "Name": "Elephant Archer Line",
+            "Identifier": "elephant-archer-line",
+            "LineID": -261,
+            "IDChain": [
+                873,
+                875
+            ]
+        },
+        {
+            "Name": "Boyar Line",
+            "Identifier": "boyar-line",
+            "LineID": -260,
+            "IDChain": [
+                876,
+                878
+            ]
+        },
+        {
+            "Name": "Huszar Line",
+            "Identifier": "magyar-huszar-line",
+            "LineID": -259,
+            "IDChain": [
+                869,
+                871
+            ]
+        },
+        {
+            "Name": "Kamayuk Line",
+            "Identifier": "kamayuk-line",
+            "LineID": -258,
+            "IDChain": [
+                879,
+                881
+            ]
+        },
+        {
+            "Name": "Caravel Line",
+            "Identifier": "caravel-line",
+            "LineID": -257,
+            "IDChain": [
+                1004,
+                1006
+            ]
+        },
+        {
+            "Name": "Organ Gun Line",
+            "Identifier": "organ-gun-line",
+            "LineID": -256,
+            "IDChain": [
+                1001,
+                1003
+            ]
+        },
+        {
+            "Name": "Gbeto Line",
+            "Identifier": "gbeto-line",
+            "LineID": -255,
+            "IDChain": [
+                1013,
+                1015
+            ]
+        },
+        {
+            "Name": "Shotel Line",
+            "Identifier": [
+                "shotel-line",
+                "shotel-warrior-line"
+            ],
+            "LineID": -254,
+            "IDChain": [
+                1016,
+                1018
+            ]
+        },
+        {
+            "Name": "Genitour Line",
+            "Identifier": "genitour-line",
+            "LineID": -253,
+            "IDChain": [
+                1010,
+                1012
+            ]
+        },
+        {
+            "Name": "Ballista Elephant Line",
+            "Identifier": "ballista-elephant-line",
+            "LineID": -252,
+            "IDChain": [
+                1120,
+                1122
+            ]
+        },
+        {
+            "Name": "Rattan Archer Line",
+            "Identifier": "rattan-archer-line",
+            "LineID": -251,
+            "IDChain": [
+                1129,
+                1131
+            ]
+        },
+        {
+            "Name": "Arambai Line",
+            "Identifier": "arambai-line",
+            "LineID": -250,
+            "IDChain": [
+                1126,
+                1128
+            ]
+        },
+        {
+            "Name": "Battle Elephant Line",
+            "Identifier": "battle-elephant-line",
+            "LineID": -249,
+            "IDChain": [
+                1132,
+                1134
+            ]
+        },
+        {
+            "Name": "Karambit Warrior Line",
+            "Identifier": "karambit-warrior-line",
+            "LineID": -248,
+            "IDChain": [
+                1123,
+                1125
+            ]
+        },
+        {
+            "Name": "Konnik Line",
+            "Identifier": "konnik-line",
+            "LineID": -247,
+            "IDChain": [
+                1225,
+                1227
+            ]
+        },
+        {
+            "Name": "Krepost Konnik Line",
+            "Identifier": "krepost-konnik-line",
+            "LineID": -246,
+            "IDChain": [
+                1254,
+                1255
+            ]
+        },
+        {
+            "Name": "Foot Konnik Line",
+            "Identifier": "foot-konnik-line",
+            "LineID": -245,
+            "IDChain": [
+                1252,
+                1253
+            ]
+        },
+        {
+            "Name": "Leitis Line",
+            "Identifier": "leitis-line",
+            "LineID": -244,
+            "IDChain": [
+                1234,
+                1236
+            ]
+        },
+        {
+            "Name": "Kipchak Line",
+            "Identifier": "kipchak-line",
+            "LineID": -243,
+            "IDChain": [
+                1231,
+                1233
+            ]
+        },
+        {
+            "Name": "Keshik Line",
+            "Identifier": "keshik-line",
+            "LineID": -242,
+            "IDChain": [
+                1228,
+                1230
+            ]
+        },
+        {
+            "Name": "Steppe Lancer Line",
+            "Identifier": "steppe-lancer-line",
+            "LineID": -241,
+            "IDChain": [
+                1370,
+                1372
+            ]
+        },
+        {
+            "Name": "Coustillier Line",
+            "Identifier": "coustillier-line",
+            "LineID": -240,
+            "IDChain": [
+                1655,
+                1657
+            ]
+        },
+        {
+            "Name": "Serjeant Line",
+            "Identifier": "serjeant-line",
+            "LineID": -239,
+            "IDChain": [
+                1658,
+                1659
+            ]
+        },
+        {
+            "Name": "Donjon Serjeant Line",
+            "Identifier": "donjon-serjeant-line",
+            "LineID": -238,
+            "IDChain": [
+                1660,
+                1661
+            ]
+        },
+        {
+            "Name": "Obuch Line",
+            "Identifier": "obuch-line",
+            "LineID": -237,
+            "IDChain": [
+                1701,
+                1703
+            ]
+        },
+        {
+            "Name": "Hussite Wagon Line",
+            "Identifier": "hussite-wagon-line",
+            "LineID": -236,
+            "IDChain": [
+                1704,
+                1706
+            ]
+        },
+        {
+            "Name": "Bombard Cannon Line",
+            "Identifier": "bombard-cannon-line",
+            "LineID": -235,
+            "IDChain": [
+                36,
+                1709
+            ]
+        },
+        {
+            "Name": "Urumi Swordsman Line",
+            "Identifier": "urumi-swordsman-line",
+            "LineID": -234,
+            "IDChain": [
+                1735,
+                1737
+            ]
+        },
+        {
+            "Name": "Ratha Melee Line",
+            "Identifier": "ratha-melee-line",
+            "LineID": -233,
+            "IDChain": [
+                1738,
+                1740
+            ]
+        },
+        {
+            "Name": "Chakram Thrower Line",
+            "Identifier": "chakram-thrower-line",
+            "LineID": -232,
+            "IDChain": [
+                1741,
+                1743
+            ]
+        },
+        {
+            "Name": "Armored Elephant Line",
+            "Identifier": "armored-elephant-line",
+            "LineID": -231,
+            "IDChain": [
+                1744,
+                1746
+            ]
+        },
+        {
+            "Name": "Ghulam Line",
+            "Identifier": "ghulam-line",
+            "LineID": -230,
+            "IDChain": [
+                1747,
+                1749
+            ]
+        },
+        {
+            "Name": "Shrivamsha Rider Line",
+            "Identifier": "shrivamsha-rider-line",
+            "LineID": -229,
+            "IDChain": [
+                1751,
+                1753
+            ]
+        },
+        {
+            "Name": "Ratha Ranged Line",
+            "Identifier": "ratha-ranged-line",
+            "LineID": -228,
+            "IDChain": [
+                1759,
+                1761
+            ]
+        },
+        {
+            "Name": "Donjon Spearman Line",
+            "Identifier": "donjon-spearman-line",
+            "LineID": -227,
+            "IDChain": [
+                1786,
+                1787,
+                1788
+            ]
+        },
+        {
+            "Name": "Centurion Line",
+            "Identifier": "centurion-line",
+            "LineID": -226,
+            "IDChain": [
+                1790,
+                1792
+            ]
+        },
+        {
+            "Name": "Composite Bowman Line",
+            "Identifier": "composite-bowman-line",
+            "LineID": -225,
+            "IDChain": [
+                1800,
+                1802
+            ]
+        },
+        {
+            "Name": "Monaspa Line",
+            "Identifier": "monaspa-line",
+            "LineID": -224,
+            "IDChain": [
+                1803,
+                1805
+            ]
+        },
+        {
+            "Name": "Qizilbash Warrior Line",
+            "Identifier": "qizilbash-warrior-line",
+            "LineID": -223,
+            "IDChain": [
+                1817,
+                1829
+            ]
+        },
+        {
+            "Name": "Immortal Line",
+            "Identifier": "immortal-line",
+            "LineID": -222,
+            "IDChain": [
+                2101,
+                2102
+            ]
+        },
+        {
+            "Name": "Strategos Line",
+            "Identifier": "strategos-line",
+            "LineID": -221,
+            "IDChain": [
+                2104,
+                2105
+            ]
+        },
+        {
+            "Name": "Hippeus Line",
+            "Identifier": "hippeus-line",
+            "LineID": -220,
+            "IDChain": [
+                2107,
+                2108
+            ]
+        },
+        {
+            "Name": "Hoplite Line",
+            "Identifier": "hoplite-line",
+            "LineID": -219,
+            "IDChain": [
+                2110,
+                2111
+            ]
+        },
+        {
+            "Name": "War Chariot Line",
+            "Identifier": "war-chariot-line",
+            "LineID": -218,
+            "IDChain": [
+                2150,
+                2151
+            ]
+        },
+        {
+            "Name": "Lembos Line",
+            "Identifier": "lembos-line",
+            "LineID": -217,
+            "IDChain": [
+                2123,
+                2124,
+                2125,
+                2126
+            ]
+        },
+        {
+            "Name": "Monoreme Line",
+            "Identifier": "monoreme-line",
+            "LineID": -216,
+            "IDChain": [
+                2127,
+                2128,
+                2129
+            ]
+        },
+        {
+            "Name": "Ancient Galley Line",
+            "Identifier": "ancient-galley-line",
+            "LineID": -215,
+            "IDChain": [
+                2130,
+                2131,
+                2132
+            ]
+        },
+        {
+            "Name": "Incendiary Ship Line",
+            "Identifier": "incendiary-ship-line",
+            "LineID": -214,
+            "IDChain": [
+                2133,
+                2134,
+                2135
+            ]
+        },
+        {
+            "Name": "Catapult Ship Line",
+            "Identifier": "catapult-ship-line",
+            "LineID": -213,
+            "IDChain": [
+                2138,
+                2139
+            ]
+        },
+        {
+            "Name": "Hei Guang Cavalry Line",
+            "Identifier": "hei-guang-cavalry-line",
+            "LineID": -211,
+            "IDChain": [
+                1944,
+                1946
+            ]
+        },
+        {
+            "Name": "Tiger Cavalry Line",
+            "Identifier": "tiger-cavalry-line",
+            "LineID": -210,
+            "IDChain": [
+                1949,
+                1951
+            ]
+        },
+        {
+            "Name": "White Feather Guard Line",
+            "Identifier": "white-feather-guard-line",
+            "LineID": -209,
+            "IDChain": [
+                1959,
+                1961
+            ]
+        },
+        {
+            "Name": "Fire Archer Line",
+            "Identifier": "fire-archer-line",
+            "LineID": -208,
+            "IDChain": [
+                1968,
+                1970
+            ]
+        },
+        {
+            "Name": "Fire Lancer Line",
+            "Identifier": "fire-lancer-line",
+            "LineID": -207,
+            "IDChain": [
+                1901,
+                1903
+            ]
+        },
+        {
+            "Name": "Rocket Cart Line",
+            "Identifier": "rocket-cart-line",
+            "LineID": -206,
+            "IDChain": [
+                1904,
+                1906
+            ]
+        },
+        {
+            "Name": "Iron Pagoda Line",
+            "Identifier": "iron-pagoda-line",
+            "LineID": -205,
+            "IDChain": [
+                1908,
+                1910
+            ]
+        },
+        {
+            "Name": "Liao Dao Line",
+            "Identifier": "liao-dao-line",
+            "LineID": -204,
+            "IDChain": [
+                1920,
+                1922
+            ]
+        },
+        {
+            "Name": "Companion Cavalry Line",
+            "Identifier": "companion-cavalry-line",
+            "LineID": -203,
+            "IDChain": [
+                2382,
+                2383
+            ]
+        },
+        {
+            "Name": "Phalangite Line",
+            "Identifier": "phalangite-line",
+            "LineID": -202,
+            "IDChain": [
+                2384,
+                2385
+            ]
+        },
+        {
+            "Name": "Rhomphaia Warrior Line",
+            "Identifier": "rhomphaia-warrior-line",
+            "LineID": -201,
+            "IDChain": [
+                2386,
+                2387
+            ]
+        },
+        {
+            "Name": "Pattiyodha Longbowman Line",
+            "Identifier": "pattiyodha-longbowman-line",
+            "LineID": -200,
+            "IDChain": [
+                2388,
+                2389
+            ]
+        },
+        {
+            "Name": "Champi Line",
+            "Identifier": "champi-line",
+            "LineID": -301,
+            "IDChain": [
+                2550,
+                2588,
+                2552,
+                2554
+            ]
+        },
+        {
+            "Name": "Bolas Rider Line",
+            "Identifier": "bolas-rider-line",
+            "LineID": -302,
+            "IDChain": [
+                2569,
+                2571
+            ]
+        },
+        {
+            "Name": "Temple Guard Line",
+            "Identifier": "temple-guard-line",
+            "LineID": -303,
+            "IDChain": [
+                2586,
+                2587
+            ]
+        },
+        {
+            "Name": "Ibirapema Warrior Line",
+            "Identifier": "ibirapema-warrior-line",
+            "LineID": -304,
+            "IDChain": [
+                2582,
+                2584
+            ]
+        },
+        {
+            "Name": "Guecha Warrior Line",
+            "Identifier": "guecha-warrior-line",
+            "LineID": -305,
+            "IDChain": [
+                2562,
+                2564
+            ]
+        },
+        {
+            "Name": "Kona Line",
+            "Identifier": "kona-line",
+            "LineID": -306,
+            "IDChain": [
+                2566,
+                2568
+            ]
+        },
+        {
+            "Name": "Blackwood Archer Line",
+            "Identifier": "blackwood-archer-line",
+            "LineID": -307,
+            "IDChain": [
+                2579,
+                2581
+            ]
+        },
+        {
+            "Name": "Hulk Line",
+            "Identifier": "hulk-line",
+            "LineID": -308,
+            "IDChain": [
+                2626,
+                2627,
+                2628
+            ]
+        },
+        {
+            "Name": "War Dog Line",
+            "Identifier": "war-dog-line",
+            "LineID": -309,
+            "IDChain": [
+                2612,
+                2613
+            ]
+        },
+        {
+            "Name": "Mounted Crossbowman Line",
+            "Identifier": "mounted-crossbowman-line",
+            "LineID": -315,
+            "IDChain": [
+                2700,
+                2701
+            ]
+        },
+        {
+            "Name": "Varangian Guard Line",
+            "Identifier": "varangian-guard-line",
+            "LineID": -311,
+            "IDChain": [
+                2703,
+                2704
+            ]
+        },
+        {
+            "Name": "Hearth Troop Line",
+            "Identifier": "hearth-troop-line",
+            "LineID": -312,
+            "IDChain": [
+                2705,
+                2706
+            ]
+        },
+        {
+            "Name": "Jarl Line",
+            "Identifier": "jarl-line",
+            "LineID": -313,
+            "IDChain": [
+                2708,
+                2709
+            ]
+        },
+        {
+            "Name": "Jomsviking Line",
+            "Identifier": "jomsviking-line",
+            "LineID": -314,
+            "IDChain": [
+                2711,
+                2712
+            ]
+        },
+        {
+            "Name": "LOE LOE Crossbowman Line",
+            "Identifier": "loe-loe-crossbowman-line",
+            "LineID": -316,
+            "IDChain": [
+                4002,
+                4003
+            ]
+        }
+    ]
+}

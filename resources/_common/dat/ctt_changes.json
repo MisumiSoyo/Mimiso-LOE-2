@@ -1,0 +1,212 @@
+{
+    "includes": ["ctt_unitchanges.json", "techtrees.json"],
+    "civ_groups":
+    {
+        "南美文明": ["INCAS", "MUISCA", "MAPUCHE", "TUPI"],
+        "骑马弩手文明": ["BRITONS", "FRANKS", "TEUTONS", "VIKINGS", "CELTS", "SPANISH", "BURGUNDIANS", "SICILIANS",
+                       "POLES", "BOHEMIANS", "PORTUGUESE", "SAXONS", "VARANGIANS", "DANES"],
+        "农田文明":
+        {
+            "all": true,
+            "exclude": ["KHITANS"]
+        },
+        "移除掷矛手的文明":
+        {
+            "all": true,
+            "exclude": ["BYZANTINES", "VIETNAMESE"]
+        }
+    },
+    "changes":
+    [
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "钻井采金法(182)改为城堡时代科技: 模组合并采矿线L2=钻井采矿占用其位置, 研究节奏对齐伐木线(45/75/105); Age ID同步FAU RequiredAge",
+            "Use Type": "Tech",
+            "Node ID": 182,
+            "Age ID": 3
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "note": "采金采石合并为一条采矿线(采矿业55→钻井采矿182→灰吹法3004), 删除原采石科技节点278(采石)/279(钻井采石)并同步移出FAU; Use Type=Tech 只作用于科技列表, 避免误删同号单位",
+            "Use Type": "Tech",
+            "Node ID": [278, 279]
+        },
+        {
+            "action": "add",
+            "civ_id": "all",
+            "note": "采矿营: 新增灰吹法(3004, 帝王时代), 作为钻井采矿(182)的下一级; 科技对象待dat侧新建; 6个不使用584采矿营的文明由下面两条modify改挂",
+            "Use Type": "Tech",
+            "Node ID": 3004,
+            "Name": "Cupellation",
+            "Node Type": "Research",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 4,
+            "Building ID": 584,
+            "Link ID": 182,
+            "Link Node Type": "Research",
+            "position": "after",
+            "target_id": 182
+        },
+        {
+            "action": "modify",
+            "civ_id": ["INCAS", "MUISCA", "MAPUCHE", "TUPI"],
+            "note": "美洲文明不用采矿营(584, NotAvailable), 采矿科技挂在建筑2556; 灰吹法跟随55/182改挂2556 (标量Building ID=写字段, 非过滤)",
+            "Use Type": "Tech",
+            "Node ID": 3004,
+            "Building ID": 2556
+        },
+        {
+            "action": "modify",
+            "civ_id": ["ARMENIANS", "GEORGIANS"],
+            "note": "亚美尼亚/格鲁吉亚用骡车(1808)替代采矿营, 采矿科技挂在1808; 灰吹法跟随55/182改挂1808",
+            "Use Type": "Tech",
+            "Node ID": 3004,
+            "Building ID": 1808
+        },
+        {
+            "civilizations": ["Incas", "Muisca", "Mapuche", "Tupi"],
+            "type": "add",
+            "note": "FAU: 美洲4文明灰吹法(3004)加入建筑2556, 位于182之后; 须先于all/584条目执行(先行存在后, all条目走就地更新不再报584缺失)",
+            "building_id": 2556,
+            "tech_id": 3004,
+            "Name": "Cupellation",
+            "RequiredAge": 4,
+            "position": "after",
+            "target_id": 182
+        },
+        {
+            "civilizations": ["Armenians", "Georgians"],
+            "type": "add",
+            "note": "FAU: 亚美尼亚/格鲁吉亚灰吹法(3004)加入骡车1808, 位于182之后",
+            "building_id": 1808,
+            "tech_id": 3004,
+            "Name": "Cupellation",
+            "RequiredAge": 4,
+            "position": "after",
+            "target_id": 182
+        },
+        {
+            "civilizations": ["Aztecs", "Berbers", "Britons", "Burgundians", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Sicilians", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings", "Poles", "Bohemians", "Dravidians", "Bengalis", "Gurjaras", "Romans", "Shu", "Wu", "Wei", "Jurchens", "Khitans", "FullTechCiv", "Danes", "Saxons", "Varangians"],
+            "type": "add",
+            "note": "FAU: 采矿营(584)Techs加入灰吹法(3004, 帝王时代), 位于182之后; 不能用all——add检索按building_id过滤, 对不用584的6文明会报缺失警告, 故显式列出使用584的51文明",
+            "building_id": 584,
+            "tech_id": 3004,
+            "Name": "Cupellation",
+            "RequiredAge": 4,
+            "position": "after",
+            "target_id": 182
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "note": "从科技树移除软甲(875, Gambesons)与近射孔(322, Murder Holes)并同步移出FAU; Use Type=Tech 只作用于科技列表; 6个无875节点的Chronicles文明(ACHAEMENIDS/ATHENIANS/MACEDONIANS/PURU/SPARTANS/THRACIANS)自动跳过",
+            "Use Type": "Tech",
+            "Node ID": [875, 322]
+        },
+        {
+            "action": "modify",
+            "civ_id": ["ARMENIANS", "AZTECS", "BENGALIS", "BERBERS", "BOHEMIANS", "BRITONS", "BULGARIANS", "BURGUNDIANS", "BURMESE", "BYZANTINES", "CELTS", "CHINESE", "CUMANS", "DANES", "DRAVIDIANS", "ETHIOPIANS", "FRANKS", "GEORGIANS", "GOTHS", "GURJARAS", "HUNS", "INCAS", "INDIANS", "ITALIANS", "JAPANESE", "JURCHENS", "KHITANS", "KHMER", "KOREANS", "LITHUANIANS", "MAGYAR", "MALAY", "MALIANS", "MAPUCHE", "MAYANS", "MONGOLS", "MUISCA", "PERSIANS", "POLES", "PORTUGUESE", "ROMANS", "SARACENS", "SAXONS", "SHU", "SICILIANS", "SLAVS", "SPANISH", "TATARS", "TEUTONS", "TUPI", "TURKS", "VARANGIANS", "VIETNAMESE", "VIKINGS", "WEI", "WU"],
+            "note": "删除软甲(875)后, 56个文明的护卫(215, Squires)排版挂靠Link ID 875悬空; 改挂到602(纵火, Arson)下, 保持Link Node Type=BuildingTech仅作排版; 6个Chronicles文明215本就无Link不动",
+            "Use Type": "Tech",
+            "Node ID": 215,
+            "Link ID": 602,
+            "Link Node Type": "BuildingTech"
+        },
+        {
+            "action": "modify",
+            "civ_id": "农田文明",
+            "note": "轮作(12)全文明可用: 21个原版未给的文明恢复; Node Status改动同步FAU自动补回建筑68条目",
+            "Use Type": "Tech",
+            "Node ID": 12,
+            "Node Status": "ResearchedCompleted"
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "双人锯(221)全文明可用: 23个原版未给的文明恢复; 节点自带正确建筑(562/1808/2556), FAU同步补回",
+            "Use Type": "Tech",
+            "Node ID": 221,
+            "Node Status": "ResearchedCompleted"
+        },
+        {
+            "action": "modify",
+            "civ_id": ["DRAVIDIANS", "GEORGIANS", "GOTHS", "ITALIANS", "KHITANS", "LITHUANIANS", "MAYANS", "POLES", "PORTUGUESE", "PURU", "SPARTANS", "SPANISH", "TEUTONS", "VARANGIANS", "VIETNAMESE"],
+            "note": "钻井采矿(182)全文明可用: 15个原版未给的文明恢复; 灰吹法(3004)同步放开(原NotAvailable条目已删), 采矿线55→182→3004全文明完整; 节点自带正确建筑(584/1808), FAU同步补回",
+            "Use Type": "Tech",
+            "Node ID": 182,
+            "Node Status": "ResearchedCompleted"
+        },
+        {
+            "civilizations": ["FullTechCiv"],
+            "type": "delete",
+            "note": "FAU: FullTechCiv参照池移除软甲(875)/近射孔(322); CTT delete的FAU同步覆盖不到该键名, 防止template以FullTechCiv为池重建时把已删科技借回",
+            "tech_id": [875, 322]
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "独轮推车和手推车位置改到磨坊",
+            "Use Type": "Tech",
+            "Node ID": [213, 249],
+            "Building ID": 68
+        },
+        {
+            "action": "modify",
+            "civ_id": "南美文明",
+            "note": "南美文明用聚落(2556)替代磨坊(68)研究独轮推车/手推车; all条目后执行覆盖",
+            "Use Type": "Tech",
+            "Node ID": [213, 249],
+            "Building ID": 2556
+        },
+        {
+            "action": "modify",
+            "civ_id": "POLES",
+            "note": "波兰用大庄园(1734)替代磨坊(68)研究独轮推车/手推车; all条目后执行改回1734, Building ID改动自动同步FAU",
+            "Use Type": "Tech",
+            "Node ID": [213, 249],
+            "Building ID": 1734
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "note": "游侠不再作为通用单位",
+            "Use Type": "Unit",
+            "Node ID": 569
+        },
+        {
+            "action": "add",
+            "civ_id": "FRANKS",
+            "note": "法兰克拥有游侠作为独特单位",
+            "Use Type": "Unit",
+            "Node Type": "UniqueUnit",
+            "Node ID": 569,
+            "Link ID": 283,
+            "Link Node Type": "UnitUpgrade",
+            "Name": "Paladin",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 4,
+            "Building ID": 101,
+            "Trigger Tech ID": 265,
+            "position": "after",
+            "target_id": 283
+        },
+        {
+            "action": "delete",
+            "civ_id": "骑马弩手文明",
+            "note": "马弩文明在科技树里移除骑射手, 简洁一些",
+            "Use Type": "Unit",
+            "Node ID": [39, 474]
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "脚踏起重机位置调整",
+            "Use Type": "Tech",
+            "Node ID": 54,
+            "position": "before",
+            "target_id": 373
+        }
+    ]
+}

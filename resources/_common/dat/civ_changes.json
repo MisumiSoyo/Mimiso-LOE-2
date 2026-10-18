@@ -1,0 +1,376 @@
+{
+    "changes": [
+        {
+            "action": "modify",
+            "civ_id": "BRITONS",
+            "note": "BRITONS 文明描述 120150 -> 1000001",
+            "tech_tree_description_string_id": 1000001
+        },
+        {
+            "action": "modify",
+            "civ_id": "FRANKS",
+            "note": "FRANKS 文明描述 120151 -> 1000002",
+            "tech_tree_description_string_id": 1000002
+        },
+        {
+            "action": "modify",
+            "civ_id": "GOTHS",
+            "note": "GOTHS 文明描述 120152 -> 1000003",
+            "tech_tree_description_string_id": 1000003
+        },
+        {
+            "action": "modify",
+            "civ_id": "TEUTONS",
+            "note": "TEUTONS 文明描述 120153 -> 1000004",
+            "tech_tree_description_string_id": 1000004
+        },
+        {
+            "action": "modify",
+            "civ_id": "JAPANESE",
+            "note": "JAPANESE 文明描述 120154 -> 1000005",
+            "tech_tree_description_string_id": 1000005
+        },
+        {
+            "action": "modify",
+            "civ_id": "CHINESE",
+            "note": "CHINESE 文明描述 120155 -> 1000006",
+            "tech_tree_description_string_id": 1000006
+        },
+        {
+            "action": "modify",
+            "civ_id": "BYZANTINES",
+            "note": "BYZANTINES 文明描述 120156 -> 1000007",
+            "tech_tree_description_string_id": 1000007
+        },
+        {
+            "action": "modify",
+            "civ_id": "PERSIANS",
+            "note": "PERSIANS 文明描述 120157 -> 1000008",
+            "tech_tree_description_string_id": 1000008
+        },
+        {
+            "action": "modify",
+            "civ_id": "SARACENS",
+            "note": "SARACENS 文明描述 120158 -> 1000009",
+            "tech_tree_description_string_id": 1000009
+        },
+        {
+            "action": "modify",
+            "civ_id": "TURKS",
+            "note": "TURKS 文明描述 120159 -> 1000010",
+            "tech_tree_description_string_id": 1000010
+        },
+        {
+            "action": "modify",
+            "civ_id": "VIKINGS",
+            "note": "VIKINGS 文明描述 120160 -> 1000011",
+            "tech_tree_description_string_id": 1000011
+        },
+        {
+            "action": "modify",
+            "civ_id": "MONGOLS",
+            "note": "MONGOLS 文明描述 120161 -> 1000012",
+            "tech_tree_description_string_id": 1000012
+        },
+        {
+            "action": "modify",
+            "civ_id": "CELTS",
+            "note": "CELTS 文明描述 120162 -> 1000013",
+            "tech_tree_description_string_id": 1000013
+        },
+        {
+            "action": "modify",
+            "civ_id": "SPANISH",
+            "note": "SPANISH 文明描述 120163 -> 1000014",
+            "tech_tree_description_string_id": 1000014
+        },
+        {
+            "action": "modify",
+            "civ_id": "AZTECS",
+            "note": "AZTECS 文明描述 120164 -> 1000015",
+            "tech_tree_description_string_id": 1000015
+        },
+        {
+            "action": "modify",
+            "civ_id": "MAYANS",
+            "note": "MAYANS 文明描述 120165 -> 1000016",
+            "tech_tree_description_string_id": 1000016
+        },
+        {
+            "action": "modify",
+            "civ_id": "HUNS",
+            "note": "HUNS 文明描述 120166 -> 1000017",
+            "tech_tree_description_string_id": 1000017
+        },
+        {
+            "action": "modify",
+            "civ_id": "KOREANS",
+            "note": "KOREANS 文明描述 120167 -> 1000018",
+            "tech_tree_description_string_id": 1000018
+        },
+        {
+            "action": "modify",
+            "civ_id": "ITALIANS",
+            "note": "ITALIANS 文明描述 120168 -> 1000019",
+            "tech_tree_description_string_id": 1000019
+        },
+        {
+            "action": "modify",
+            "civ_id": "INDIANS",
+            "note": "INDIANS 文明描述 120169 -> 1000020",
+            "tech_tree_description_string_id": 1000020
+        },
+        {
+            "action": "modify",
+            "civ_id": "INCAS",
+            "note": "INCAS 文明描述 120170 -> 1000021",
+            "tech_tree_description_string_id": 1000021
+        },
+        {
+            "action": "modify",
+            "civ_id": "MAGYAR",
+            "note": "MAGYAR 文明描述 120171 -> 1000022",
+            "tech_tree_description_string_id": 1000022
+        },
+        {
+            "action": "modify",
+            "civ_id": "SLAVS",
+            "note": "SLAVS 文明描述 120172 -> 1000023",
+            "tech_tree_description_string_id": 1000023
+        },
+        {
+            "action": "modify",
+            "civ_id": "PORTUGUESE",
+            "note": "PORTUGUESE 文明描述 120173 -> 1000024",
+            "tech_tree_description_string_id": 1000024
+        },
+        {
+            "action": "modify",
+            "civ_id": "ETHIOPIANS",
+            "note": "ETHIOPIANS 文明描述 120174 -> 1000025",
+            "tech_tree_description_string_id": 1000025
+        },
+        {
+            "action": "modify",
+            "civ_id": "MALIANS",
+            "note": "MALIANS 文明描述 120175 -> 1000026",
+            "tech_tree_description_string_id": 1000026
+        },
+        {
+            "action": "modify",
+            "civ_id": "BERBERS",
+            "note": "BERBERS 文明描述 120176 -> 1000027",
+            "tech_tree_description_string_id": 1000027
+        },
+        {
+            "action": "modify",
+            "civ_id": "KHMER",
+            "note": "KHMER 文明描述 120177 -> 1000028",
+            "tech_tree_description_string_id": 1000028
+        },
+        {
+            "action": "modify",
+            "civ_id": "MALAY",
+            "note": "MALAY 文明描述 120178 -> 1000029",
+            "tech_tree_description_string_id": 1000029
+        },
+        {
+            "action": "modify",
+            "civ_id": "BURMESE",
+            "note": "BURMESE 文明描述 120179 -> 1000030",
+            "tech_tree_description_string_id": 1000030
+        },
+        {
+            "action": "modify",
+            "civ_id": "VIETNAMESE",
+            "note": "VIETNAMESE 文明描述 120180 -> 1000031",
+            "tech_tree_description_string_id": 1000031
+        },
+        {
+            "action": "modify",
+            "civ_id": "BULGARIANS",
+            "note": "BULGARIANS 文明描述 120181 -> 1000032",
+            "tech_tree_description_string_id": 1000032
+        },
+        {
+            "action": "modify",
+            "civ_id": "TATARS",
+            "note": "TATARS 文明描述 120182 -> 1000033",
+            "tech_tree_description_string_id": 1000033
+        },
+        {
+            "action": "modify",
+            "civ_id": "CUMANS",
+            "note": "CUMANS 文明描述 120183 -> 1000034",
+            "tech_tree_description_string_id": 1000034
+        },
+        {
+            "action": "modify",
+            "civ_id": "LITHUANIANS",
+            "note": "LITHUANIANS 文明描述 120184 -> 1000035",
+            "tech_tree_description_string_id": 1000035
+        },
+        {
+            "action": "modify",
+            "civ_id": "BURGUNDIANS",
+            "note": "BURGUNDIANS 文明描述 120185 -> 1000036",
+            "tech_tree_description_string_id": 1000036
+        },
+        {
+            "action": "modify",
+            "civ_id": "SICILIANS",
+            "note": "SICILIANS 文明描述 120186 -> 1000037",
+            "tech_tree_description_string_id": 1000037
+        },
+        {
+            "action": "modify",
+            "civ_id": "POLES",
+            "note": "POLES 文明描述 120187 -> 1000038",
+            "tech_tree_description_string_id": 1000038
+        },
+        {
+            "action": "modify",
+            "civ_id": "BOHEMIANS",
+            "note": "BOHEMIANS 文明描述 120188 -> 1000039",
+            "tech_tree_description_string_id": 1000039
+        },
+        {
+            "action": "modify",
+            "civ_id": "DRAVIDIANS",
+            "note": "DRAVIDIANS 文明描述 120189 -> 1000040",
+            "tech_tree_description_string_id": 1000040
+        },
+        {
+            "action": "modify",
+            "civ_id": "BENGALIS",
+            "note": "BENGALIS 文明描述 120190 -> 1000041",
+            "tech_tree_description_string_id": 1000041
+        },
+        {
+            "action": "modify",
+            "civ_id": "GURJARAS",
+            "note": "GURJARAS 文明描述 120191 -> 1000042",
+            "tech_tree_description_string_id": 1000042
+        },
+        {
+            "action": "modify",
+            "civ_id": "ROMANS",
+            "note": "ROMANS 文明描述 120192 -> 1000043",
+            "tech_tree_description_string_id": 1000043
+        },
+        {
+            "action": "modify",
+            "civ_id": "ARMENIANS",
+            "note": "ARMENIANS 文明描述 120193 -> 1000044",
+            "tech_tree_description_string_id": 1000044
+        },
+        {
+            "action": "modify",
+            "civ_id": "GEORGIANS",
+            "note": "GEORGIANS 文明描述 120194 -> 1000045",
+            "tech_tree_description_string_id": 1000045
+        },
+        {
+            "action": "modify",
+            "civ_id": "ACHAEMENIDS",
+            "note": "ACHAEMENIDS 文明描述 120195 -> 1000046",
+            "tech_tree_description_string_id": 1000046
+        },
+        {
+            "action": "modify",
+            "civ_id": "ATHENIANS",
+            "note": "ATHENIANS 文明描述 120196 -> 1000047",
+            "tech_tree_description_string_id": 1000047
+        },
+        {
+            "action": "modify",
+            "civ_id": "SPARTANS",
+            "note": "SPARTANS 文明描述 120197 -> 1000048",
+            "tech_tree_description_string_id": 1000048
+        },
+        {
+            "action": "modify",
+            "civ_id": "SHU",
+            "note": "SHU 文明描述 120198 -> 1000049",
+            "tech_tree_description_string_id": 1000049
+        },
+        {
+            "action": "modify",
+            "civ_id": "WU",
+            "note": "WU 文明描述 120199 -> 1000050",
+            "tech_tree_description_string_id": 1000050
+        },
+        {
+            "action": "modify",
+            "civ_id": "WEI",
+            "note": "WEI 文明描述 120200 -> 1000051",
+            "tech_tree_description_string_id": 1000051
+        },
+        {
+            "action": "modify",
+            "civ_id": "JURCHENS",
+            "note": "JURCHENS 文明描述 120201 -> 1000052",
+            "tech_tree_description_string_id": 1000052
+        },
+        {
+            "action": "modify",
+            "civ_id": "KHITANS",
+            "note": "KHITANS 文明描述 120202 -> 1000053",
+            "tech_tree_description_string_id": 1000053
+        },
+        {
+            "action": "modify",
+            "civ_id": "MACEDONIANS",
+            "note": "MACEDONIANS 文明描述 120203 -> 1000054",
+            "tech_tree_description_string_id": 1000054
+        },
+        {
+            "action": "modify",
+            "civ_id": "THRACIANS",
+            "note": "THRACIANS 文明描述 120204 -> 1000055",
+            "tech_tree_description_string_id": 1000055
+        },
+        {
+            "action": "modify",
+            "civ_id": "PURU",
+            "note": "PURU 文明描述 120205 -> 1000056",
+            "tech_tree_description_string_id": 1000056
+        },
+        {
+            "action": "modify",
+            "civ_id": "MUISCA",
+            "note": "MUISCA 文明描述 120206 -> 1000057",
+            "tech_tree_description_string_id": 1000057
+        },
+        {
+            "action": "modify",
+            "civ_id": "MAPUCHE",
+            "note": "MAPUCHE 文明描述 120207 -> 1000058",
+            "tech_tree_description_string_id": 1000058
+        },
+        {
+            "action": "modify",
+            "civ_id": "TUPI",
+            "note": "TUPI 文明描述 120208 -> 1000059",
+            "tech_tree_description_string_id": 1000059
+        },
+        {
+            "action": "modify",
+            "civ_id": "SAXONS",
+            "note": "SAXONS 文明描述 120209 -> 1000060",
+            "tech_tree_description_string_id": 1000060
+        },
+        {
+            "action": "modify",
+            "civ_id": "VARANGIANS",
+            "note": "VARANGIANS 文明描述 120210 -> 1000061",
+            "tech_tree_description_string_id": 1000061
+        },
+        {
+            "action": "modify",
+            "civ_id": "DANES",
+            "note": "DANES 文明描述 120211 -> 1000062",
+            "tech_tree_description_string_id": 1000062
+        }
+    ]
+}

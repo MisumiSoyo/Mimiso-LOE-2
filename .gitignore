@@ -1,0 +1,10 @@
+/resources/zh/strings/key-value/key-value-merge.txt
+/resources/en/strings/key-value/key-value-merge.txt
+*.code-workspace
+*.zip
+__pycache__/
+.trae/
+tools/
+
+# Office 临时文件
+~$*

@@ -1,0 +1,102 @@
+{
+    "changes":
+    [
+        {
+            "action": "enable",
+            "civ_id": "all",
+            "note": "步弓手系通用",
+            "UnitIDs": [4, 24, 492]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["BRITONS"],
+            "note": "部分文明移除步弓手系",
+            "Use Type": "Unit",
+            "Node ID": [4, 24, 492]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["JAPANESE", "BYZANTINES", "VIKINGS", "SAXONS", "VARANGIANS", "DANES"],
+            "note": "部分文明移除武士系",
+            "Use Type": "Unit",
+            "Node ID": [74, 75]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["CHINESE"],
+            "note": "部分文明移除弩手系",
+            "Use Type": "Unit",
+            "Node ID": [4002, 4003]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["BYZANTINES"],
+            "note": "部分文明移除骑士系",
+            "Use Type": "Unit",
+            "Node ID": [38, 283]
+        },
+        {
+            "action": "enable",
+            "civ_id": "FRANKS",
+            "note": "法兰克科技树",
+            "TechIDs": [437, 201, 219, 15, 63],
+            "UnitIDs": [441, 235]
+        },
+        {
+            "action": "enable",
+            "civ_id": "GOTHS",
+            "note": "哥特科技树",
+            "TechIDs": [437, 602],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "GOTHS",
+            "note": "哥特科技树",
+            "TechIDs": [],
+            "UnitIDs": [5, 36]
+        },
+        {
+            "action": "enable",
+            "civ_id": "TEUTONS",
+            "note": "条顿科技树",
+            "TechIDs": [437, 51],
+            "UnitIDs": [546, 441]
+        },
+        {
+            "action": "enable",
+            "civ_id": "JAPANESE",
+            "note": "日本科技树",
+            "TechIDs": [],
+            "UnitIDs": [36]
+        },
+        {
+            "action": "enable",
+            "civ_id": "CHINESE",
+            "note": "中国科技树",
+            "TechIDs": [377, 379, 15, 54],
+            "UnitIDs": [5, 474, 36, 441, 36, 236]
+        },
+        {
+            "action": "enable",
+            "civ_id": "BYZANTINES",
+            "note": "拜占庭科技树",
+            "TechIDs": [75, 377, 50, 51, 441],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "BYZANTINES",
+            "note": "拜占庭科技树",
+            "TechIDs": [],
+            "UnitIDs": [39, 474]
+        },
+        {
+            "action": "enable",
+            "civ_id": "PERSIANS",
+            "note": "波斯科技树",
+            "TechIDs": [377, 201],
+            "UnitIDs": [492]
+        }
+    ]
+}

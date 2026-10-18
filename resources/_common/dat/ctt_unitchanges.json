@@ -1,0 +1,357 @@
+{
+    "changes":
+    [
+        {
+            "action": "add",
+            "civ_id": "all",
+            "note": "兵营: 新增早期长矛兵(4001, 黑暗时代), 并入官方长矛兵线(Spearman Line, -295)链首",
+            "Use Type": "Unit",
+            "Node ID": 4001,
+            "Name": "Early Spearman",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 1,
+            "Building ID": 12,
+            "UnitLine": -295,
+            "UnitLineIndex": 0,
+            "position": "before",
+            "target_id": 93
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "长矛兵(93)改为升级单位: 从早期长矛兵(4001)升级而来, 升级科技3001",
+            "Use Type": "Unit",
+            "Node ID": 93,
+            "Node Type": "UnitUpgrade",
+            "Link Node Type": "Unit",
+            "Link ID": 4001,
+            "Trigger Tech ID": 3001
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "长枪兵(358)的Link Node Type跟随93从Unit改为UnitUpgrade, 保持连线",
+            "Use Type": "Unit",
+            "Node ID": 358,
+            "Link Node Type": "UnitUpgrade"
+        },
+        {
+            "civilizations": "all",
+            "type": "add",
+            "note": "FAU: 兵营Techs加入升级科技3001(长矛兵, 封建时代)",
+            "building_id": 12,
+            "tech_id": 3001,
+            "Name": "Spearman",
+            "RequiredAge": 2,
+            "position": "before",
+            "target_id": 197
+        },
+        {
+            "action": "sync_from_dat",
+            "civ_id": "all",
+            "note": "全量: 按dat实际值重置所有节点的名称ID/帮助ID/图标 (排除 128、331)",
+            "exclude": [128, 331, 792]
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "note": "删除剑士线残余形态节点 77(长剑士)/473(双手剑士)/567(冠军剑士) 并同步移出FAU; Use Type=Unit 只作用于 civ_techs_units, 避免误删同号科技77(Plate Mail Armor); 模组剑士线只保留 74(剑士) → 75(精锐剑士)",
+            "Use Type": "Unit",
+            "Node ID": [77, 473, 567]
+        },
+        {
+            "action": "modify",
+            "civ_id": "ROMANS",
+            "note": "删除单位77(长剑士)后, 罗马军团兵 Legionary(1793) 的 Link ID 悬空; 改挂到 75(精锐剑士) 下, 保持 Link Node Type=UnitUpgrade",
+            "Use Type": "Unit",
+            "Node ID": 1793,
+            "Link ID": 75,
+            "Link Node Type": "UnitUpgrade"
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "剑士改为城堡时代单位",
+            "Use Type": "Unit",
+            "Node ID": 74,
+            "Age ID": 3
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "精锐剑士改为帝王时代单位",
+            "Use Type": "Unit",
+            "Node ID": 75,
+            "Age ID": 4
+        },
+        {
+            "civilizations": "all",
+            "type": "modify",
+            "note": "FAU: 长枪兵升级科技197前置要求科技3001(长矛兵); 不给building_id=仅修改既有条目不新增",
+            "tech_id": 197,
+            "RequiredTechID": 3001
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "织布机(22)改为封建时代科技 (Age ID 同步 FAU RequiredAge)",
+            "Use Type": "Tech",
+            "Node ID": 22,
+            "Age ID": 2
+        },
+        {
+            "action": "delete",
+            "civ_id": "移除掷矛手的文明",
+            "note": "掷矛手系不再作为通用单位",
+            "Use Type": "Unit",
+            "Node ID": [7, 6, 1155]
+        },
+        {
+            "action": "add",
+            "civ_id": "all",
+            "note": "靶场: 新增弩手(4002, 城堡时代), 弩手系链首; UnitLine -316 为LOE新线(有效区间(-400,-199)内未占用); 单位对象待dat侧新建",
+            "Use Type": "Unit",
+            "Node ID": 4002,
+            "Name": "LOE Crossbowman",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 3,
+            "Building ID": 87,
+            "UnitLine": -316,
+            "UnitLineIndex": 0,
+            "position": "after",
+            "target_id": 492
+        },
+        {
+            "action": "add",
+            "civ_id": "all",
+            "note": "靶场: 新增劲弩手(4003, 帝王时代), 从弩手(4002)升级而来, 升级科技3007(待dat侧新建)",
+            "Use Type": "Unit",
+            "Node ID": 4003,
+            "Name": "LOE Arbalester",
+            "Node Type": "UnitUpgrade",
+            "Age ID": 4,
+            "Building ID": 87,
+            "Link ID": 4002,
+            "Link Node Type": "Unit",
+            "Trigger Tech ID": 3007,
+            "UnitLine": -316,
+            "UnitLineIndex": 1,
+            "position": "after",
+            "target_id": 4002
+        },
+        {
+            "civilizations": "all",
+            "type": "add",
+            "note": "FAU: 靶场Techs加入升级科技3007(劲弩手, 帝王时代)",
+            "building_id": 87,
+            "tech_id": 3007,
+            "Name": "Arbalester",
+            "RequiredAge": 4
+        },
+        {
+            "action": "modify",
+            "civ_id": "移除掷矛手的文明",
+            "note": "删除掷矛手系后, 一般文明火枪手(5)的排版挂靠 Link ID 6(精锐掷矛手) 悬空; 改挂到 492(精锐步弓手), 保持 Link Node Type=BuildingTech 仅作排版",
+            "Use Type": "Unit",
+            "Node ID": 5,
+            "Link ID": 492,
+            "Link Node Type": "BuildingTech"
+        },
+        {
+            "action": "modify",
+            "civ_id": "BRITONS",
+            "note": "不列颠火枪手改挂到精锐长弓兵后",
+            "Use Type": "Unit",
+            "Node ID": 5,
+            "Link ID": 530,
+            "Link Node Type": "BuildingTech"
+        },
+        {
+            "action": "modify",
+            "civ_id": "BOHEMIANS",
+            "note": "删除掷矛手系后, 波西米亚火枪手(5)独立成线",
+            "Use Type": "Unit",
+            "Node ID": 5,
+            "Link ID": -1,
+            "Link Node Type": "BuildingTech"
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "城镇中心封建时代即可建造",
+            "Use Type": "Building",
+            "Node ID": 621,
+            "Age ID": 2
+        },
+        {
+            "action": "modify",
+            "civ_id": "FRANKS",
+            "note": "掷斧兵(281)移入兵营",
+            "Use Type": "Unit",
+            "Node ID": 281,
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "FRANKS",
+            "note": "精锐掷斧兵(531)移入兵营, Link Node Type跟随281",
+            "Use Type": "Unit",
+            "Node ID": 531,
+            "Building ID": 12,
+            "Link Node Type": "UniqueUnit",
+            "position": "after",
+            "target_id": 281
+        },
+        {
+            "action": "modify",
+            "civ_id": "GOTHS",
+            "note": "近卫军(41)移入兵营",
+            "Use Type": "Unit",
+            "Node ID": 41,
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "GOTHS",
+            "note": "精锐近卫军(555)移入兵营, Link Node Type跟随41",
+            "Use Type": "Unit",
+            "Node ID": 555,
+            "Building ID": 12,
+            "Link Node Type": "UniqueUnit",
+            "position": "after",
+            "target_id": 41
+        },
+        {
+            "action": "delete",
+            "civ_id": "GOTHS",
+            "note": "删除原有兵营近卫军单位",
+            "Use Type": "Unit",
+            "Node ID": [759, 761]
+        },
+        {
+            "action": "modify",
+            "civ_id": "TEUTONS",
+            "note": "条顿骑士(25)移入兵营",
+            "Use Type": "Unit",
+            "Node ID": 25,
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "TEUTONS",
+            "note": "精锐条顿骑士(554)移入兵营, Link Node Type跟随25",
+            "Use Type": "Unit",
+            "Node ID": 554,
+            "Building ID": 12,
+            "Link Node Type": "UniqueUnit",
+            "position": "after",
+            "target_id": 25
+        },
+        {
+            "action": "add",
+            "civ_id": "BRITONS",
+            "note": "靶场: 新增早期长弓兵(4004, 封建时代), 不列颠UU长弓兵线链首, 并入官方长弓兵线(Longbow Man Line, -276)链首; 单位对象待dat侧新建",
+            "Use Type": "Unit",
+            "Node ID": 4004,
+            "Name": "LOE Early Longbowman",
+            "Node Status": "ResearchedCompleted",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Age ID": 2,
+            "Building ID": 87,
+            "UnitLine": -276,
+            "UnitLineIndex": 0,
+            "Trigger Tech ID": -1,
+            "Picture Index": 41,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "BRITONS",
+            "note": "长弓兵(8)移入靶场, 改为从早期长弓兵(4004)升级而来, 升级科技3027(待dat侧新建); Building ID改动自动同步FAU",
+            "Use Type": "Unit",
+            "Node ID": 8,
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Link ID": 4004,
+            "Trigger Tech ID": 3027,
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4004
+        },
+        {
+            "action": "modify",
+            "civ_id": "BRITONS",
+            "note": "精锐长弓兵(530)移入靶场, Link Node Type跟随8改为UnitUpgrade",
+            "Use Type": "Unit",
+            "Node ID": 530,
+            "Building ID": 87,
+            "Link Node Type": "UniqueUnit",
+            "position": "after",
+            "target_id": 8
+        },
+        {
+            "civilizations": "BRITONS",
+            "type": "add",
+            "note": "FAU: 靶场Techs加入升级科技3027(长弓兵, 城堡时代)",
+            "building_id": 87,
+            "tech_id": 3027,
+            "Name": "Longbowman",
+            "RequiredAge": 3
+        },
+        {
+            "action": "modify",
+            "civ_id": "JAPANESE",
+            "note": "日本武士移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [560, 291],
+            "Building ID": 12,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "CHINESE",
+            "note": "诸葛弩移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [559, 73],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 492
+        },
+        {
+            "action": "modify",
+            "civ_id": "BYZANTINES",
+            "note": "甲胄骑兵移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [553, 40],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 441
+        },
+        {
+            "action": "move",
+            "civ_id": "all",
+            "note": "瓦兰吉卫队替代武士线",
+            "Use Type": "Unit",
+            "Node ID": [2704, 2703],
+            "Building ID": 12,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "PERSIANS",
+            "note": "战象移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [558, 239],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 330
+        }
+    ]
+}
