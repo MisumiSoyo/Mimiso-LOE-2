@@ -2,9 +2,9 @@
 
 
 
-// 文明描述
+// Civilization Descriptions
 // BRITONS
-1000001 "Foot Archer civilization\n\n• Shepherds work +25% faster\n• Town Centers cost -50% wood\n\n<b>Unique Unit:<b>\nLongbowman (Foot archer with very long range)\n\n<b>Unique Techs:<b>\n• Yeomen (Longbowmen +1 range)\n• Warwolf (Trebuchets deal blast damage and are more accurate)\n\n<b>Team Bonus:<b>\nArchery Ranges +15% work rate"
+1000001 "Archer civilization\n\n• Shepherds work +25% faster\n• Town Centers cost -50% wood\n\n<b>Unique Unit:<b>\nLongbowman (archer with very long range)\n\n<b>Unique Techs:<b>\n• Yeomen (Longbowmen +1 range)\n• Warwolf (Trebuchets deal blast damage and are more accurate)\n\n<b>Team Bonus:<b>\nArchery Ranges +15% work rate"
 // FRANKS
 1000002 "Cavalry civilization\n\n• Foragers work +15% faster\n• Horse Collar, Heavy Plow and Crop Rotation free\n• Mounted Units +20% HP starting in Feudal Age\n• Castles cost -20%\n\n<b>Unique Unit:<b>\nThrowing Axeman (Infantry)\n\n<b>Unique Techs:<b>\n• Ordonnance Companies (Mounted Crossbowmen cost -40% gold)\n• Chivalry (Stables work +40% faster)\n\n<b>Team Bonus:<b>\nKnight-line +2 line of sight"
 // GOTHS
@@ -14,49 +14,49 @@
 // JAPANESE
 1000005 "Infantry civilization\n\n• Mills, Lumber- and Mining Camps cost -50%\n• Infantry attack +33% faster\n• Cavalry Archers +3 attack vs. ranged units\n• Fishing Ships +100% HP, +15% work rate\n\n<b>Unique Unit:<b>\nSamurai (Infantry strong vs. unique units)\n\n<b>Unique Techs:<b>\n• Yasama (Watch Tower-line fires additional arrows)\n• Kataparuto (Trebuchets attack and pack/unpack faster)\n\n<b>Team Bonus:<b>\nGalley-line +4 line of sight"
 // CHINESE
-1000006 "Archer and Gunpowder civilization\n\n• Start with +1 Villager\n• Technologies cost -15%\n• Town Centers +5 population space and line of sight\n• Fire Lancers and Fire Ships move +10% faster\n\n<b>Unique Unit:<b>\nChu Ko Nu (Foot Archer that fires three arrows at once), Dragon Ship (Warship)\n\n<b>Unique Techs:<b>\n• Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP)\n• Rocketry (Scorpions, Rocket Carts and Lou Chuans +25% attack; Lou Chuans fire rockets)\n\n<b>Team Bonus:<b>\nFarms cost -10%"
+1000006 "Archer and Gunpowder civilization\n\n• Start with +1 Villager\n• Technologies cost -15%\n• Town Centers +5 population space and line of sight\n• Fire Lancers and Fire Ships move +10% faster\n\n<b>Unique Unit:<b>\nChu Ko Nu (Archer that fires three arrows at once), Dragon Ship (Warship)\n\n<b>Unique Techs:<b>\n• Great Wall (Walls, Watch Tower-line and Bombard Towers +30% HP)\n• Rocketry (Scorpions, Rocket Carts and Lou Chuans +25% attack; Lou Chuans fire rockets)\n\n<b>Team Bonus:<b>\nFarms cost -10%"
 // BYZANTINES
 1000007 "Defensive civilization\n\n• Buildings +20% HP\n• Camel Riders, Skirmishers and Spearman-line cost -25%\n• Town Watch, Town Patrol free\n• Advancing to Imperial Age costs -33%\n• Fire Ships and Dromons attack +25% faster\n\n<b>Unique Unit:<b>\nCataphract (Cavalry strong vs. infantry)\n\n<b>Unique Techs:<b>\n• Greek Fire (Fire Ships +1 range; Dromons and Bombard Towers gain increased blast radius)\n• Logistica (Cataphracts and Varangian Guards deal trample damage)\n\n<b>Team Bonus:<b>\nMonks heal +100% faster"
 // PERSIANS
 1000008 "Cavalry civilization\n\n• Start with +50 wood and food\n• Town Centers and Docks +100% HP, +15% work rate\n• Parthian Tactics available in Castle Age\n• Can build Caravanserai in Imperial Age\n\n<b>Unique Units:<b> \nWar Elephant (Powerful elephant unit), Savar (Knight strong vs. ranged units)\n\n<b>Unique Techs:<b> \n• Kamandaran (Crossbowman-line costs +55 wood instead of gold)\n• Citadels (Castles +4 attack, +3 vs. Rams, +3 vs. Infantry and receive -25% bonus damage)\n\n<b>Team Bonus:<b> \nKnight-line +2 attack vs. Ranged Soldiers"
 // SARACENS
-1000009 "Camel and Naval civilization\n\n• Market trading fee only 5%; Markets cost -100 wood\n• Camel Units +25% HP\n• Galley-line attacks +25% faster\n• Transport Ships +100% HP, +20 carry capacity\n\n<b>Unique Unit:<b> \nMameluke (Cavalry)\n\n<b>Unique Techs:<b> \n• Bimaristan (Monks passively heal multiple nearby units)\n• Counterweights (Trebuchets and Mangonel-line +15% attack)\n\n<b>Team Bonus:<b> \nFoot Archers and Skirmishers +2 attack vs. buildings"
+1000009 "Camel and Naval civilization\n\n• Markets cost -50% and only have a 5% trading fee\n• Camel Units +25% HP\n• Galley-line attacks +25% faster\n• Transport Ships +100% HP, +20 carry capacity\n\n<b>Unique Unit:<b>\nMameluke (Camel unit that attacks at range)\n\n<b>Unique Techs:<b>\n• Bimaristan (Monks passively heal multiple nearby units)\n• Counterweights (Trebuchets and Mangonel-line +15% attack)\n\n<b>Team Bonus:<b>\nLight ranged infantry +3 attack vs. buildings"
 // TURKS
-1000010 "Gunpowder civilization\n\n• Gold miners work +25% faster\n• Scout Cavalry-line +1 pierce armor and upgrades free\n• Chemistry free; Gunpowder technologies costs -50%\n• Gunpowder Units +25% HP\n\n<b>Unique Unit:<b> \nJanissary (Foot Gunner)\n\n<b>Unique Techs:<b> \n• Sipahi (Mounted Archers +20 HP)\n• Artillery (Bombard Towers, Bombard Cannons, Cannon Galleons +2 range)\n\n<b>Team Bonus:<b> \nGunpowder Units train +25% faster"
+1000010 "Gunpowder civilization\n\n• Villagers mine gold +25% faster\n• Scout Cavalry-line +1 pierce armor and upgrades free\n• Chemistry free; Gunpowder technologies cost -50%\n• Gunpowder Units +25% HP\n\n<b>Unique Unit:<b>\nJanissary (Hand Cannoneer strong vs. cavalry)\n\n<b>Unique Techs:<b>\n• Sipahi (Ranged cavalry +20 HP)\n• Artillery (Bombard Towers, Bombard Cannons and Cannon Galleons +2 range)\n\n<b>Team Bonus:<b>\nGunpowder Units train +25% faster"
 // VIKINGS
-1000011 "Infantry and Naval civilization\n\n• Wheelbarrow, Hand Cart free\n• Infantry +20% HP starting in Feudal Age\n• Warships cost -10/15/20% in Feudal/Castle/Imperial Age\n\n<b>Unique Units:<b> \nBerserk (Infantry)\n\n<b>Unique Techs:<b> \n• Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units)\n• Bogsveigar (Archer-line and Longships +1 attack)\n\n<b>Team Bonus:<b> \nDocks cost -15%"
+1000011 "Infantry and Naval civilization\n\n• Wheelbarrow and Hand Cart free\n• Infantry +20% HP\n• Warships cost -15%\n\n<b>Unique Unit:<b>\nBerserk (Infantry that regenerates HP)\n\n<b>Unique Techs:<b>\n• Chieftains (Infantry +6 attack vs. cavalry)\n• Bogsveigar (Archer-line and Longships +1 attack)\n\n<b>Team Bonus:<b>\nDocks cost -15%"
 // MONGOLS
-1000012 "Cavalry Archer civilization\n\n• Hunters work +40% faster\n• Cavalry Archers attack +25% faster\n• Scout Cavalry-line and Steppe Lancers +20/30% HP in Castle/Imperial Age\n\n<b>Unique Unit:<b> \nMangudai (Mounted Archer)\n\n<b>Unique Techs:<b> \n• Nomads (Lost Houses do not decrease population space)\n• Drill (Siege Workshop Units move +50% faster)\n\n<b>Team Bonus:<b> \nScout Cavalry-line +2 line of sight"
+1000012 "Cavalry Archer civilization\n\n• Hunters gather +40% faster\n• Light melee cavalry +20% HP starting in Castle Age\n\n<b>Unique Unit:<b>\nMangudai (Cavalry Archer strong vs. siege weapons)\n\n<b>Unique Techs:<b>\n• Nomads (Lost Houses do not decrease population space)\n• Drill (Siege Weapons move +50% faster)\n\n<b>Team Bonus:<b>\nLight melee cavalry +2 line of sight"
 // CELTS
-1000013 "Infantry and Siege civilization\n\n• Lumberjacks work +15% faster\n• Livestock animals within Celt unit line of sight cannot be stolen\n• Infantry moves +5/10/15/20% faster in Dark/Feudal/\nCastle/Imperial Age\n• Siege Weapons attack +25% faster\n\n<b>Unique Unit:<b> \nWoad Raider (Infantry)\n\n<b>Unique Techs:<b> \n• Stronghold (Castles and Watch Tower-line attack +33% faster; Castles heal allied Infantry in a 7 tile radius)\n• Furor Celtica (Siege Weapons +40% HP)\n\n<b>Team Bonus:<b> \nSiege Workshops work +20% faster"
+1000013 "Infantry and Siege civilization\n\n• Villagers chop wood +15% faster\n• Livestock within Celt unit line of sight cannot be stolen\n• Siege Weapons attack +25% faster\n\n<b>Unique Unit:<b>\nWoad Raider (Mobile infantry)\n\n<b>Unique Techs:<b>\n• Stronghold (Castles and Watch Tower-line attack +33% faster; Castles heal allied infantry within 7 tiles)\n• Furor Celtica (Siege Weapons +40% HP)\n\n<b>Team Bonus:<b>\nSiege Workshops work +20% faster"
 // SPANISH
-1000014 "Gunpowder and Monk civilization\n\n• Builders work +30% faster\n• Receive +20 gold for each technology researched\n• Blacksmith upgrades cost no gold\n• Gunpowder Units attack +18% faster\n• Cannon Galleons fire more accurately at moving targets\n\n<b>Unique Units:<b> \nConquistador (Mounted Gunner), Missionary (Mounted Monk)\n\n<b>Unique Techs:<b> \n• Inquisition (Monks and Missionaries convert faster; Missionaries +1 range)\n• Supremacy (Villagers +40 HP, +6 attack, +2 melee/+2 pierce armor)\n\n<b>Team Bonus:<b> \nTrade Units generate +25% gold"
+1000014 "Gunpowder and Monk civilization\n\n• Villagers build +30% faster\n• Receive +20 gold for each technology researched\n• Blacksmith upgrades cost no gold\n• Gunpowder Units attack +18% faster\n• Cannon Galleons have Ballistics\n\n<b>Unique Units:<b>\nConquistador (Ranged gunpowder cavalry), Missionary (Mounted Monk)\n\n<b>Unique Techs:<b>\n• Inquisition (Monks and Missionaries convert faster; Missionaries +1 conversion range)\n• Supremacy (Villagers +67% HP, +6 attack, +3 melee/pierce armor)\n\n<b>Team Bonus:<b>\nTrade Units generate +25% gold"
 // AZTECS
-1000015 "Infantry and Monk civilization\n\n• Start with +50 gold\n• Villagers carry +3\n• Military Units train +15% faster\n• Monks gain +5 HP for each researched Monastery technology\n\n<b>Unique Unit:<b> \nJaguar Warrior (Infantry)\n\n<b>Unique Techs:<b> \n• Atlatl (Skirmishers +1 attack, +1 range)\n• Garland Wars (Infantry +4 attack)\n\n<b>Team Bonus:<b> \nRelics generate +33% gold"
+1000015 "Infantry and Monk civilization\n\n• Start with +50 gold\n• Villagers carry +3\n• Military Units train +15% faster\n• Monks gain +5 HP for each Monastery technology researched\n\n<b>Unique Unit:<b>\nJaguar Warrior (Infantry strong vs. melee infantry)\n\n<b>Unique Techs:<b>\n• Atlatl (Skirmishers +1 attack, +1 range)\n• Garland Wars (Melee infantry +5 attack)\n\n<b>Team Bonus:<b>\nRelics generate +33% gold"
 // MAYANS
-1000016 "Archer civilization\n\n• Start with +1 Villager, but -50 food\n• Resources last +15% longer\n• Foot Archers cost -10/20/30% in Feudal/Castle/Imperial Age\n\n<b>Unique Unit:<b> \nPlumed Archer (Foot Archer)\n\n<b>Unique Techs:<b> \n• Hul'che Javelineers (Skirmishers fire an additional projectile)\n• Holcans (Eagle Warriors +40 HP)\n\n<b>Team Bonus:<b> \nWalls cost -50%"
+1000016 "Archer civilization\n\n• Resources last +15% longer\n• Archer-line cost -15%\n\n<b>Unique Unit:<b>\nPlumed Archer (Archer strong vs. infantry)\n\n<b>Unique Techs:<b>\n• Hul'che Javelineers (Skirmishers fire an additional projectile)\n• Holcans (Eagle Warrior-line +40 HP)\n\n<b>Team Bonus:<b>\nWalls and Gates cost -50%"
 // HUNS
-1000017 "Cavalry civilization\n\n• Do not need houses, but start with -100 wood\n• Cavalry Archers cost -10/20% in Castle/Imperial Age\n• Trebuchets fire more accurately at units and small targets\n• On Nomadic maps, the first Town Center spawns a scouting Horse\n\n<b>Unique Unit:<b> \nTarkan (Cavalry)\n\n<b>Unique Techs:<b> \n• Marauders (Tarkans can be trained at Stables)\n• Atheism (Enemy Relics generate -50% resources; Wonder and Relic victory takes +100 years)\n\n<b>Team Bonus:<b> \nStables work +20% faster"
+1000017 "Cavalry civilization\n\n• Do not need houses\n• Cavalry Archers cost -15%\n• Trebuchets are more accurate\n• On Nomadic maps, the first Town Center spawns a Hunnic Horse\n\n<b>Unique Unit:<b>\nTarkan (Cavalry strong vs. buildings)\n\n<b>Unique Techs:<b>\n• Marauders (Melee cavalry +5 attack vs. buildings)\n• Atheism (Enemy Relics generate -50% resources; Wonder and Relic victory takes +100 years)\n\n<b>Team Bonus:<b>\nStables work +20% faster"
 // KOREANS
-1000018 "Defensive and Naval civilization\n\n• Stone miners work +20% faster\n• Ranged Soldiers and Infantry cost -50% wood\n• Archer armor and tower upgrades free (Bombard Tower requires Chemistry)\n• Warships cost -20% wood\n\n<b>Unique Units:<b> \nWar Wagon (Mounted Archer), Turtle Ship (Warship)\n\n<b>Unique Techs:<b> \n• Eupseong (Watch Tower-line +2 range)\n• Shinkichon (Rocket Carts and Turtle Ships +1 range, fire additional projectiles)\n\n<b>Team Bonus:<b> \nVillagers +3 line of sight"
+1000018 "Defensive and Naval civilization\n\n• Villagers mine stone +20% faster\n• Melee infantry, ranged units and warships cost -20% wood\n• Archer armor and tower upgrades free (Bombard Tower requires Chemistry)\n\n<b>Unique Units:<b>\nWar Wagon (Heavy Cavalry Archer), Turtle Ship (Warship)\n\n<b>Unique Techs:<b>\n• Eupseong (Watch Tower-line +2 range)\n• Shinkichon (Rocket Carts and Turtle Ships +1 range, fire additional projectiles)\n\n<b>Team Bonus:<b>\nVillagers +3 line of sight"
 // ITALIANS
-1000019 "Archer and Naval civilization\n\n• Advancing to the next Age costs -15%\n• Foot Archers and Condottieri +1 melee/+1 pierce armor\n• Dock and University technologies cost -25%\n• Gunpowder Units cost -20%\n• Fishing Ships cost -15%\n\n<b>Unique Units:<b> \nGenoese Crossbowman (Foot Archer), Condottiero (Infantry)\n\n<b>Unique Techs:<b> \n• Silk Road (Trade Units cost -50%)\n• Pirotechnia (Hand Cannoneers deal +15% pass through damage and are more accurate)\n\n<b>Team Bonus:<b> \nCondottiero available at the Barracks in Imperial Age"
+1000019 "Archer and Naval civilization\n\n• Advancing to the next Age costs -15%\n• Archer-line and Condottieri +1 melee/pierce armor\n• Dock and University technologies cost -25%\n• Gunpowder Units cost -20%\n• Fishing Ships cost -15%\n\n<b>Unique Units:<b>\nGenoese Crossbowman (Crossbowman strong vs. cavalry), Condottiero (Infantry strong vs. gunpowder units)\n\n<b>Unique Techs:<b>\n• Silk Road (Trade Units cost -50%)\n• Pirotechnia (Hand Cannoneers deal +15% pierce damage and are more accurate)\n\n<b>Team Bonus:<b>\nCondottiero can be trained in Imperial Age"
 // INDIANS
-1000020 "Camel and Gunpowder civilization\n\n• Villagers cost -8/13/18/23% in Dark/Feudal/Castle/\nImperial Age\n• Camel Riders attack +20% faster\n• Gunpowder Units +1 melee/+1 pierce armor\n• Can build Caravanserai in Imperial Age\n\n<b>Unique Units:<b> \nGhulam (Infantry), Imperial Camel Rider (Cavalry)\n\n<b>Unique Techs:<b> \n• Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%)\n• Shatagni (Hand Cannoneers +2 range)\n\n<b>Team Bonus:<b> \nScout Cavalry-line and Camel Units +2 attack vs. buildings"
+1000020 "Camel and Gunpowder civilization\n\n• Villagers cost -10%\n• Camel Rider-line attacks +20% faster\n• Gunpowder Units +1 melee/pierce armor\n• Can build Caravanserai in Imperial Age\n\n<b>Unique Units:<b>\nGhulam (Infantry strong vs. ranged units), Imperial Camel Rider (Powerful Camel Rider)\n\n<b>Unique Techs:<b>\n• Grand Trunk Road (All gold income +10% faster; Market trading fee reduced to 10%)\n• Shatagni (Hand Cannoneers +2 range)\n\n<b>Team Bonus:<b>\nScout Cavalry-line and Camel Units +2 attack vs. buildings"
 // INCAS
 1000021 "Infantry civilization\n\n• Houses and Settlements provide +5 population space\n• Buildings cost -15% stone\n• Military Units cost -15/20/25/30% food in Dark/Feudal/Castle/Imperial Age\n• Villagers affected by Infantry Blacksmith upgrades starting in Castle Age\n\n<b>Unique Units:<b> \nKamayuk (Infantry)\n\n<b>Unique Techs:<b> \n• Andean Sling (Skirmishers and Slingers no minimum range; Slingers +1 attack)\n• Fabric Shields (Kamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor)\n\n<b>Team Bonus:<b> \nStart with a free Llama"
 // MAGYAR
-1000022 "Cavalry civilization\n\n• Villagers defeat wolves with one strike\n• Scout Cavalry-line costs -15%\n• Melee attack upgrades free\n\n<b>Unique Unit:<b> \nMagyar Huszar (Cavalry)\n\n<b>Unique Techs:<b> \n• Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)\n• Recurve Bow (Mounted Archers +1 attack, +1 range)\n\n<b>Team Bonus:<b> \nMounted Archers train +25% faster"
+1000022 "Cavalry civilization\n\n• Villagers defeat wolves with one strike\n• Scout Cavalry-line costs -15%\n• Melee attack upgrades free\n\n<b>Unique Unit:<b> \nMagyar Huszar (Cavalry)\n\n<b>Unique Techs:<b> \n• Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)\n• Recurve Bow (Cavalry Archers +1 attack, +1 range)\n\n<b>Team Bonus:<b> \nCavalry Archers train +25% faster"
 // SLAVS
 1000023 "Infantry and Siege civilization\n\n• Farmers work +15% faster\n• Arson, Gambesons free\n• Siege Workshop Units cost -15%\n• Monks move +20% faster\n\n<b>Unique Unit:<b> \nBoyar (Cavalry)\n\n<b>Unique Techs:<b> \n• Detinets (Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost)\n• Druzhina (Infantry deals trample damage)\n\n<b>Team Bonus:<b> \nMilitary buildings (except Castles) provide +5 population space"
 // PORTUGUESE
 1000024 "Naval and Gunpowder civilization\n\n• Foragers generate wood in addition to food\n• All units cost -20% gold\n• Can build Feitoria in Imperial Age\n• Ships +10/15/20% HP in Feudal/Castle/Imperial Age\n\n<b>Unique Units:<b> \nOrgan Gun (Siege Gunpowder Unit), Caravel (Warship)\n\n<b>Unique Techs:<b> \n• Circumnavigation (Sets the entire map to explored; Ships train +33% faster)\n• Arquebus (Gunpowder Units fire more accurately at moving targets)\n\n<b>Team Bonus:<b> \nTechnologies research +25% faster"
 // ETHIOPIANS
-1000025 "Archer civilization\n\n• Receive +100 gold and +100 food when advancing to the next Age\n• Foot Archers attack +18% faster\n• Pikeman upgrade free\n\n<b>Unique Unit:<b> \nShotel Warrior (Infantry)\n\n<b>Unique Techs:<b> \n• Royal Heirs (Shotel Warriors and Camel Riders receive -3 damage from Mounted Units)\n• Torsion Engines (Siege Workshop Units' blast radius increased)\n\n<b>Team Bonus:<b> \nOutposts +3 line of sight and cost no stone"
+1000025 "Archer civilization\n\n• Receive +100 gold and +100 food when advancing to the next Age\n• Archers attack +18% faster\n• Pikeman upgrade free\n\n<b>Unique Unit:<b> \nShotel Warrior (Infantry)\n\n<b>Unique Techs:<b> \n• Royal Heirs (Shotel Warriors and Camel Riders receive -3 damage from Mounted Units)\n• Torsion Engines (Siege Workshop Units' blast radius increased)\n\n<b>Team Bonus:<b> \nOutposts +3 line of sight and cost no stone"
 // MALIANS
 1000026 "Infantry civilization\n\n• Buildings cost -15% wood\n• Villagers drop off +10% more gold\n• Barracks Units +1/+2/+3 pierce armor in Feudal/\nCastle/Imperial Age\n\n<b>Unique Unit:<b> \nGbeto (Infantry)\n\n<b>Unique Techs:<b> \n• Tigui (Town Centers fire arrows without garrison)\n• Farimba (Cavalry +5 attack)\n\n<b>Team Bonus:<b> \nUniversities work +80% faster"
 // BERBERS
-1000027 "Cavalry and Naval civilization\n\n• Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age\n• Stable Units cost -15/20% in Castle/Imperial Age\n• Ships move +10% faster\n\n<b>Unique Units:<b> \nCamel Archer (Mounted Archer), Genitour (Mounted Skirmisher)\n\n<b>Unique Techs:<b> \n• Kasbah (Team Castles work +25% faster)\n• Maghrebi Camels (Camel Units regenerate 15 HP per minute)\n\n<b>Team Bonus:<b> \nGenitour available at the Archery Range starting in Castle Age"
+1000027 "Cavalry and Naval civilization\n\n• Villagers move +5% faster in Dark Age, +10% faster starting in Feudal Age\n• Stable Units cost -15/20% in Castle/Imperial Age\n• Ships move +10% faster\n\n<b>Unique Units:<b> \nCamel Archer (Cavalry Archer), Genitour (Mounted Skirmisher)\n\n<b>Unique Techs:<b> \n• Kasbah (Team Castles work +25% faster)\n• Maghrebi Camels (Camel Units regenerate 15 HP per minute)\n\n<b>Team Bonus:<b> \nGenitour available at the Archery Range starting in Castle Age"
 // KHMER
 1000028 "Siege and Elephant civilization\n\n• No buildings required to advance to the next Age or to unlock other buildings\n• Farmers don't require Mills or Town Centers to drop off food\n• Villagers can garrison in Houses\n• Battle Elephants move +10% faster\n\n<b>Unique Unit:<b>\nBallista Elephant (Siege Cavalry)\n\n<b>Unique Techs:<b>\n• Tusk Swords (Battle Elephants +3 attack)\n• Double Crossbow (Ballista Elephants and Scorpions fire an additional projectile)\n\n<b>Team Bonus:<b>\nScorpions +1 range"
 // MALAY
@@ -64,13 +64,13 @@
 // BURMESE
 1000030 "Infantry and Cavalry civilization\n\n• Lumber Camp technologies free\n• Infantry +1/+2/+3 attack in Feudal/Castle/Imperial Age\n• Battle Elephants +1 melee/+1 pierce armor\n• Monastery technologies cost -50%\n\n<b>Unique Unit:<b>\nArambai (Ranged Mounted Unit)\n\n<b>Unique Techs:<b>\n• Manipur Cavalry (Cavalry +4 attack vs. Ranged Soldiers)\n• Howdah (Battle Elephants +1 melee/+1 pierce armor)\n\n<b>Team Bonus:<b>\nRelics visible on the map at the start of the game"
 // VIETNAMESE
-1000031 "Archer civilization\n\n• Enemy Town Centers are revealed at the start of the game\n• Economic upgrades cost no wood and research +100% faster\n• Foot Archers and Skirmishers +20% HP\n• Conscription free\n\n<b>Unique Units:<b>\nRattan Archer (Foot Archer), Imperial Skirmisher (Skirmisher)\n\n<b>Unique Techs:<b>\n• Chatras (Battle Elephants +100 HP)\n• Paper Money (Lumberjacks slowly generate gold in addition to wood)\n\n<b>Team Bonus:<b>\nImperial Skirmisher upgrade available in Imperial Age"
+1000031 "Archer civilization\n\n• Enemy Town Centers are revealed at the start of the game\n• Economic upgrades cost no wood and research +100% faster\n• Archers and Skirmishers +20% HP\n• Conscription free\n\n<b>Unique Units:<b>\nRattan Archer (Archer), Imperial Skirmisher (Skirmisher)\n\n<b>Unique Techs:<b>\n• Chatras (Battle Elephants +100 HP)\n• Paper Money (Lumberjacks slowly generate gold in addition to wood)\n\n<b>Team Bonus:<b>\nImperial Skirmisher upgrade available in Imperial Age"
 // BULGARIANS
 1000032 "Infantry and Cavalry civilization\n\n• Militia-line upgrades free\n• Blacksmith and Siege Workshop technologies cost -50% food\n• Town Centers cost -50% stone\n• Can build Krepost in Castle Age\n\n<b>Unique Unit:<b>\nKonnik (Cavalry)\n\n<b>Unique Techs:<b>\n• Stirrups (Cavalry attacks +33% faster)\n• Bagains (Militia-line +5 melee armor)\n\n<b>Team Bonus:<b>\nBlacksmiths work +80% faster"
 // TATARS
-1000033 "Cavalry Archer civilization\n\n• Livestock animals last +50% longer\n• Units deal +25% damage when fighting from higher elevation\n• New Town Centers spawn 2 Sheep starting in Castle Age\n• Thumb Ring, Parthian Tactics free\n\n<b>Unique Units:<b>\nKeshik (Cavalry), Flaming Camel (Siege Cavalry)\n\n<b>Unique Techs:<b>\n• Silk Armor (Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor)\n• Timurid Siegecraft (Trebuchets +2 range)\n\n<b>Team Bonus:<b>\nMounted Archers +2 line of sight"
+1000033 "Cavalry Archer civilization\n\n• Livestock animals last +50% longer\n• Units deal +25% damage when fighting from higher elevation\n• New Town Centers spawn 2 Sheep starting in Castle Age\n• Thumb Ring, Parthian Tactics free\n\n<b>Unique Units:<b>\nKeshik (Cavalry), Flaming Camel (Siege Cavalry)\n\n<b>Unique Techs:<b>\n• Silk Armor (Scout Cavalry-line, Steppe Lancers and Cavalry Archers +1 melee/+1 pierce armor)\n• Timurid Siegecraft (Trebuchets +2 range)\n\n<b>Team Bonus:<b>\nCavalry Archers +2 line of sight"
 // CUMANS
-1000034 "Cavalry civilization\n\n• One additional Town Center can be built in Feudal Age\n• Mounted Units move +5/10/15% faster in Feudal/\nCastle/Imperial Age\n• Archery Ranges and Stables cost -75 wood\n• Siege Workshop and Battering Ram available in Feudal Age; Capped Ram available in Castle Age\n\n<b>Unique Unit:<b>\nKipchak (Mounted Archer)\n\n<b>Unique Techs:<b>\n• Steppe Husbandry (Scout Cavalry-line, Steppe Lancers and Cavalry Archers train +100% faster)\n• Cuman Mercenaries (All team members can train 5 free Elite Kipchaks per Castle)\n\n<b>Team Bonus:<b>\nPalisade Walls +33% HP"
+1000034 "Cavalry civilization\n\n• One additional Town Center can be built in Feudal Age\n• Mounted Units move +5/10/15% faster in Feudal/\nCastle/Imperial Age\n• Archery Ranges and Stables cost -75 wood\n• Siege Workshop and Battering Ram available in Feudal Age; Capped Ram available in Castle Age\n\n<b>Unique Unit:<b>\nKipchak (Cavalry Archer)\n\n<b>Unique Techs:<b>\n• Steppe Husbandry (Scout Cavalry-line, Steppe Lancers and Cavalry Archers train +100% faster)\n• Cuman Mercenaries (All team members can train 5 free Elite Kipchaks per Castle)\n\n<b>Team Bonus:<b>\nPalisade Walls +33% HP"
 // LITHUANIANS
 1000035 "Cavalry and Monk civilization\n\n• Each Town Center provides +100 food\n• Spearman-line and Skirmisher-line move +10% faster\n• Each garrisoned Relic provides +1 attack to Knight-line and Leitis (maximum +4)\n\n<b>Unique Units:<b>\nLeitis (Cavalry), Winged Hussar (Cavalry)\n\n<b>Unique Techs:<b>\n• Hill Forts (Town Centers +3 range)\n• Tower Shields (Spearman-line and Skirmishers +2 pierce armor)\n\n<b>Team Bonus:<b>\nMonasteries work +20% faster"
 // BURGUNDIANS
@@ -84,19 +84,19 @@
 // DRAVIDIANS
 1000040 "Infantry and Naval civilization\n\n• Fishermen and Fishing Ships carry +15\n• Receive +200 wood when advancing to the next Age\n• Skirmishers and Elephant Archers attack +25% faster\n• Barracks technologies cost -50%\n• Siege Weapons cost -33% wood\n\n<b>Unique Units:<b>\nUrumi Swordsman (Infantry), Thirisadai (Warship)\n\n<b>Unique Techs:<b>\n• Medical Corps (Elephant Units regenerate 30 HP per minute)\n• Wootz Steel (Infantry and Cavalry attacks ignore armor)\n\n<b>Team Bonus:<b>\nDocks provide +5 population space"
 // BENGALIS
-1000041 "Elephant and Naval civilization\n\n• Town Centers spawn 2 Villagers when the next Age is reached\n• Cavalry +2 attack vs. Skirmishers\n• Elephant Units receive -25% bonus damage and are more resistant to conversion\n• Monks +3 melee/+3 pierce armor\n• Ships regenerate 15 HP per minute\n\n<b>Unique Unit:<b>\nRatha (Mounted Archer)\n\n<b>Unique Techs:<b>\n• Paiks (Rathas and Elephant Units attack +20% faster)\n• Mahayana (Villagers and Monks take -10% population space)\n\n<b>Team Bonus:<b>\nTrade Units generate +10% food in addition to gold"
+1000041 "Elephant and Naval civilization\n\n• Town Centers spawn 2 Villagers when the next Age is reached\n• Cavalry +2 attack vs. Skirmishers\n• Elephant Units receive -25% bonus damage and are more resistant to conversion\n• Monks +3 melee/+3 pierce armor\n• Ships regenerate 15 HP per minute\n\n<b>Unique Unit:<b>\nRatha (Cavalry Archer)\n\n<b>Unique Techs:<b>\n• Paiks (Rathas and Elephant Units attack +20% faster)\n• Mahayana (Villagers and Monks take -10% population space)\n\n<b>Team Bonus:<b>\nTrade Units generate +10% food in addition to gold"
 // GURJARAS
 1000042 "Cavalry and Camel civilization\n\n• Start with 2 Forage Bushes\n• Can garrison livestock in Mills to passively produce food\n• Mounted Units deal +20/30/40% bonus damage in Feudal/Castle/Imperial Age\n\n<b>Unique Units:<b>\nChakram Thrower (Infantry), Shrivamsha Rider (Cavalry), Camel Scout (Cavalry)\n\n<b>Unique Techs:<b>\n• Kshatriyas (Military Units cost -25% food)\n• Frontier Guards (Camel Riders and Elephant Archers +4 melee armor)\n\n<b>Team Bonus:<b>\nCamel and Elephant Units train +25% faster"
 // ROMANS
 1000043 "Infantry and Cavalry civilization\n\n• Villagers gather, build, and repair +5% faster\n• Infantry armor upgrade effects are doubled\n• Scorpions cost -50% gold\n• Galley-line and Dromons +1 melee/+1 pierce armor\n\n<b>Unique Unit:<b>\nCenturion (Cavalry), Legionary (Infantry)\n\n<b>Unique Techs:<b>\n• Ballistas (Scorpions attack +33% faster; Galley-line +2 attack)\n• Comitatenses (Militia-line, Knight-line, and Centurions train +50% faster and receive a charge attack)\n\n<b>Team Bonus:<b>\nScorpions minimum range reduced"
 // ARMENIANS
-1000044 "Infantry and Naval civilization\n\n• Mule Carts cost -25%\n• Mule Cart technology effects +40%\n• Spearman- and Militia-line upgrades (except Man-at-Arms) available one age earlier\n• First Fortified Church receives a free Relic\n• Galley-line and Dromons fire an additional projectile\n\n<b>Unique Unit:<b>\nComposite Bowman (Foot Archer), Warrior Priest (Infantry)\n\n<b>Unique Techs:<b>\n• Cilician Fleet (Demolition Ships +20% blast radius; Galley-line and Dromons +1 range)\n• Fereters (Infantry (except Spearman-line) +30 HP; Warrior Priests heal +100% faster)\n\n<b>Team Bonus:<b>\nInfantry +2 line of sight"
+1000044 "Infantry and Naval civilization\n\n• Mule Carts cost -25%\n• Mule Cart technology effects +40%\n• Spearman- and Militia-line upgrades (except Man-at-Arms) available one age earlier\n• First Fortified Church receives a free Relic\n• Galley-line and Dromons fire an additional projectile\n\n<b>Unique Unit:<b>\nComposite Bowman (Archer), Warrior Priest (Infantry)\n\n<b>Unique Techs:<b>\n• Cilician Fleet (Demolition Ships +20% blast radius; Galley-line and Dromons +1 range)\n• Fereters (Infantry (except Spearman-line) +30 HP; Warrior Priests heal +100% faster)\n\n<b>Team Bonus:<b>\nInfantry +2 line of sight"
 // GEORGIANS
 1000045 "Defensive and Cavalry civilization\n\n• Start with a Mule Cart\n• Units and buildings receive -15% damage when located on higher elevation\n• Mounted Units regenerate 2/8/14 HP per minute in Feudal/Castle/Imperial Age\n• Fortified Churches provide Villagers in a 9 tiles radius with +10% work rate\n\n<b>Unique Unit:<b>\nMonaspa (Cavalry)\n\n<b>Unique Techs:<b>\n• Svan Towers (Fortifications +2 attack; Watch Tower-line deals pass through damage)\n• Aznauri Cavalry (Mounted Units take -20% population space)\n\n<b>Team Bonus:<b>\nBuilding repairs cost -25%"
 // SHU
-1000049 "Archer and Siege civilization\n\n• Lumberjacks generate food in addition to wood\n• Archery Unit technologies at the Archery Range and Blacksmith cost -25%\n• Siege Weapons and Siege Warships move +10/15% faster in Castle/Imperial Age\n\n<b>Unique Units:<b>\nWhite Feather Guard (Infantry), War Chariot (Siege Weapon), Liu Bei (Hero)\n\n<b>Unique Techs:<b>\n• Coiled Serpent Array (Spearman-line and White Feather Guards gain additional HP when near each other)\n• Bolt Magazine (Archer-line, War Chariots and Lou Chuans fire additional projectiles)\n\n<b>Team Bonus:<b>\nFoot Archers +2 line of sight"
+1000049 "Archer and Siege civilization\n\n• Lumberjacks generate food in addition to wood\n• Archery Unit technologies at the Archery Range and Blacksmith cost -25%\n• Siege Weapons and Siege Warships move +10/15% faster in Castle/Imperial Age\n\n<b>Unique Units:<b>\nWhite Feather Guard (Infantry), War Chariot (Siege Weapon), Liu Bei (Hero)\n\n<b>Unique Techs:<b>\n• Coiled Serpent Array (Spearman-line and White Feather Guards gain additional HP when near each other)\n• Bolt Magazine (Archer-line, War Chariots and Lou Chuans fire additional projectiles)\n\n<b>Team Bonus:<b>\nArchers +2 line of sight"
 // WU
-1000050 "Infantry and Naval civilization\n\n• Military production buildings and Docks provide +55 food when built\n• Infantry regenerates 10/15/30 HP per minute in Feudal/Castle/Imperial Age\n• Jian Swordsmen and Hei Guang Cavalry +2 attack in Imperial Age\n• Careening, Dry Dock free\n\n<b>Unique Units:<b>\nFire Archer (Foot Archer), Jian Swordsman (Infantry), Sun Jian (Hero)\n\n<b>Unique Techs:<b>\n• Red Cliffs Tactics (Demolition Ships and Fire Archers deal fire damage to ships and buildings)\n• Sitting Tiger (Traction Trebuchets and Lou Chuan trebuchet weapons fire additional projectiles)\n\n<b>Team Bonus:<b>\nHouses built +100% faster"
+1000050 "Infantry and Naval civilization\n\n• Military production buildings and Docks provide +55 food when built\n• Infantry regenerates 10/15/30 HP per minute in Feudal/Castle/Imperial Age\n• Jian Swordsmen and Hei Guang Cavalry +2 attack in Imperial Age\n• Careening, Dry Dock free\n\n<b>Unique Units:<b>\nFire Archer (Archer), Jian Swordsman (Infantry), Sun Jian (Hero)\n\n<b>Unique Techs:<b>\n• Red Cliffs Tactics (Demolition Ships and Fire Archers deal fire damage to ships and buildings)\n• Sitting Tiger (Traction Trebuchets and Lou Chuan trebuchet weapons fire additional projectiles)\n\n<b>Team Bonus:<b>\nHouses built +100% faster"
 // WEI
 1000051 "Cavalry civilization\n\n• Receive one free Villager for each economic upgrade researched\n• Hei Guang Cavalry and Xianbei Raider +20/30% HP in Castle/Imperial Age\n• Traction Trebuchets and Lou Chuans cost -25%\n\n<b>Unique Units:<b>\nTiger Cavalry (Cavalry), Xianbei Raider (Mounted Archer), Cao Cao (Hero)\n\n<b>Unique Techs:<b>\n• Tuntian (Soldiers passively produce food)\n• Ming Guang Armor (Mounted Units +4 melee armor)\n\n<b>Team Bonus:<b>\nCavalry +2 attack vs. Siege Weapons"
 // JURCHENS
@@ -106,9 +106,9 @@
 // MUISCA
 1000057 "Archer and Monk civilization\n\n• Advancing to the next Age costs -50% gold\n• Settlements cost -33% and heal nearby units\n• Champi Warriors and Archery Range Units +1/2/3 melee armor in Feudal/Castle/Imperial Age\n• Monks regain faith +50% faster\n• Caravan, Guilds free\n\n<b>Unique Units:<b>\nGuecha Warrior (Skirmisher), Temple Guard (Infantry)\n\n<b>Unique Techs:<b>\n• Herbalism (Archer-line and Champi Warriors move +15% faster)\n• Huaracas (Slingers +1 range; train +50% faster)\n\n<b>Team Bonus:<b>\nNatural gold sources last +15% longer"
 // MAPUCHE
-1000058 "Cavalry and Counter-Units civilization\n\n• Foragers drop off +25% food\n• Settlements can train Spearman-line and Skirmishers\n• Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age\n• Mounted Units generate +3 gold when defeating military units\n• Enemy Castles are revealed on the map\n\n<b>Unique Units:<b>\nKona (Cavalry), Bolas Rider (Mounted Archer)\n\n<b>Unique Techs:<b>\n• Malon (Bolas Riders, Slingers, and Skirmishers deal pass through damage)\n• Butalmapu (Team Castle Unique Units and Bolas Riders cost -15%)\n\n<b>Team Bonus:<b>\nSpearman-line and Skirmishers +2 line of sight"
+1000058 "Cavalry and Counter-Units civilization\n\n• Foragers drop off +25% food\n• Settlements can train Spearman-line and Skirmishers\n• Infantry, Slingers and Skirmishers +5/10/15 HP in Feudal/Castle/Imperial Age\n• Mounted Units generate +3 gold when defeating military units\n• Enemy Castles are revealed on the map\n\n<b>Unique Units:<b>\nKona (Cavalry), Bolas Rider (Cavalry Archer)\n\n<b>Unique Techs:<b>\n• Malon (Bolas Riders, Slingers, and Skirmishers deal pass through damage)\n• Butalmapu (Team Castle Unique Units and Bolas Riders cost -15%)\n\n<b>Team Bonus:<b>\nSpearman-line and Skirmishers +2 line of sight"
 // TUPI
-1000059 "Archer and Infantry civilization\n\n• Start with +25 of each resource\n• Villagers can garrison in Settlements\n• Fallen units return 15% of their cost\n• Archery Range and Barracks upgrades cost -50% food\n\n<b>Unique Units:<b>\nBlackwood Archer (Foot Archer), Ibirapema Warrior (Infantry)\n\n<b>Unique Techs:<b>\n• Caciques (Champi Warriors and Slingers attack +25% faster)\n• Curare (Foot Archers and Fortifications deal poison damage)\n\n<b>Team Bonus:<b>\nTowers and Castles provide +10 population space"
+1000059 "Archer and Infantry civilization\n\n• Start with +25 of each resource\n• Villagers can garrison in Settlements\n• Fallen units return 15% of their cost\n• Archery Range and Barracks upgrades cost -50% food\n\n<b>Unique Units:<b>\nBlackwood Archer (Archer), Ibirapema Warrior (Infantry)\n\n<b>Unique Techs:<b>\n• Caciques (Champi Warriors and Slingers attack +25% faster)\n• Curare (Archers and Fortifications deal poison damage)\n\n<b>Team Bonus:<b>\nTowers and Castles provide +10 population space"
 // SAXONS
 1000060 "Infantry and Defensive civilization\n\n• Mills, Lumber- and Mining Camps provide +35 food and +10 stone when built\n• Foot Soldiers cost -5% per Town Center or Castle controlled (maximum -20%)\n• Towers and Castles fire +100% base arrows starting in Castle Age\n• Longships and Catapult Galleons +20% HP\n\n<b>Unique Units:<b>\nHearth Troop (Infantry)\n\n<b>Unique Techs:<b>\n• Clerical Recruitment (Monks +1 conversion range; train +33% faster)\n• Shield Wall (Infantry gain additional melee armor when massed)\n\n<b>Team Bonus:<b>\nRepairers work +25% faster"
 // VARANGIANS
@@ -118,8 +118,8 @@
 
 
 
-// 独特科技
-// 名称
+// Unique Techs
+// Names
 // BRITONS
 1500001 "Yeomen"
 1500002 "Warwolf"
@@ -289,9 +289,9 @@
 1500111 "Hamask"
 1500112 "Northmen's Fury"
 
-// 描述
+// Short Descriptions
 // BRITONS
-1501001 "Research Yeomen (Foot Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack)"
+1501001 "Research Yeomen (Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack)"
 1501002 "Research Warwolf (Trebuchets deal blast damage and are more accurate)"
 // FRANKS
 1501003 "Ordonnance Companies (Mounted Crossbowmen cost -40% gold)"
@@ -318,10 +318,10 @@
 1501017 "Research Bimaristan (Monks passively heal multiple nearby units)"
 1501018 "Research Counterweights (Trebuchets and Mangonel-line +15% attack)"
 // TURKS
-1501019 "Research Sipahi (Mounted Archers +20 HP)"
+1501019 "Research Sipahi (Cavalry Archers +20 HP)"
 1501020 "Research Artillery (Bombard Towers, Bombard Cannons, Cannon Galleons +2 range)"
 // VIKINGS
-1501021 "Research Chieftains (Infantry +5 attack vs. Cavalry, +4 vs. Camel Units)"
+1501021 "Research Chieftains (Infantry +6 attack vs. cavalry)"
 1501022 "Research Bogsveigar (Archer-line and Longships +1 attack)"
 // MONGOLS
 1501023 "Research Nomads (Lost Houses do not decrease population space)"
@@ -331,15 +331,15 @@
 1501026 "Research Furor Celtica (Siege Weapons +40% HP)"
 // SPANISH
 1501027 "Research Inquisition (Monks and Missionaries convert faster; Missionaries +1 range)"
-1501028 "Research Supremacy (Villagers +40 HP, +6 attack, +2 melee/+2 pierce armor)"
+1501028 "Research Supremacy (Villagers +67% HP, +6 attack, +3 melee/pierce armor)"
 // AZTECS
 1501029 "Research Atlatl (Skirmishers +1 attack, +1 range)"
-1501030 "Research Garland Wars (Infantry +4 attack)"
+1501030 "Research Garland Wars (Melee infantry +5 attack)"
 // MAYANS
 1501031 "Research Hul'che Javelineers (Skirmishers fire an additional projectile)"
-1501032 "Research Holcans (Eagle Warriors +40 HP)"
+1501032 "Research Holcans (Eagle Warrior-line +40 HP)"
 // HUNS
-1501033 "Research Marauders (Tarkans can be trained at Stables)"
+1501033 "Research Marauders (Melee cavalry +5 attack vs. buildings)"
 1501034 "Research Atheism (Enemy Relics generate -50% resources; Wonder and Relic victory takes +100 years)"
 // KOREANS
 1501035 "Research Eupseong (Watch Tower-line +2 range)"
@@ -355,7 +355,7 @@
 1501042 "Research Fabric Shields (Kamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor)"
 // MAGYAR
 1501043 "Research Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)"
-1501044 "Research Recurve Bow (Mounted Archers +1 attack, +1 range)"
+1501044 "Research Recurve Bow (Cavalry Archers +1 attack, +1 range)"
 // SLAVS
 1501045 "Research Detinets (Replaces 40% of Castle and Watch Tower-line stone cost with additional wood cost)"
 1501046 "Research Druzhina (Infantry deals trample damage)"
@@ -448,7 +448,7 @@
 1501104 "Research Butalmapu (Team Castle Unique Units and Bolas Riders cost -15%)"
 // TUPI
 1501105 "Research Caciques (Champi Warriors and Slingers attack +25% faster)"
-1501106 "Research Curare (Foot Archers and Fortifications deal poison damage)"
+1501106 "Research Curare (Archers and Fortifications deal poison damage)"
 // SAXONS
 1501107 "Research Clerical Recruitment (Monks +1 conversion range; train +33% faster)"
 1501108 "Research Shield Wall (Infantry gain additional melee armor when massed)"
@@ -459,9 +459,9 @@
 1501111 "Research Hamask (Infantry deal more damage as they lose HP)"
 1501112 "Research Northmen's Fury (Mangonel-line and Catapult Galleons +1 range; Siege Weapons and Siege Warships +40% attack vs buildings)"
 
-// 详细描述
+// Detailed Descriptions
 // BRITONS
-1521001 "Research <b>Yeomen<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nFoot Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack."
+1521001 "Research <b>Yeomen<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nArchers and Skirmisher-line +1 range; Watch Tower-line +2 attack."
 1521002 "Research <b>Warwolf<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nTrebuchets deal blast damage and are more accurate."
 // FRANKS
 1521003 "Research <b>Ordonnance Companies<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMounted Crossbowmen cost -40% gold."
@@ -488,10 +488,10 @@
 1521017 "Research <b>Bimaristan<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMonks passively heal multiple nearby units."
 1521018 "Research <b>Counterweights<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nTrebuchets and Mangonel-line +15% attack."
 // TURKS
-1521019 "Research <b>Sipahi<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMounted Archers +20 HP."
+1521019 "Research <b>Sipahi<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nCavalry Archers +20 HP."
 1521020 "Research <b>Artillery<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nBombard Towers, Bombard Cannons, Cannon Galleons +2 range."
 // VIKINGS
-1521021 "Research <b>Chieftains<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nInfantry +5 attack vs. Cavalry, +4 vs. Camel Units."
+1521021 "Research <b>Chieftains<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nInfantry +6 attack vs. cavalry."
 1521022 "Research <b>Bogsveigar<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nArcher-line and Longships +1 attack."
 // MONGOLS
 1521023 "Research <b>Nomads<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nLost Houses do not decrease population space."
@@ -501,15 +501,15 @@
 1521026 "Research <b>Furor Celtica<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nSiege Weapons +40% HP."
 // SPANISH
 1521027 "Research <b>Inquisition<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMonks and Missionaries convert faster; Missionaries +1 range."
-1521028 "Research <b>Supremacy<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nVillagers +40 HP, +6 attack, +2 melee/+2 pierce armor."
+1521028 "Research <b>Supremacy<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nVillagers +67% HP, +6 attack, +3 melee/pierce armor."
 // AZTECS
 1521029 "Research <b>Atlatl<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nSkirmishers +1 attack, +1 range."
-1521030 "Research <b>Garland Wars<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nInfantry +4 attack."
+1521030 "Research <b>Garland Wars<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +5 attack."
 // MAYANS
 1521031 "Research <b>Hul'che Javelineers<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nSkirmishers fire an additional projectile."
-1521032 "Research <b>Holcans<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nEagle Warriors +40 HP."
+1521032 "Research <b>Holcans<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nEagle Warrior-line +40 HP."
 // HUNS
-1521033 "Research <b>Marauders<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nTarkans can be trained at Stables."
+1521033 "Research <b>Marauders<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMelee cavalry +5 attack vs. buildings."
 1521034 "Research <b>Atheism<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nEnemy Relics generate -50% resources; Wonder and Relic victory takes +100 years."
 // KOREANS
 1521035 "Research <b>Eupseong<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nWatch Tower-line +2 range."
@@ -525,7 +525,7 @@
 1521042 "Research <b>Fabric Shields<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nKamayuks, Slingers and Champi Warriors +1 melee/+1 pierce armor."
 // MAGYAR
 1521043 "Research <b>Corvinian Army<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMagyar Huszar gold cost is replaced by additional food cost."
-1521044 "Research <b>Recurve Bow<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nMounted Archers +1 attack, +1 range."
+1521044 "Research <b>Recurve Bow<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nCavalry Archers +1 attack, +1 range."
 // SLAVS
 1521045 "Research <b>Detinets<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nReplaces 40% of Castle and Watch Tower-line stone cost with additional wood cost."
 1521046 "Research <b>Druzhina<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nInfantry deals trample damage."
@@ -618,7 +618,7 @@
 1521104 "Research <b>Butalmapu<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nTeam Castle Unique Units and Bolas Riders cost -15%."
 // TUPI
 1521105 "Research <b>Caciques<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nChampi Warriors and Slingers attack +25% faster."
-1521106 "Research <b>Curare<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nFoot Archers and Fortifications deal poison damage."
+1521106 "Research <b>Curare<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nArchers and Fortifications deal poison damage."
 // SAXONS
 1521107 "Research <b>Clerical Recruitment<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMonks +1 conversion range; train +33% faster."
 1521108 "Research <b>Shield Wall<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nInfantry gain additional melee armor when massed."
@@ -782,16 +782,16 @@
 3501013 "Research Blast Furnace (Infantry and cavalry +2 melee attack)"
 3501014 "Research Scale Mail Armor (Melee infantry +1 melee/pierce armor)"
 3501015 "Research Chain Mail Armor (Melee infantry +1 melee/pierce armor)"
-3501016 "Research Plate Mail Armor (Melee infantry +1 melee/pierce armor)"
+3501016 "Research Plate Mail Armor (Melee infantry +1 melee/+2 pierce armor)"
 3501017 "Research Scale Barding Armor (Melee cavalry +1 melee/pierce armor)"
 3501018 "Research Chain Barding Armor (Melee cavalry +1 melee/pierce armor)"
-3501019 "Research Plate Barding Armor (Melee cavalry +1 melee/pierce armor)"
+3501019 "Research Plate Barding Armor (Melee cavalry +1 melee/+2 pierce armor)"
 3501020 "Research Fletching (Ranged infantry, ranged cavalry and defensive buildings +1 attack and range)"
 3501021 "Research Bodkin Arrow (Ranged infantry, ranged cavalry and defensive buildings +1 attack and range)"
 3501022 "Research Bracer (Ranged infantry, ranged cavalry and defensive buildings +1 attack and range)"
 3501023 "Research Padded Archer Armor (Ranged infantry and cavalry +1 melee/pierce armor)"
 3501024 "Research Leather Archer Armor (Ranged infantry and cavalry +1 melee/pierce armor)"
-3501025 "Research Ring Archer Armor (Ranged infantry and cavalry +1 melee/pierce armor)"
+3501025 "Research Ring Archer Armor (Ranged infantry and cavalry +1 melee/+2 pierce armor)"
 3501026 "Research Arson (Melee infantry +5 attack vs buildings)"
 3501027 "Research Thumb Ring (Ranged soldiers +15% attack speed and accuracy percent, except gunpowder units and unique ranged cavalries)"
 3501028 "Research Masonry (Building +10% HP)"
@@ -814,16 +814,16 @@
 3521013 "Research <b>Blast Furnace<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nInfantry, cavalry and hulk line +2 melee attack."
 3521014 "Research <b>Scale Mail Armor<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +1 melee/pierce armor."
 3521015 "Research <b>Chain Mail Armor<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +1 melee/pierce armor."
-3521016 "Research <b>Plate Mail Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +1 melee/pierce armor."
+3521016 "Research <b>Plate Mail Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +1 melee/+2 pierce armor."
 3521017 "Research <b>Scale Barding Armor<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMelee cavalry +1 melee/pierce armor."
 3521018 "Research <b>Chain Barding Armor<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nMelee cavalry +1 melee/pierce armor."
-3521019 "Research <b>Plate Barding Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nMelee cavalry +1 melee/pierce armor."
+3521019 "Research <b>Plate Barding Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nMelee cavalry +1 melee/+2 pierce armor."
 3521020 "Research <b>Fletching<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nRanged infantry, ranged cavalry, ranged warship and defensive buildings +1 attack and range."
 3521021 "Research <b>Bodkin Arrow<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nRanged infantry, ranged cavalry, ranged warship and defensive buildings +1 attack and range."
 3521022 "Research <b>Bracer<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nRanged infantry, ranged cavalry, ranged warship and defensive buildings +1 attack and range."
 3521023 "Research <b>Padded Archer Armor<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nRanged infantry and cavalry +1 melee/pierce armor."
 3521024 "Research <b>Leather Archer Armor<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nRanged infantry and cavalry +1 melee/pierce armor."
-3521025 "Research <b>Ring Archer Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nRanged infantry and cavalry +1 melee/pierce armor."
+3521025 "Research <b>Ring Archer Armor<b> (<cost>, 90 <MATERIAL=MPIconGoodCPU>)\nRanged infantry and cavalry +1 melee/+2 pierce armor."
 3521026 "Research <b>Arson<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMelee infantry +5 attack vs buildings."
 3521027 "Research <b>Thumb Ring<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nRanged soldiers +15% attack speed and accuracy percent, except gunpowder units and unique ranged cavalries."
 3521028 "Research <b>Masonry<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nBuilding +10% HP."
@@ -832,6 +832,8 @@
 
 
 // Units
+
+// Names
 4000001 "Early Spearman"
 4000002 "Spearman"
 4000003 "Pikeman"
@@ -921,9 +923,85 @@
 4000089 "Skirmisher"
 4000090 "Elite Skirmisher"
 4000091 "Imperial Skirmisher"
+4000092 "Conquistador"
+4000093 "Elite Conquistador"
+4000094 "Missionary"
+4000095 "Jaguar Warrior"
+4000096 "Elite Jaguar Warrior"
+4000097 "Plumed Archer"
+4000098 "Elite Plumed Archer"
+4000099 "Tarkan"
+4000100 "Elite Tarkan"
+4000101 "War Wagon"
+4000102 "Elite War Wagon"
+4000103 "Turtle Ship"
+4000104 "Elite Turtle Ship"
+4000105 "Genoese Crossbowman"
+4000106 "Elite Genoese Crossbowman"
+4000107 "Condottiero"
+4000109 "Ghulam"
+4000110 "Elite Ghulam"
+4000111 "Imperial Camel Rider"
+4000113 "Kamayuk"
+4000114 "Elite Kamayuk"
+4000115 "Magyar Huszar"
+4000116 "Elite Magyar Huszar"
+4000117 "Boyar"
+4000118 "Elite Boyar"
+4000119 "Organ Gun"
+4000120 "Elite Organ Gun"
+4000121 "Caravel"
+4000122 "Elite Caravel"
+4000123 "Shotel Warrior"
+4000124 "Elite Shotel Warrior"
+4000125 "Gbeto"
+4000126 "Elite Gbeto"
+4000127 "Camel Archer"
+4000128 "Elite Camel Archer"
+4000129 "Genitour"
+4000130 "Elite Genitour"
+4000131 "Ballista Elephant"
+4000132 "Elite Ballista Elephant"
+4000133 "Karambit Warrior"
+4000134 "Elite Karambit Warrior"
+4000135 "Arambai"
+4000136 "Elite Arambai"
+4000137 "Rattan Archer"
+4000138 "Elite Rattan Archer"
+4000139 "Konnik"
+4000140 "Elite Konnik"
+4000141 "Flaming Camel"
+4000142 "Kipchak"
+4000143 "Elite Kipchak"
+4000144 "Leitis"
+4000145 "Elite Leitis"
+4000146 "Winged Hussar"
+4000147 "Coustillier"
+4000148 "Elite Coustillier"
+4000149 "Flemish Militia"
+4000150 "Serjeant"
+4000151 "Elite Serjeant"
+4000152 "Obuch"
+4000153 "Elite Obuch"
+4000154 "Hussite Wagon"
+4000155 "Elite Hussite Wagon"
+4000156 "Houfnice"
+4000157 "Chakram Thrower"
+4000158 "Elite Chakram Thrower"
+4000159 "Shrivamsha Rider"
+4000160 "Elite Shrivamsha Rider"
+4000161 "Hearth Troop"
+4000162 "Elite Hearth Troop"
+4000163 "Jarl"
+4000164 "Elite Jarl"
+4000165 "Jomsviking"
+4000166 "Elite Jomsviking"
+4000167 "Steppe Lancer"
+4000168 "Elite Steppe Lancer"
+4000169 "Armored Elephant"
+4000170 "Siege Elephant"
 
-
-
+// Short Description
 4001001 "Create Early Spearman"
 4001002 "Create Spearman"
 4001003 "Create Pikeman"
@@ -1012,21 +1090,97 @@
 4001086 "Create Elite Fire Lance"
 4001087 "Create Rocket Cart"
 4001088 "Create Elite Rocket Cart"
-4001089 "CreateSkirmisher"
-4001090 "CreateElite Skirmisher"
-4001091 "CreateImperial Skirmisher"
+4001089 "Create Skirmisher"
+4001090 "Create Elite Skirmisher"
+4001091 "Create Imperial Skirmisher"
+4001092 "Create Conquistador"
+4001093 "Create Elite Conquistador"
+4001094 "Create Missionary"
+4001095 "Create Jaguar Warrior"
+4001096 "Create Elite Jaguar Warrior"
+4001097 "Create Plumed Archer"
+4001098 "Create Elite Plumed Archer"
+4001099 "Create Tarkan"
+4001100 "Create Elite Tarkan"
+4001101 "Create War Wagon"
+4001102 "Create Elite War Wagon"
+4001103 "Create Turtle Ship"
+4001104 "Create Elite Turtle Ship"
+4001105 "Create Genoese Crossbowman"
+4001106 "Create Elite Genoese Crossbowman"
+4001107 "Create Condottiero"
+4001109 "Create Ghulam"
+4001110 "Create Elite Ghulam"
+4001111 "Create Imperial Camel Rider"
+4001113 "Create Kamayuk"
+4001114 "Create Elite Kamayuk"
+4001115 "Create Magyar Huszar"
+4001116 "Create Elite Magyar Huszar"
+4001117 "Create Boyar"
+4001118 "Create Elite Boyar"
+4001119 "Create Organ Gun"
+4001120 "Create Elite Organ Gun"
+4001121 "Create Caravel"
+4001122 "Create Elite Caravel"
+4001123 "Create Shotel Warrior"
+4001124 "Create Elite Shotel Warrior"
+4001125 "Create Gbeto"
+4001126 "Create Elite Gbeto"
+4001127 "Create Camel Archer"
+4001128 "Create Elite Camel Archer"
+4001129 "Create Genitour"
+4001130 "Create Elite Genitour"
+4001131 "Create Ballista Elephant"
+4001132 "Create Elite Ballista Elephant"
+4001133 "Create Karambit Warrior"
+4001134 "Create Elite Karambit Warrior"
+4001135 "Create Arambai"
+4001136 "Create Elite Arambai"
+4001137 "Create Rattan Archer"
+4001138 "Create Elite Rattan Archer"
+4001139 "Create Konnik"
+4001140 "Create Elite Konnik"
+4001141 "Create Flaming Camel"
+4001142 "Create Kipchak"
+4001143 "Create Elite Kipchak"
+4001144 "Create Leitis"
+4001145 "Create Elite Leitis"
+4001146 "Create Winged Hussar"
+4001147 "Create Coustillier"
+4001148 "Create Elite Coustillier"
+4001149 "Create Flemish Militia"
+4001150 "Create Serjeant"
+4001151 "Create Elite Serjeant"
+4001152 "Create Obuch"
+4001153 "Create Elite Obuch"
+4001154 "Create Hussite Wagon"
+4001155 "Create Elite Hussite Wagon"
+4001156 "Create Houfnice"
+4001157 "Create Chakram Thrower"
+4001158 "Create Elite Chakram Thrower"
+4001159 "Create Shrivamsha Rider"
+4001160 "Create Elite Shrivamsha Rider"
+4001161 "Create Hearth Troop"
+4001162 "Create Elite Hearth Troop"
+4001163 "Create Jarl"
+4001164 "Create Elite Jarl"
+4001165 "Create Jomsviking"
+4001166 "Create Elite Jomsviking"
+4001167 "Create Steppe Lancer"
+4001168 "Create Elite Steppe Lancer"
+4001169 "Create Armored Elephant"
+4001170 "Create Siege Elephant"
 
-
-
+// Detailed Description
 4021001 "Create <b><YELLOW>Early Spearman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Inexpensive\n   - Weak in melee\n   - Countered by ranged units"
 4021002 "Create <b><YELLOW>Spearman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Inexpensive\n   - Weak in melee\n   - Countered by ranged units"
 4021003 "Create <b><YELLOW>Pikeman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + High attack\n   - Weak in melee\n   - Countered by ranged units"
 4021004 "Create <b><YELLOW>Halberdier<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + High attack\n   - Weak in melee\n   - Countered by ranged units"
 4021005 "Create <b><YELLOW>Swordsman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
 4021006 "Create <b><YELLOW>Elite Swordsman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
-4021007 "Create <b><YELLOW>Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
-4021008 "Create <b><YELLOW>Veteran Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
-4021009 "Create <b><YELLOW>Elite Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
+4021007 "Create <b><YELLOW>Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
+4021008 "Create <b><YELLOW>Veteran Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
+4021009 "Create <b><YELLOW>Elite Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
 4021010 "Create <b><YELLOW>Crossbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High attack\n  + Strong vs. heavy armor\n   - Slow rate of fire"
 4021011 "Create <b><YELLOW>Arbalester<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High attack\n  + Strong vs. heavy armor\n   - Slow rate of fire"
 4021012 "Create <b><YELLOW>Eagle Scout<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Fast movement\n  + High pierce armor\n  + Strong vs. cavalry\n   - Weak melee armor"
@@ -1054,24 +1208,24 @@
 4021034 "Create <b><YELLOW>Elite Hei Guang Cavalry<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high melee armor\n  + Strong vs. infantry\n   - Expensive\n   - Countered by spearman"
 4021035 "Create <b><YELLOW>Battle Elephant<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high hit points\n  + Trample deals area damage\n   - Slow movement\n   - Very expensive\n   - Countered by spearman"
 4021036 "Create <b><YELLOW>Elite Battle Elephant<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high hit points\n  + Trample deals area damage\n   - Slow movement\n   - Very expensive\n   - Countered by spearman"
-4021037 "Create <b><YELLOW>Battering Ram<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Melee attack only"
-4021038 "Create <b><YELLOW>Capped Ram<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Melee attack only"
-4021039 "Create <b><YELLOW>Siege Ram<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Melee attack only"
+4021037 "Create <b><YELLOW>Battering Ram<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings and siege weapons\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Almost no combat ability against other units"
+4021038 "Create <b><YELLOW>Capped Ram<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings and siege weapons\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Almost no combat ability against other units"
+4021039 "Create <b><YELLOW>Siege Ram<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating against buildings and siege weapons\n  + Nearly immune to ranged attacks\n  + Can garrison units\n   - Almost no combat ability against other units"
 4021040 "Create <b><YELLOW>Mangonel<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Deals area damage\n  + Strong vs. massed ranged units\n   - Has minimum range\n   - Slow movement"
 4021041 "Create <b><YELLOW>Onager<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Deals area damage\n  + Strong vs. massed ranged units\n   - Has minimum range\n   - Slow movement"
 4021042 "Create <b><YELLOW>Siege Onager<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Deals area damage\n  + Strong vs. massed ranged units\n   - Has minimum range\n   - Slow movement"
-4021043 "Create <b><YELLOW>Scorpion<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Bolts pierce through units in a line\n  + Strong vs. dense formations\n   - Weak vs. single armored targets"
-4021044 "Create <b><YELLOW>Heavy Scorpion<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Bolts pierce through units in a line\n  + Strong vs. dense formations\n   - Weak vs. single armored targets"
-4021045 "Create <b><YELLOW>Bombard Cannon<DEFAULT><b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\nGunpowder unit\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + Powerful against buildings\n   - Has minimum range\n   - Low accuracy"
-4021046 "Create <b><YELLOW>Trebuchet<DEFAULT><b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely long range\n  + Most powerful against buildings\n   - Must pack and unpack\n   - Slow movement"
+4021043 "Create <b><YELLOW>Scorpion<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Bolts pierce through units in a line\n  + Strong vs. dense formations\n   - Weak vs. single armored targets"
+4021044 "Create <b><YELLOW>Heavy Scorpion<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Bolts pierce through units in a line\n  + Strong vs. dense formations\n   - Weak vs. single armored targets"
+4021045 "Create <b><YELLOW>Bombard Cannon<DEFAULT><b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + Powerful against buildings\n   - Has minimum range\n   - Low accuracy"
+4021046 "Create <b><YELLOW>Trebuchet<DEFAULT><b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREY><i>Upgrades: <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely long range\n  + Most powerful against buildings\n   - Must pack and unpack\n   - Slow movement"
 4021047 "Create <b><YELLOW>Petard<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Devastating damage to buildings\n   - Destroyed upon attacking"
 4021048 "Create <b><YELLOW>Siege Tower<DEFAULT><b> (<cost>, 36 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<hp> <attack> <armor> <piercearmor> <range>\n  + Can drop garrisoned units onto walls\n  + Nearly immune to ranged attacks\n   - No attack"
 4021049 "Build <b><YELLOW>Folwark<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nBuilding\n<GREEN>Unique to Poles<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Used for storing food and researching agricultural technology, providing a population of 5\n  + Can collect 15 food immediately from nearby newly constructed farms\n  + Can increase nearby farmers' work rate by 20%"
 4021050 "Create <b><YELLOW>Paladin<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Franks<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + High mobility\n   - Expensive\n   - Countered by spearman"
 4021051 "Create <b><YELLOW>Camel Scout<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Gurjaras<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Gurjaras can train it in the Feudal Age and upgrade it to Camel Rider; other civilizations cannot train it in the Feudal Age\n  + Strong vs. cavalry\n  + Fast movement\n  + Available in the Feudal Age\n   - Weak against other units"
-4021052 "Create <b><YELLOW>Early Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Long range\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
-4021053 "Create <b><YELLOW>Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Very long range\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
-4021054 "Create <b><YELLOW>Elite Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely long range\n  + Strong vs. spearmen\n   - Weak vs. heavy armor"
+4021052 "Create <b><YELLOW>Early Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Long range\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
+4021053 "Create <b><YELLOW>Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Very long range\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
+4021054 "Create <b><YELLOW>Elite Longbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Britons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely long range\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
 4021055 "Create <b><YELLOW>Throwing Axeman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Franks<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + dealing melee damage at range\n  + Strong vs. buildings\n   - Short range"
 4021056 "Create <b><YELLOW>Elite Throwing Axeman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Franks<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + dealing melee damage at range\n  + Strong vs. buildings\n   - Short range"
 4021057 "Create <b><YELLOW>Huskarl<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Goths<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Nearly immune to ranged attacks\n  + Strong vs. archers\n  + Trains quickly\n   - Low melee armor"
@@ -1089,19 +1243,19 @@
 4021069 "Create <b><YELLOW>Elite War Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Persians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high hit points\n  + Trample deals area damage\n   - Slow movement\n   - Very expensive\n   - Countered by spearman"
 4021070 "Create <b><YELLOW>Mameluke<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Saracens<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Throws scimitars from a distance\n  + Strong vs. cavalry\n  + High mobility\n   - Weak melee armor"
 4021071 "Create <b><YELLOW>Elite Mameluke<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Saracens<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Throws scimitars from a distance\n  + Strong vs. cavalry\n  + High mobility\n   - Weak melee armor"
-4021072 "Create <b><YELLOW>Janissary<DEFAULT><b> (<cost>, 17 <MATERIAL=MPIconGoodCPU>)\nRanged infantry\nGunpowder unit\n<GREEN>Unique to Turks<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + High damage per shot\n   - Expensive"
-4021073 "Create <b><YELLOW>Elite Janissary<DEFAULT><b> (<cost>, 17 <MATERIAL=MPIconGoodCPU>)\nRanged infantry\nGunpowder unit\n<GREEN>Unique to Turks<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + High damage per shot\n   - Expensive"
-4021074 "Create <b><YELLOW>Berserk<DEFAULT><b> (<cost>, 14 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Vikings<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Regenerates health\n  + Strong in melee\n   - Expensive"
-4021075 "Create <b><YELLOW>Elite Berserk<DEFAULT><b> (<cost>, 14 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Vikings<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Regenerates health\n  + Strong in melee\n   - Expensive"
+4021072 "Create <b><YELLOW>Janissary<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nRanged infantry\nGunpowder unit\n<GREEN>Unique to Turks<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + High damage per shot\n   - Expensive"
+4021073 "Create <b><YELLOW>Elite Janissary<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nRanged infantry\nGunpowder unit\n<GREEN>Unique to Turks<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Long range\n  + High damage per shot\n   - Expensive"
+4021074 "Create <b><YELLOW>Berserk<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Vikings<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Regenerates health\n  + Strong in melee\n   - Expensive"
+4021075 "Create <b><YELLOW>Elite Berserk<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Vikings<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Regenerates health\n  + Strong in melee\n   - Expensive"
 4021076 "Create <b><YELLOW>Varangian Guard<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Strong in melee\n   - Low pierce armor"
 4021077 "Create <b><YELLOW>Elite Varangian Guard<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Strong in melee\n   - Low pierce armor"
-4021078 "Create <b><YELLOW>Early Mangudai<DEFAULT><b> (<cost>, 26 <MATERIAL=MPIconGoodCPU>)\nCavalry archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Available in the Feudal Age\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
-4021079 "Create <b><YELLOW>Mangudai<DEFAULT><b> (<cost>, 26 <MATERIAL=MPIconGoodCPU>)\nCavalry archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
-4021080 "Create <b><YELLOW>Elite Mangudai<DEFAULT><b> (<cost>, 26 <MATERIAL=MPIconGoodCPU>)\nCavalry archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
-4021081 "Create <b><YELLOW>Keshik<DEFAULT><b> (<cost>, 17 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Tatars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Relatively inexpensive\n   - Countered by spearman"
-4021082 "Create <b><YELLOW>Elite Keshik<DEFAULT><b> (<cost>, 17 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Tatars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Relatively inexpensive\n   - Countered by spearman"
-4021083 "Create <b><YELLOW>Woad Raider<DEFAULT><b> (<cost>, 10 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Celts<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Fast movement\n  + High attack\n   - Weak melee armor"
-4021084 "Create <b><YELLOW>Elite Woad Raider<DEFAULT><b> (<cost>, 10 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Celts<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Fast movement\n  + High attack\n   - Weak melee armor"
+4021078 "Create <b><YELLOW>Early Mangudai<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry Archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Available in the Feudal Age\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
+4021079 "Create <b><YELLOW>Mangudai<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry Archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
+4021080 "Create <b><YELLOW>Elite Mangudai<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry Archer\n<GREEN>Unique to Mongols<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High mobility\n  + Strong vs. siege weapons\n   - Weak melee armor"
+4021081 "Create <b><YELLOW>Keshik<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Tatars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Relatively inexpensive\n   - Countered by spearman"
+4021082 "Create <b><YELLOW>Elite Keshik<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nCavalry\n<GREEN>Unique to Tatars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Generates gold in combat\n  + Relatively inexpensive\n   - Countered by spearman"
+4021083 "Create <b><YELLOW>Woad Raider<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Celts<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Fast movement\n  + High attack\n   - Weak melee armor"
+4021084 "Create <b><YELLOW>Elite Woad Raider<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nInfantry\n<GREEN>Unique to Celts<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Fast movement\n  + High attack\n   - Weak melee armor"
 4021085 "Create <b><YELLOW>Fire Lance<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n\n   - Low armor"
 4021086 "Create <b><YELLOW>Elite Fire Lance<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Good at attacking buildings\n   - Weak melee armor"
 4021087 "Create <b><YELLOW>Rocket Cart<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\nGunpowder unit\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. buildings and fortifications\n  + Long range\n   - Has minimum range\n   - Low hit points"
@@ -1109,3 +1263,80 @@
 4021089 "Create <b><YELLOW>Skirmisher<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. archers\n   - Has minimum range\n   - Weak in melee"
 4021090 "Create <b><YELLOW>Elite Skirmisher<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. archers\n   - Has minimum range\n   - Weak in melee"
 4021091 "Create <b><YELLOW>Imperial Skirmisher<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. archers\n   - Has minimum range\n   - Weak in melee"
+4021092 "Create <b><YELLOW>Conquistador<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Spanish<GREEN>\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High attack\n  + Mobile\n   - Expensive"
+4021093 "Create <b><YELLOW>Elite Conquistador<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Spanish<GREEN>\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High attack\n  + Mobile\n   - Expensive"
+4021094 "Create <b><YELLOW>Missionary<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nMonk\n<GREEN>Unique to Spanish<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Mobile\n   - Short range\n   - Expensive"
+4021095 "Create <b><YELLOW>Jaguar Warrior<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Aztecs<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high attack\n  + Strong vs. melee infantry\n  + Gains attack after killing an enemy\n   - Expensive\n   - Slow"
+4021096 "Create <b><YELLOW>Elite Jaguar Warrior<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Aztecs<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Extremely high attack\n  + Strong vs. melee infantry\n  + Gains attack after killing an enemy\n   - Expensive\n   - Slow"
+4021097 "Create <b><YELLOW>Plumed Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Mayans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. infantry\n  + Mobile\n   - Somewhat expensive"
+4021098 "Create <b><YELLOW>Elite Plumed Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Mayans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. infantry\n  + Mobile\n   - Somewhat expensive"
+4021099 "Create <b><YELLOW>Tarkan<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Huns<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Effective at destroying buildings\n  + Effective against archers\n   - Countered by spearman"
+4021100 "Create <b><YELLOW>Elite Tarkan<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Huns<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Effective at destroying buildings\n  + Effective against archers\n   - Countered by spearman"
+4021101 "Create <b><YELLOW>War Wagon<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged cavalry\n<GREEN>Unique to Koreans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High HP\n  + Effective against ranged units\n   - Expensive\n   - Countered by spearman"
+4021102 "Create <b><YELLOW>Elite War Wagon<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged cavalry\n<GREEN>Unique to Koreans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + High HP\n  + Effective against ranged units\n   - Expensive\n   - Countered by spearman"
+4021103 "Create <b><YELLOW>Turtle Ship<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nWarship\n<GREEN>Unique to Koreans<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021104 "Create <b><YELLOW>Elite Turtle Ship<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nWarship\n<GREEN>Unique to Koreans<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021105 "Create <b><YELLOW>Genoese Crossbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Italians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n   - Expensive"
+4021106 "Create <b><YELLOW>Elite Genoese Crossbowman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Italians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n   - Expensive"
+4021107 "Create <b><YELLOW>Condottiero<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Italians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. gunpowder units\n  + High HP\n   - Low armor"
+4021109 "Create <b><YELLOW>Ghulam<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Indians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Can pierce through enemies behind the target\n  + Strong vs. ranged units\n   - Ineffective vs. cavalry"
+4021110 "Create <b><YELLOW>Elite Ghulam<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Indians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Can pierce through enemies behind the target\n  + Strong vs. ranged units\n   - Ineffective vs. cavalry"
+4021111 "Create <b><YELLOW>Imperial Camel Rider<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Indians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Fast\n   - Ineffective vs. other units"
+4021113 "Create <b><YELLOW>Kamayuk<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Incas<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021114 "Create <b><YELLOW>Elite Kamayuk<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Incas<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021115 "Create <b><YELLOW>Magyar Huszar<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Magyars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021116 "Create <b><YELLOW>Elite Magyar Huszar<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Magyars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021117 "Create <b><YELLOW>Boyar<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Slavs<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021118 "Create <b><YELLOW>Elite Boyar<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Slavs<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021119 "Create <b><YELLOW>Organ Gun<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Portuguese<GREEN>\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021120 "Create <b><YELLOW>Elite Organ Gun<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Portuguese<GREEN>\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021121 "Create <b><YELLOW>Caravel<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nWarship\n<GREEN>Unique to Portuguese<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021122 "Create <b><YELLOW>Elite Caravel<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nWarship\n<GREEN>Unique to Portuguese<GREEN>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021123 "Create <b><YELLOW>Shotel Warrior<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Ethiopians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021124 "Create <b><YELLOW>Elite Shotel Warrior<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Ethiopians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021125 "Create <b><YELLOW>Gbeto<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged infantry\n<GREEN>Unique to Malians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021126 "Create <b><YELLOW>Elite Gbeto<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged infantry\n<GREEN>Unique to Malians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021127 "Create <b><YELLOW>Camel Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Berbers<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021128 "Create <b><YELLOW>Elite Camel Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Berbers<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021129 "Create <b><YELLOW>Genitour<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Berbers<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021130 "Create <b><YELLOW>Elite Genitour<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Berbers<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021131 "Create <b><YELLOW>Ballista Elephant<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nElephant\n<GREEN>Unique to Khmer<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021132 "Create <b><YELLOW>Elite Ballista Elephant<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nElephant\n<GREEN>Unique to Khmer<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021133 "Create <b><YELLOW>Karambit Warrior<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Malay<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021134 "Create <b><YELLOW>Elite Karambit Warrior<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Malay<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021135 "Create <b><YELLOW>Arambai<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Burmese<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021136 "Create <b><YELLOW>Elite Arambai<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Burmese<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021137 "Create <b><YELLOW>Rattan Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Vietnamese<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021138 "Create <b><YELLOW>Elite Rattan Archer<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREEN>Unique to Vietnamese<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021139 "Create <b><YELLOW>Konnik<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Bulgarians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021140 "Create <b><YELLOW>Elite Konnik<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Bulgarians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021141 "Create <b><YELLOW>Flaming Camel<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Tatars<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021142 "Create <b><YELLOW>Kipchak<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Cumans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021143 "Create <b><YELLOW>Elite Kipchak<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged cavalry\n<GREEN>Unique to Cumans<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT111ParthianTactics> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021144 "Create <b><YELLOW>Leitis<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Lithuanians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021145 "Create <b><YELLOW>Elite Leitis<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Lithuanians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021146 "Create <b><YELLOW>Winged Hussar<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Region unit<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021147 "Create <b><YELLOW>Coustillier<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Burgundians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021148 "Create <b><YELLOW>Elite Coustillier<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Burgundians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021149 "Create <b><YELLOW>Flemish Militia<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Burgundians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021150 "Create <b><YELLOW>Serjeant<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Sicilians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021151 "Create <b><YELLOW>Elite Serjeant<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Sicilians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021152 "Create <b><YELLOW>Obuch<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Poles<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021153 "Create <b><YELLOW>Elite Obuch<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Poles<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021154 "Create <b><YELLOW>Hussite Wagon<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Bohemians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021155 "Create <b><YELLOW>Elite Hussite Wagon<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Bohemians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021156 "Create <b><YELLOW>Houfnice<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nSiege weapon\n<GREEN>Unique to Bohemians<GREEN>\nGunpowder unit\n<GREY><i>Upgrades: <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021157 "Create <b><YELLOW>Chakram Thrower<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged infantry\n<GREEN>Unique to Gurjaras<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021158 "Create <b><YELLOW>Elite Chakram Thrower<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy ranged infantry\n<GREEN>Unique to Gurjaras<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021159 "Create <b><YELLOW>Shrivamsha Rider<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Gurjaras<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021160 "Create <b><YELLOW>Elite Shrivamsha Rider<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Gurjaras<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021161 "Create <b><YELLOW>Hearth Troop<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Saxons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021162 "Create <b><YELLOW>Elite Hearth Troop<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Saxons<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021163 "Create <b><YELLOW>Jarl<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Varangians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021164 "Create <b><YELLOW>Elite Jarl<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREEN>Unique to Varangians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021165 "Create <b><YELLOW>Jomsviking<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Danes<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021166 "Create <b><YELLOW>Elite Jomsviking<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Danes<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
+4021167 "Create <b><YELLOW>Steppe Lancer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Has 1 range\n  + Fast\n   - Low armor"
+4021168 "Create <b><YELLOW>Elite Steppe Lancer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Has 1 range\n  + Fast\n   - Low armor"
+4021169 "Create <b><YELLOW>Armored Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Highly effective vs. buildings and siege weapons\n  + Nearly immune to ranged attacks\n   - Countered by spearman"
+4021170 "Create <b><YELLOW>Siege Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Highly effective vs. buildings and siege weapons\n  + Nearly immune to ranged attacks\n   - Countered by spearman"

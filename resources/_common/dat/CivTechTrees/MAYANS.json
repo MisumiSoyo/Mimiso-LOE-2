@@ -553,34 +553,64 @@
             "Trigger Tech ID": 237
         },
         {
+            "Name": "Plumed Archer",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
-            "Node ID": 4002,
-            "Name": "LOE Crossbowman",
             "Node Status": "ResearchedCompleted",
+            "Name String ID": 5683,
             "Age ID": 3,
             "Building ID": 87,
-            "Draw Node Type": "UnitTech",
-            "Node Type": "Unit",
-            "Link Node Type": "BuildingTech",
-            "Trigger Tech ID": -1,
-            "Name String ID": 4000010,
-            "Help String ID": 4100010,
-            "Picture Index": 18
+            "Help String ID": 4100097,
+            "Node ID": 763,
+            "Picture Index": 108
         },
         {
+            "Name": "Elite Plumed Archer",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
-            "Node ID": 4003,
-            "Name": "LOE Arbalester",
-            "Node Type": "UnitUpgrade",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5685,
             "Age ID": 4,
             "Building ID": 87,
-            "Link ID": 4002,
-            "Link Node Type": "Unit",
-            "Trigger Tech ID": 3007,
+            "Help String ID": 4100098,
+            "Link ID": 763,
+            "Node ID": 765,
+            "Picture Index": 488,
+            "Trigger Tech ID": 27
+        },
+        {
+            "Name": "Skirmisher",
+            "Node Type": "Unit",
+            "Link Node Type": "BuildingTech",
             "Draw Node Type": "UnitTech",
-            "Name String ID": 4000011,
-            "Help String ID": 4100011,
-            "Picture Index": 90
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5088,
+            "Age ID": 2,
+            "Building ID": 87,
+            "Help String ID": 4100089,
+            "Node ID": 7,
+            "Picture Index": 20
+        },
+        {
+            "Name": "Elite Skirmisher",
+            "Node Type": "UnitUpgrade",
+            "Link Node Type": "Unit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5087,
+            "Age ID": 3,
+            "Building ID": 87,
+            "Help String ID": 4100090,
+            "Link ID": 7,
+            "Node ID": 6,
+            "Picture Index": 21,
+            "Trigger Tech ID": 98
         },
         {
             "Name": "Hand Cannoneer",
@@ -608,8 +638,7 @@
                 "None",
                 "None",
                 "None"
-            ],
-            "Link ID": 492
+            ]
         },
         {
             "Name": "Cavalry Archer",
@@ -1938,36 +1967,6 @@
             "Picture Index": 97
         },
         {
-            "Name": "Plumed Archer",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5683,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105683,
-            "Node ID": 763,
-            "Picture Index": 108
-        },
-        {
-            "Name": "Elite Plumed Archer",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5685,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105685,
-            "Link ID": 763,
-            "Node ID": 765,
-            "Picture Index": 488,
-            "Trigger Tech ID": 27
-        },
-        {
             "Name": "Petard",
             "Node Type": "Unit",
             "Link Node Type": "BuildingTech",
@@ -2019,7 +2018,7 @@
             "Name String ID": 7420,
             "Age ID": 4,
             "Building ID": 82,
-            "Help String ID": 107420,
+            "Help String ID": 1600032,
             "Node ID": 4,
             "Picture Index": 107
         },

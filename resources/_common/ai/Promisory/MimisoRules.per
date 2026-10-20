@@ -49,6 +49,7 @@
 (defconst mimiso-u-crossbowman 4002)      ; 弩手 (城堡, 科技3006自动启用)
 (defconst mimiso-t-spearman-upg 3001)     ; 长矛兵 升级科技 (早期长矛兵 -> 长矛兵)
 (defconst mimiso-t-arbalester-upg 3007)   ; 劲弩手 升级科技 (弩手 -> 劲弩手)
+(defconst mimiso-t-mangudai-upg 3009)     ; 蒙古突骑 升级科技 (早期蒙古突骑 → 蒙古突骑)
 (defconst mimiso-goldbank 3030)           ; 封建金农锁存位 (官方 3020-3029 已占用, 3030 起空闲)
 
 ; ---- 0) 禁用黑暗rush (drush) ----
@@ -63,13 +64,20 @@
     (set-goal drushmicro no)
 )
 
-; ---- 1) 早期长矛兵 -> 长矛兵 ----
+; ---- 1) 升级原有单位的新形态
 ; can-research 自动处理前置(时代+资源), 到封建即可研究
 (defrule
     (unit-type-count-total spearman-line > 0)
     (can-research mimiso-t-spearman-upg)
 =>
     (research mimiso-t-spearman-upg)
+)
+
+(defrule
+    (unit-type-count-total mangudai-line > 3)
+    (can-research mimiso-t-mangudai-upg)
+=>
+    (research mimiso-t-mangudai-upg)
 )
 
 ; ---- 2) 出弩手系 (反应式: 敌方重甲目标成规模才出) ----

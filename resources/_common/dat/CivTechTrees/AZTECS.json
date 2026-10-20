@@ -556,7 +556,7 @@
             "Use Type": "Unit",
             "Node ID": 4002,
             "Name": "LOE Crossbowman",
-            "Node Status": "ResearchedCompleted",
+            "Node Status": "NotAvailable",
             "Age ID": 3,
             "Building ID": 87,
             "Draw Node Type": "UnitTech",
@@ -580,7 +580,38 @@
             "Draw Node Type": "UnitTech",
             "Name String ID": 4000011,
             "Help String ID": 4100011,
-            "Picture Index": 90
+            "Picture Index": 90,
+            "Node Status": "NotAvailable"
+        },
+        {
+            "Name": "Skirmisher",
+            "Node Type": "Unit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5088,
+            "Age ID": 2,
+            "Building ID": 87,
+            "Help String ID": 4100089,
+            "Node ID": 7,
+            "Picture Index": 20
+        },
+        {
+            "Name": "Elite Skirmisher",
+            "Node Type": "UnitUpgrade",
+            "Link Node Type": "Unit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5087,
+            "Age ID": 3,
+            "Building ID": 87,
+            "Help String ID": 4100090,
+            "Link ID": 7,
+            "Node ID": 6,
+            "Picture Index": 21,
+            "Trigger Tech ID": 98
         },
         {
             "Name": "Hand Cannoneer",
@@ -608,8 +639,7 @@
                 "None",
                 "None",
                 "None"
-            ],
-            "Link ID": 492
+            ]
         },
         {
             "Name": "Cavalry Archer",
@@ -647,7 +677,7 @@
             "Link Node Type": "BuildingTech",
             "Draw Node Type": "UnitTech",
             "Use Type": "Tech",
-            "Node Status": "NotAvailable",
+            "Node Status": "ResearchedCompleted",
             "Name String ID": 7411,
             "Age ID": 3,
             "Building ID": 87,
@@ -761,6 +791,36 @@
             "Node ID": 359,
             "Picture Index": 104,
             "Trigger Tech ID": 429
+        },
+        {
+            "Name": "Jaguar Warrior",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5667,
+            "Age ID": 3,
+            "Building ID": 12,
+            "Help String ID": 4100095,
+            "Node ID": 725,
+            "Picture Index": 110
+        },
+        {
+            "Name": "Elite Jaguar Warrior",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5669,
+            "Age ID": 4,
+            "Building ID": 12,
+            "Help String ID": 4100096,
+            "Link ID": 725,
+            "Node ID": 726,
+            "Picture Index": 486,
+            "Trigger Tech ID": 432
         },
         {
             "Name": "Eagle Scout",
@@ -1938,36 +1998,6 @@
             "Picture Index": 97
         },
         {
-            "Name": "Jaguar Warrior",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5667,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105667,
-            "Node ID": 725,
-            "Picture Index": 110
-        },
-        {
-            "Name": "Elite Jaguar Warrior",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5669,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105669,
-            "Link ID": 725,
-            "Node ID": 726,
-            "Picture Index": 486,
-            "Trigger Tech ID": 432
-        },
-        {
             "Name": "Petard",
             "Node Type": "Unit",
             "Link Node Type": "BuildingTech",
@@ -2019,7 +2049,7 @@
             "Name String ID": 7429,
             "Age ID": 4,
             "Building ID": 82,
-            "Help String ID": 107429,
+            "Help String ID": 1600030,
             "Node ID": 24,
             "Picture Index": 107
         },

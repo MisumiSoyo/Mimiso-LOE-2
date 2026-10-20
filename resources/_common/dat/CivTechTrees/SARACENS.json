@@ -898,6 +898,36 @@
             "Trigger Tech ID": 236
         },
         {
+            "Name": "Mameluke",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5103,
+            "Age ID": 3,
+            "Building ID": 101,
+            "Help String ID": 4100070,
+            "Node ID": 282,
+            "Picture Index": 37
+        },
+        {
+            "Name": "Elite Mameluke",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5453,
+            "Age ID": 4,
+            "Building ID": 101,
+            "Help String ID": 4100071,
+            "Link ID": 282,
+            "Node ID": 556,
+            "Picture Index": 479,
+            "Trigger Tech ID": 368
+        },
+        {
             "Name": "Bloodlines",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -2010,36 +2040,6 @@
             "Help String ID": 107377,
             "Node ID": 373,
             "Picture Index": 97
-        },
-        {
-            "Name": "Mameluke",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5103,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105103,
-            "Node ID": 282,
-            "Picture Index": 37
-        },
-        {
-            "Name": "Elite Mameluke",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5453,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105453,
-            "Link ID": 282,
-            "Node ID": 556,
-            "Picture Index": 479,
-            "Trigger Tech ID": 368
         },
         {
             "Name": "Petard",

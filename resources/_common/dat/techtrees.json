@@ -16,24 +16,38 @@
         },
         {
             "action": "delete",
-            "civ_id": ["JAPANESE", "BYZANTINES", "VIKINGS", "SAXONS", "VARANGIANS", "DANES"],
-            "note": "部分文明移除武士系",
+            "civ_id": ["JAPANESE", "BYZANTINES", "VIKINGS", "CELTS", "INDIANS", "SAXONS", "VARANGIANS", "DANES"],
+            "note": "部分文明移除剑士系",
             "Use Type": "Unit",
             "Node ID": [74, 75]
         },
         {
             "action": "delete",
-            "civ_id": ["CHINESE"],
+            "civ_id": ["CHINESE", "MAYANS", "ITALIANS"],
             "note": "部分文明移除弩手系",
             "Use Type": "Unit",
             "Node ID": [4002, 4003]
         },
         {
             "action": "delete",
-            "civ_id": ["BYZANTINES"],
+            "civ_id": ["MONGOLS", "KOREANS"],
+            "note": "部分文明移除骑射手系",
+            "Use Type": "Unit",
+            "Node ID": [39, 474]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["BYZANTINES", "MONGOLS", "HUNS"],
             "note": "部分文明移除骑士系",
             "Use Type": "Unit",
             "Node ID": [38, 283]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["SPANISH"],
+            "note": "部分文明移除僧侣",
+            "Use Type": "Unit",
+            "Node ID": [125]
         },
         {
             "action": "enable",
@@ -97,6 +111,83 @@
             "note": "波斯科技树",
             "TechIDs": [377, 201],
             "UnitIDs": [492]
+        },
+        {
+            "action": "enable",
+            "civ_id": "SARACENS",
+            "note": "萨拉森科技树",
+            "TechIDs": [],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "TURKS",
+            "note": "土耳其科技树",
+            "TechIDs": [],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "TURKS",
+            "note": "土耳其科技树",
+            "TechIDs": [],
+            "UnitIDs": [5]
+        },
+        {
+            "action": "enable",
+            "civ_id": "VIKINGS",
+            "note": "维京科技树",
+            "TechIDs": [437],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "MONGOLS",
+            "note": "蒙古科技树",
+            "TechIDs": [219],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "CELTS",
+            "note": "凯尔特科技树",
+            "TechIDs": [215],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "SPANISH",
+            "note": "西班牙科技树",
+            "TechIDs": [],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "SPANISH",
+            "note": "西班牙科技树",
+            "TechIDs": [],
+            "UnitIDs": [5, 24, 492]
+        },
+        {
+            "action": "enable",
+            "civ_id": "AZTECS",
+            "note": "阿兹特克科技树",
+            "TechIDs": [437],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "AZTECS",
+            "note": "阿兹特克科技树",
+            "TechIDs": [],
+            "UnitIDs": [4002, 4003]
+        },
+        {
+            "action": "disable",
+            "civ_id": "HUNS",
+            "note": "匈奴科技树",
+            "TechIDs": [],
+            "UnitIDs": [4002, 4003]
         }
     ]
 }

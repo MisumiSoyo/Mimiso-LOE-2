@@ -556,7 +556,7 @@
             "Use Type": "Unit",
             "Node ID": 4002,
             "Name": "LOE Crossbowman",
-            "Node Status": "ResearchedCompleted",
+            "Node Status": "NotAvailable",
             "Age ID": 3,
             "Building ID": 87,
             "Draw Node Type": "UnitTech",
@@ -580,7 +580,8 @@
             "Draw Node Type": "UnitTech",
             "Name String ID": 4000011,
             "Help String ID": 4100011,
-            "Picture Index": 90
+            "Picture Index": 90,
+            "Node Status": "NotAvailable"
         },
         {
             "Name": "Hand Cannoneer",
@@ -838,62 +839,18 @@
             "Trigger Tech ID": 428
         },
         {
-            "Name": "Knight",
-            "Node Type": "Unit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5068,
-            "Age ID": 3,
-            "Building ID": 101,
-            "Help String ID": 4100029,
-            "Node ID": 38,
-            "Picture Index": 1
-        },
-        {
-            "Name": "Cavalier",
-            "Node Type": "UnitUpgrade",
-            "Link Node Type": "Unit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 4000030,
-            "Age ID": 4,
-            "Building ID": 101,
-            "Help String ID": 4100030,
-            "Link ID": 38,
-            "Node ID": 283,
-            "Picture Index": 49,
-            "Trigger Tech ID": 209
-        },
-        {
             "Name": "Tarkan",
             "Node Type": "UniqueUnit",
             "Link Node Type": "BuildingTech",
             "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
-            "Node Status": "ResearchRequired",
+            "Node Status": "ResearchedCompleted",
             "Name String ID": 5675,
             "Age ID": 3,
             "Building ID": 101,
-            "Help String ID": 105675,
-            "Node ID": 886,
-            "Picture Index": 105,
-            "Prerequisite IDs": [
-                483,
-                0,
-                0,
-                0,
-                0
-            ],
-            "Prerequisite Types": [
-                "Tech",
-                "None",
-                "None",
-                "None",
-                "None"
-            ]
+            "Help String ID": 4100099,
+            "Node ID": 755,
+            "Picture Index": 105
         },
         {
             "Name": "Elite Tarkan",
@@ -901,28 +858,14 @@
             "Link Node Type": "UniqueUnit",
             "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
-            "Node Status": "ResearchRequired",
+            "Node Status": "ResearchedCompleted",
             "Name String ID": 5677,
             "Age ID": 4,
             "Building ID": 101,
-            "Help String ID": 105677,
-            "Link ID": 886,
-            "Node ID": 887,
+            "Help String ID": 4100100,
+            "Link ID": 755,
+            "Node ID": 757,
             "Picture Index": 487,
-            "Prerequisite IDs": [
-                483,
-                0,
-                0,
-                0,
-                0
-            ],
-            "Prerequisite Types": [
-                "Tech",
-                "None",
-                "None",
-                "None",
-                "None"
-            ],
             "Trigger Tech ID": 2
         },
         {
@@ -2055,36 +1998,6 @@
             "Picture Index": 97
         },
         {
-            "Name": "Tarkan",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5675,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105675,
-            "Node ID": 755,
-            "Picture Index": 105
-        },
-        {
-            "Name": "Elite Tarkan",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5677,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105677,
-            "Link ID": 755,
-            "Node ID": 757,
-            "Picture Index": 487,
-            "Trigger Tech ID": 2
-        },
-        {
             "Name": "Petard",
             "Node Type": "Unit",
             "Link Node Type": "BuildingTech",
@@ -2122,7 +2035,7 @@
             "Name String ID": 7370,
             "Age ID": 3,
             "Building ID": 82,
-            "Help String ID": 107370,
+            "Help String ID": 1600033,
             "Node ID": 483,
             "Picture Index": 33
         },

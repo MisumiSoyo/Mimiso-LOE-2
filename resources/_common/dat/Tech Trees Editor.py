@@ -13,6 +13,17 @@
   本文件所在目录), 其 changes/civ_groups 按引用顺序追加/合并到本文件的改动之后。
 
 CTT 操作: add / modify / move / delete / replace / deleteciv / template / disable / enable / sync_from_dat
+         / copy / store / reset_store
+- copy: 把指定文明的指定节点 (civ_id + Use Type + Node ID) 深拷贝进全局暂存区
+  (覆盖暂存区现有内容), 不修改任何文明; 可选 "Building ID" 在同一单位存在
+  多建筑变体时指定拷贝哪一个。
+- store: 把本条目中除 action/civ_id/note/apply_to 外的字段手动写入暂存区
+  (增量更新, 不清空); 用于在 copy 之后微调, 或完全手写一个基底。
+- reset_store: 清空暂存区。
+- add 支持 "use_store": true —— 以暂存区内容深拷贝为基底, 再叠加本条目显式
+  字段, 然后走正常默认值补全与插入流程; 暂存区为空时回退普通 add 并告警。
+  典型用法: 把甲文明的既有单位加到乙文明, 如先 copy TATARS 的怯薛节点,
+  再 add 到 MONGOLS 并按需覆盖 Age ID/position 等字段。
 - sync_from_dat: 按 dat 实际值重置科技树节点的 Name String ID / Help String ID /
   Picture Index (对应 dat 的 language_dll_name / language_dll_help / icon_id),
   跳过 dat 中 language_dll_name 为 0 的空对象; 只改 CTT, 不动 FAU。
@@ -104,9 +115,12 @@ CTT_CONTROL_FIELDS = {"action", "civ_id", "position", "target_id", "target_type"
                       "apply_to", "FAU", "fau_trigger", "remove_trigger", "affect_fau",
                       "new_node_id", "template_id", "exclude_regional",
                       "UnitLine", "UnitLineBuilding", "UnitLineIndex",
-                      "node_ids", "exclude"}
+                      "node_ids", "exclude", "use_store"}
 FAU_META_FIELDS = {"civilizations", "note", "type", "building_id", "unit_id", "tech_id",
                    "position", "target_id"}
+
+# 全局条目暂存区, 供 copy/store/reset_store 与 add 的 use_store 使用
+_ENTRY_STORE = {}
 
 
 # ---------------------------------------------------------------- dat 读取
@@ -818,9 +832,60 @@ def apply_ctt_change(change, civs_data, civ_files, states, fau_data, pool, regio
     if apply_to == "fau":
         print(f"  Warning: civ_id 风格改动不支持 apply_to=fau, 请改用 civilizations 风格书写, 已跳过: {change.get('note', '')}")
         return
+
+    # 全局暂存区操作: 不修改任何文明, 直接返回
+    if action == "reset_store":
+        _ENTRY_STORE.clear()
+        print(f"  Store 已清空: {change.get('note', '')}")
+        return
+
+    if action == "store":
+        stored = {k: v for k, v in change.items() if k not in {"action", "civ_id", "note", "apply_to"}}
+        _ENTRY_STORE.update(stored)
+        print(f"  Store 已手动写入 {len(stored)} 个字段: {list(stored.keys())}")
+        return
+
+    if action == "copy":
+        source_civ_ids = change["civ_id"] if isinstance(change["civ_id"], list) else [change["civ_id"]]
+        copy_use_type = change.get("Use Type", "")
+        copy_node_id = change.get("Node ID")
+        copy_building = change.get("Building ID")  # 可选: 同一单位多建筑变体时按建筑过滤
+        found = None
+        found_civ = None
+        for scid in source_civ_ids:
+            source_civ = next((c for c in civs_data["civs"] if c["civ_id"] == scid), None)
+            if source_civ is None:
+                continue
+            if copy_use_type in ("Unit", "Tech"):
+                src_list = source_civ["civ_techs_units"]
+            elif copy_use_type == "Building":
+                src_list = source_civ["civ_techs_buildings"]
+            else:
+                continue
+            for node in src_list:
+                if node["Node ID"] == copy_node_id and use_type_matches(node, copy_use_type) \
+                        and (copy_building is None or node.get("Building ID") == copy_building):
+                    found = node
+                    found_civ = scid
+                    break
+            if found is not None:
+                break
+        if found is None:
+            print(f"  Warning: copy 未在 {change.get('civ_id')} 中找到 {copy_use_type} {copy_node_id}"
+                  f"{f' (Building {copy_building})' if copy_building is not None else ''}")
+        else:
+            _ENTRY_STORE.clear()
+            _ENTRY_STORE.update(copy.deepcopy(found))
+            print(f"  Copy: {found_civ} {copy_use_type} {copy_node_id} ({found.get('Name','')}"
+                  f"{f', Building {copy_building}' if copy_building is not None else ''}) -> store")
+        return
+
     affect_fau = apply_to != "ctt"
     civ_ids = change["civ_id"] if isinstance(change["civ_id"], list) else [change["civ_id"]]
     use_type = change.get("Use Type", "")
+    # add+use_store 允许省略 Use Type, 从暂存区继承
+    if not use_type and action == "add" and change.get("use_store"):
+        use_type = _ENTRY_STORE.get("Use Type", "")
 
     if action == "deleteciv":
         civs_data["civs"] = [c for c in civs_data["civs"] if c["civ_id"] not in civ_ids]
@@ -887,7 +952,13 @@ def apply_ctt_change(change, civs_data, civ_files, states, fau_data, pool, regio
                 continue
 
             if action == "add":
-                new_item = {k: v for k, v in change.items() if k not in CTT_CONTROL_FIELDS}
+                if change.get("use_store"):
+                    if not _ENTRY_STORE:
+                        print(f"  Warning: use_store 时暂存区为空, 回退为普通 add: {change.get('note', '')}")
+                    new_item = copy.deepcopy(_ENTRY_STORE)
+                    new_item.update({k: v for k, v in change.items() if k not in CTT_CONTROL_FIELDS})
+                else:
+                    new_item = {k: v for k, v in change.items() if k not in CTT_CONTROL_FIELDS}
                 apply_node_defaults(new_item, target_list)
                 building_ids = new_item.get("Building ID")
                 if isinstance(building_ids, list):

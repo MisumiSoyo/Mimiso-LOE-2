@@ -227,10 +227,10 @@
         },
         {
             "action": "delete",
-            "civ_id": "GOTHS",
-            "note": "删除原有兵营近卫军单位",
+            "civ_id": "all",
+            "note": "删除原有兵营近卫军和答剌罕骑兵单位",
             "Use Type": "Unit",
-            "Node ID": [759, 761]
+            "Node ID": [759, 761, 886, 887]
         },
         {
             "action": "modify",
@@ -352,6 +352,195 @@
             "Building ID": 101,
             "position": "after",
             "target_id": 330
+        },
+        {
+            "action": "modify",
+            "civ_id": "SARACENS",
+            "note": "马穆鲁克移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [556, 282],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 330
+        },
+        {
+            "action": "modify",
+            "civ_id": "TURKS",
+            "note": "苏丹亲兵移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [557, 46],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 474
+        },
+        {
+            "action": "modify",
+            "civ_id": "VIKINGS",
+            "note": "狂战士移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [694, 692],
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "MONGOLS",
+            "note": "蒙古突骑移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [561, 11],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
+        },
+        {
+            "action": "add",
+            "civ_id": "MONGOLS",
+            "note": "新增早期蒙古突骑",
+            "Use Type": "Unit",
+            "Node ID": 4005,
+            "Node Type": "UniqueUnit",
+            "Name": "Early Mangudai",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 2,
+            "Building ID": 87,
+            "UnitLine": -274,
+            "UnitLineIndex": 0,
+            "position": "before",
+            "target_id": 11
+        },
+        {
+            "action": "modify",
+            "civ_id": "MONGOLS",
+            "note": "蒙古突骑升级",
+            "Use Type": "Unit",
+            "Node ID": 11,
+            "Link Node Type": "UniqueUnit",
+            "Link ID": 4005,
+            "Trigger Tech ID": 3009
+        },
+        {
+            "action": "copy",
+            "civ_id": "TATARS",
+            "note": "暂存鞑靼怯薛(1228)节点(城堡, ResearchedCompleted)",
+            "Use Type": "Unit",
+            "Node ID": 1228
+        },
+        {
+            "action": "add",
+            "civ_id": "MONGOLS",
+            "note": "蒙古新增怯薛: 复用鞑靼节点, 改放马厩翼骑兵(441)后; 文本/图标ID沿用dat",
+            "use_store": true,
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 441
+        },
+        {
+            "action": "copy",
+            "civ_id": "TATARS",
+            "note": "暂存鞑靼精锐怯薛(1230)节点(含Link 1228与升级科技680)",
+            "Use Type": "Unit",
+            "Node ID": 1230
+        },
+        {
+            "action": "add",
+            "civ_id": "MONGOLS",
+            "note": "蒙古新增精锐怯薛: 复用鞑靼节点, 挂怯薛(1228)后, 升级科技680自动入FAU",
+            "use_store": true,
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 1228
+        },
+        {
+            "action": "reset_store",
+            "note": "清空暂存区"
+        },
+        {
+            "action": "modify",
+            "civ_id": "CELTS",
+            "note": "靛蓝突袭者移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [534, 232],
+            "Building ID": 12,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "SPANISH",
+            "note": "西班牙征服者移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [773, 771],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 2701
+        },
+        {
+            "action": "move",
+            "civ_id": "SPANISH",
+            "note": "传教士替代僧侣",
+            "Use Type": "Unit",
+            "Node ID": 775,
+            "Building ID": 104,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "AZTECS",
+            "note": "豹勇士移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [726, 725],
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "MAYANS",
+            "note": "羽箭手移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [765, 763],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 492
+        },
+        {
+            "action": "modify",
+            "civ_id": "HUNS",
+            "note": "答剌罕骑兵移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [757, 755],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 441
+        },
+        {
+            "action": "modify",
+            "civ_id": "KOREANS",
+            "note": "高丽战车移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [829, 827],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
+        },
+        {
+            "action": "modify",
+            "civ_id": "ITALIANS",
+            "note": "热那亚弩手移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [868, 866],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 492
+        },
+        {
+            "action": "modify",
+            "civ_id": "INDIANS",
+            "note": "古拉姆移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [1749, 1747],
+            "Building ID": 12,
+            "position": "first"
         }
     ]
 }
