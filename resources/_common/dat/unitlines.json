@@ -359,6 +359,7 @@
             "Identifier": "samurai-line",
             "LineID": -273,
             "IDChain": [
+                4006,
                 291,
                 560
             ]
@@ -413,6 +414,7 @@
             "Identifier": "woad-raider-line",
             "LineID": -268,
             "IDChain": [
+                4008,
                 232,
                 534
             ]
@@ -713,6 +715,7 @@
             "Identifier": "ghulam-line",
             "LineID": -230,
             "IDChain": [
+                4009,
                 1747,
                 1749
             ]
@@ -1082,6 +1085,7 @@
             "Identifier": "varangian-guard-line",
             "LineID": -311,
             "IDChain": [
+                4007,
                 2703,
                 2704
             ]

@@ -55,9 +55,9 @@
         {
             "action": "delete",
             "civ_id": "all",
-            "note": "删除剑士线残余形态节点 77(长剑士)/473(双手剑士)/567(冠军剑士) 并同步移出FAU; Use Type=Unit 只作用于 civ_techs_units, 避免误删同号科技77(Plate Mail Armor); 模组剑士线只保留 74(剑士) → 75(精锐剑士)",
+            "note": "删除剑士线残余形态节点 473(双手剑士)/567(冠军剑士) 并同步移出FAU; Use Type=Unit 只作用于 civ_techs_units, 避免误删同号科技77(Plate Mail Armor); 模组剑士线只保留 74(剑士) → 75(精锐剑士)",
             "Use Type": "Unit",
-            "Node ID": [77, 473, 567]
+            "Node ID": [473, 567]
         },
         {
             "action": "modify",
@@ -71,9 +71,17 @@
         {
             "action": "modify",
             "civ_id": "all",
-            "note": "剑士改为城堡时代单位",
+            "note": "剑士改为封建时代单位",
             "Use Type": "Unit",
             "Node ID": 74,
+            "Age ID": 2
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "长剑士改为封建时代单位",
+            "Use Type": "Unit",
+            "Node ID": 75,
             "Age ID": 3
         },
         {
@@ -81,7 +89,7 @@
             "civ_id": "all",
             "note": "精锐剑士改为帝王时代单位",
             "Use Type": "Unit",
-            "Node ID": 75,
+            "Node ID": 77,
             "Age ID": 4
         },
         {
@@ -541,6 +549,123 @@
             "Node ID": [1749, 1747],
             "Building ID": 12,
             "position": "first"
+        },
+        {
+            "action": "add",
+            "civ_id": "JAPANESE",
+            "note": "新增早期日本武士(4006, 封建时代), 并入官方日本武士线(Samurai Line, -273)链首",
+            "Use Type": "Unit",
+            "Node ID": 4006,
+            "Node Type": "UniqueUnit",
+            "Name": "Early Samurai",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 2,
+            "Building ID": 12,
+            "UnitLine": -273,
+            "UnitLineIndex": 0,
+            "Trigger Tech ID": -1,
+            "position": "before",
+            "target_id": 291
+        },
+        {
+            "action": "modify",
+            "civ_id": "JAPANESE",
+            "note": "日本武士(291)改为从早期日本武士(4006)升级而来, 升级科技3010",
+            "Use Type": "Unit",
+            "Node ID": 291,
+            "Link Node Type": "UniqueUnit",
+            "Link ID": 4006,
+            "Trigger Tech ID": 3010
+        },
+        {
+            "action": "add",
+            "civ_id": "VARANGIANS",
+            "note": "新增早期瓦兰吉卫队(4007, 封建时代), 并入官方瓦兰吉卫队线(Varangian Guard Line, -311)链首",
+            "Use Type": "Unit",
+            "Node ID": 4007,
+            "Node Type": "RegionalUnit",
+            "Name": "Early Varangian Guard",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 2,
+            "Building ID": 12,
+            "UnitLine": -311,
+            "UnitLineIndex": 0,
+            "Trigger Tech ID": -1,
+            "position": "before",
+            "target_id": 2703
+        },
+        {
+            "action": "modify",
+            "civ_id": "VARANGIANS",
+            "note": "瓦兰吉卫队(2703)改为从早期瓦兰吉卫队(4007)升级而来, 升级科技3011",
+            "Use Type": "Unit",
+            "Node ID": 2703,
+            "Link Node Type": "RegionalUnit",
+            "Link ID": 4007,
+            "Trigger Tech ID": 3011
+        },
+        {
+            "civilizations": "VARANGIANS",
+            "type": "add",
+            "note": "FAU: 兵营Techs加入升级科技3011(瓦兰吉卫队, 城堡时代); 因2703无Building ID变更, modify不触发trigger tech同步, 需显式补入",
+            "building_id": 12,
+            "tech_id": 3011,
+            "Name": "Varangian Guard",
+            "RequiredAge": 3
+        },
+        {
+            "action": "add",
+            "civ_id": "CELTS",
+            "note": "新增早期靛蓝突袭者(4008, 封建时代), 并入官方靛蓝突袭者线(Woad Raider Line, -268)链首",
+            "Use Type": "Unit",
+            "Node ID": 4008,
+            "Node Type": "UniqueUnit",
+            "Name": "Early Woad Raider",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 2,
+            "Building ID": 12,
+            "UnitLine": -268,
+            "UnitLineIndex": 0,
+            "Trigger Tech ID": -1,
+            "position": "before",
+            "target_id": 232
+        },
+        {
+            "action": "modify",
+            "civ_id": "CELTS",
+            "note": "靛蓝突袭者(232)改为从早期靛蓝突袭者(4008)升级而来, 升级科技3012",
+            "Use Type": "Unit",
+            "Node ID": 232,
+            "Link Node Type": "UniqueUnit",
+            "Link ID": 4008,
+            "Trigger Tech ID": 3012
+        },
+        {
+            "action": "add",
+            "civ_id": "INDIANS",
+            "note": "新增早期古拉姆(4009, 封建时代), 并入官方古拉姆线(Ghulam Line, -230)链首",
+            "Use Type": "Unit",
+            "Node ID": 4009,
+            "Node Type": "UniqueUnit",
+            "Name": "Early Ghulam",
+            "Node Status": "ResearchedCompleted",
+            "Age ID": 2,
+            "Building ID": 12,
+            "UnitLine": -230,
+            "UnitLineIndex": 0,
+            "Trigger Tech ID": -1,
+            "position": "before",
+            "target_id": 1747
+        },
+        {
+            "action": "modify",
+            "civ_id": "INDIANS",
+            "note": "古拉姆(1747)改为从早期古拉姆(4009)升级而来, 升级科技3013",
+            "Use Type": "Unit",
+            "Node ID": 1747,
+            "Link Node Type": "UniqueUnit",
+            "Link ID": 4009,
+            "Trigger Tech ID": 3013
         }
     ]
 }

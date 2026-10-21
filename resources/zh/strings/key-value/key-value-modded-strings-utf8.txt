@@ -291,7 +291,7 @@
 
 // 描述
 // BRITONS
-1501001 "研究英皇侍卫 (步弓手和掷矛手系射程 +1；瞭望箭塔系攻击力 +2)"
+1501001 "研究英皇侍卫 (长弓兵 +1 射程)"
 1501002 "研究战狼号 (巨型投石机可造成爆炸伤害，且准确度更高)"
 // FRANKS
 1501003 "王家敕令骑兵 (骑马弩兵花费的黄金 -40%)"
@@ -461,7 +461,7 @@
 
 // 详细描述
 // BRITONS
-1521001 "研究<b>英皇侍卫<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\n步弓手和掷矛手系的射程 +1；瞭望箭塔系的攻击力 +2。"
+1521001 "研究<b>英皇侍卫<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\n长弓兵 +1 射程。"
 1521002 "研究<b>战狼号<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n巨型投石机可造成爆炸伤害，且准确度更高。"
 // FRANKS
 1521003 "研究<b>王家敕令骑兵<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\n骑马弩兵花费的黄金 -40%。"
@@ -675,6 +675,12 @@
 3000025 "重型投石车"
 3000026 "重型弩炮"
 3000027 "长弓兵"
+3000028 "蒙古突骑"
+3000029 "长剑士"
+3000030 "日本武士"
+3000031 "瓦兰吉卫队"
+3000033 "靛蓝突袭者"
+3000034 "古拉姆"
 
 
 
@@ -705,13 +711,19 @@
 3001025 "升级到重型投石车"
 3001026 "升级到重型弩炮"
 3001027 "升级到长弓兵"
+3001028 "升级到蒙古突骑"
+3001029 "升级到长剑士"
+3001030 "升级到日本武士"
+3001031 "升级到瓦兰吉卫队"
+3001033 "升级到靛蓝突袭者"
+3001034 "升级到古拉姆"
 
 
 
 3021001 "升级到<b>长矛兵<b> (<cost>, 15 <MATERIAL=MPIconGoodCPU>)\n将您的早期长矛兵升级, 生产更为强大的长矛兵。"
 3021002 "升级到<b>长枪兵<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的长矛兵升级, 生产更为强大的长枪兵。"
 3021003 "升级到<b>长戟兵<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n将您的长枪兵升级, 生产更为强大的长戟兵。"
-3021004 "升级到<b>精锐剑士<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n将您的剑士升级, 生产更为强大的精锐剑士。"
+3021004 "升级到<b>精锐剑士<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n将您的长剑士升级, 生产更为强大的精锐剑士。"
 3021005 "升级到<b>老练步弓手<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的步弓手升级, 生产更为强大的老练步弓手。"
 3021006 "升级到<b>精锐步弓手<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n将您的老练步弓手升级, 生产更为强大的精锐步弓手。"
 3021007 "升级到<b>劲弩手<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n将您的弩手升级, 生产更为强大的劲弩手。"
@@ -735,6 +747,12 @@
 3021025 "升级到<b>重型投石车<b> (<cost>, 150 <MATERIAL=MPIconGoodCPU>)\n将您的中型投石车升级, 生产更为强大的重型投石车。"
 3021026 "升级到<b>重型弩炮<b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\n将您的弩炮升级, 生产更为强大的重型弩炮。"
 3021027 "升级到<b>长弓兵<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期长弓兵升级, 生产更为强大的长弓兵。"
+3021028 "升级到<b>蒙古突骑<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期蒙古突骑升级, 生产更为强大的蒙古突骑。"
+3021029 "升级到<b>长剑士<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的剑士升级, 生产更为强大的长剑士。"
+3021030 "升级到<b>日本武士<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期日本武士升级, 生产更为强大的日本武士。"
+3021031 "升级到<b>瓦兰吉卫队<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期瓦兰吉卫队升级, 生产更为强大的瓦兰吉卫队。"
+3021033 "升级到<b>靛蓝突袭者<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期靛蓝突袭者升级, 生产更为强大的靛蓝突袭者。"
+3021034 "升级到<b>古拉姆<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期古拉姆升级, 生产更为强大的古拉姆。"
 
 
 
@@ -771,8 +789,8 @@
 3501002 "研究马轭 (农夫 +10% 采集效率)"
 3501003 "研究耕犁 (农夫 +10% 采集效率)"
 3501004 "研究轮作 (农夫 +10% 采集效率)"
-3501005 "研究双刃斧 (村民伐木速度 +15%)"
-3501006 "研究弓锯 (村民伐木速度 +15%)"
+3501005 "研究双刃斧 (村民伐木速度 +20%)"
+3501006 "研究弓锯 (村民伐木速度 +20%)"
 3501007 "研究双人锯 (村民存放的木材 +15%)"
 3501008 "研究采矿业 (村民采金和采石速度 +15%)"
 3501009 "研究钻井采矿 (村民采金和采石速度 +15%)"
@@ -786,12 +804,12 @@
 3501017 "研究骑兵鳞甲 (近战骑兵 +1 护甲/盾牌)"
 3501018 "研究骑兵锁甲 (近战骑兵 +1 护甲/盾牌)"
 3501019 "研究骑兵钢甲 (近战骑兵 +1 护甲/ 2 盾牌)"
-3501020 "研究箭羽 (远程步兵, 远程骑兵, 远程战船和防御建筑 +1 攻击力和射程)"
-3501021 "研究锥子箭 (远程步兵, 远程骑兵, 远程战船和防御建筑 +1 攻击力和射程)"
-3501022 "研究护腕 (远程步兵, 远程骑兵, 远程战船和防御建筑 +1 攻击力和射程)"
+3501020 "研究箭羽 (远程单位和防御建筑 +1 攻击力和射程)"
+3501021 "研究锥子箭 (远程单位和防御建筑 +1 攻击力和射程)"
+3501022 "研究护腕 (远程单位和防御建筑 +1 攻击力和射程)"
 3501023 "研究射手软甲 (远程步兵和骑兵 +1 护甲/盾牌)"
 3501024 "研究射手皮甲 (远程步兵和骑兵 +1 护甲/盾牌)"
-3501025 "研究射手锁甲 (远程步兵和骑兵 +1 护甲/ 2盾牌)"
+3501025 "研究射手锁甲 (远程步兵和骑兵 +1 护甲/ 2 盾牌)"
 3501026 "研究纵火 (近战步兵 +5 攻击力 vs 建筑)"
 3501027 "研究扳指 (远程士兵 +15% 攻击速度和准确率, 不包括火药单位和特殊远程骑兵)"
 3501028 "研究石匠 (建筑 +10% 生命值)"
@@ -803,8 +821,8 @@
 3521002 "研究<b>马轭<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n农夫 +10% 采集效率。"
 3521003 "研究<b>耕犁<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n农夫 +10% 采集效率。"
 3521004 "研究<b>轮作<b> (<cost>, 105 <MATERIAL=MPIconGoodCPU>)\n农夫 +10% 采集效率。"
-3521005 "研究<b>双刃斧<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n村民伐木速度 +15%。"
-3521006 "研究<b>弓锯<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n村民伐木速度 +15%。"
+3521005 "研究<b>双刃斧<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n村民伐木速度 +20%。"
+3521006 "研究<b>弓锯<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n村民伐木速度 +20%。"
 3521007 "研究<b>双人锯<b> (<cost>, 105 <MATERIAL=MPIconGoodCPU>)\n村民存放的木材 +15%。"
 3521008 "研究<b>采矿业<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n村民采金和采石速度 +15%。"
 3521009 "研究<b>钻井采矿<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n村民采金和采石速度 +15%。"
@@ -838,7 +856,7 @@
 4000002 "长矛兵"
 4000003 "长枪兵"
 4000004 "长戟兵"
-4000005 "剑士"
+4000005 "长剑士"
 4000006 "精锐剑士"
 4000007 "步弓手"
 4000008 "老练步弓手"
@@ -1000,6 +1018,11 @@
 4000168 "精锐草原枪兵"
 4000169 "披甲战象"
 4000170 "攻城战象"
+4000171 "剑士"
+4000172 "早期日本武士"
+4000173 "早期瓦兰吉卫队"
+4000174 "早期靛蓝突袭者"
+4000175 "早期古拉姆"
 
 
 
@@ -1008,7 +1031,7 @@
 4001002 "生产长矛兵"
 4001003 "生产长枪兵"
 4001004 "生产长戟兵"
-4001005 "生产剑士"
+4001005 "生产长剑士"
 4001006 "生产精锐剑士"
 4001007 "生产步弓手"
 4001008 "生产老练步弓手"
@@ -1172,6 +1195,11 @@
 4001168 "生产精锐草原枪兵"
 4001169 "生产披甲战象"
 4001170 "生产攻城战象"
+4001171 "生产剑士"
+4001172 "生产早期日本武士"
+4001173 "生产早期瓦兰吉卫队"
+4001174 "生产早期靛蓝突袭者"
+4001175 "生产早期古拉姆"
 
 
 
@@ -1180,11 +1208,11 @@
 4021002 "生产<b><YELLOW>长矛兵<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 克制骑兵\n  + 成本低廉\n   - 近战能力弱\n   - 受到远程单位克制"
 4021003 "生产<b><YELLOW>长枪兵<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 克制骑兵\n  + 攻击力高\n   - 近战能力弱\n   - 受到远程单位克制"
 4021004 "生产<b><YELLOW>长戟兵<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 克制骑兵\n  + 攻击力高\n   - 近战能力弱\n   - 受到远程单位克制"
-4021005 "生产<b><YELLOW>剑士<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 近战能力强\n  + 通用性好\n   - 移动缓慢"
-4021006 "生产<b><YELLOW>精锐剑士<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 近战能力强\n  + 通用性好\n   - 移动缓慢"
-4021007 "生产<b><YELLOW>步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 成本低廉\n  + 克制轻甲单位\n   - 对重甲单位乏力"
-4021008 "生产<b><YELLOW>老练步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 成本低廉\n  + 克制轻甲单位\n   - 对重甲单位乏力"
-4021009 "生产<b><YELLOW>精锐步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 成本低廉\n  + 克制轻甲单位\n   - 对重甲单位乏力"
+4021005 "生产<b><YELLOW>长剑士<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 近战能力强\n  + 通用性好\n   - 移动缓慢"
+4021006 "生产<b><YELLOW>精锐剑士<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 近战能力强\n  + 通用性好\n   - 移动缓慢"
+4021007 "生产<b><YELLOW>步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 价格便宜\n  + 克制轻型单位\n   - 对重甲单位乏力"
+4021008 "生产<b><YELLOW>老练步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 价格便宜\n  + 克制轻型单位\n   - 对重甲单位乏力"
+4021009 "生产<b><YELLOW>精锐步弓手<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 价格便宜\n  + 克制轻型单位\n   - 对重甲单位乏力"
 4021010 "生产<b><YELLOW>弩手<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 攻击力高\n  + 克制重甲单位\n   - 射速较慢"
 4021011 "生产<b><YELLOW>劲弩手<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 攻击力高\n  + 克制重甲单位\n   - 射速较慢"
 4021012 "生产<b><YELLOW>鹰斥候<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 移动迅速\n  + 盾牌较高\n  + 克制骑兵\n   - 护甲薄弱"
@@ -1344,3 +1372,8 @@
 4021168 "生产<b><YELLOW>精锐草原枪兵<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\n轻型近战骑兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 拥有 1 格射程\n  + 移动迅速\n   - 护甲薄弱"
 4021169 "生产<b><YELLOW>披甲战象<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\n重型近战骑兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 对建筑和攻城武器破坏力极强\n  + 几乎免疫远程攻击\n   - 受到长矛兵克制"
 4021170 "生产<b><YELLOW>攻城战象<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\n重型近战骑兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 对建筑和攻城武器破坏力极强\n  + 几乎免疫远程攻击\n   - 受到长矛兵克制"
+4021171 "生产<b><YELLOW>剑士<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 近战能力强\n  + 通用性好\n   - 移动缓慢"
+4021172 "生产<b><YELLOW>早期日本武士<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREEN>日本独有<GREEN>\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 可在封建时代训练\n  + 克制独特单位\n  + 攻击速度快\n  + 具有冲锋能力\n   - 护甲薄弱"
+4021173 "生产<b><YELLOW>早期瓦兰吉卫队<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n重型近战步兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 可在封建时代训练\n  + 战斗时产生黄金\n  + 近战强力\n   - 盾牌较低"
+4021174 "生产<b><YELLOW>早期靛蓝突袭者<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREEN>凯尔特独有<GREEN>\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 可在封建时代训练\n  + 移动迅速\n  + 攻击力高\n   - 护甲薄弱"
+4021175 "生产<b><YELLOW>早期古拉姆<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n轻型近战步兵\n<GREEN>印度独有<GREEN>\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 可在封建时代训练\n  + 可穿刺敌人身后的目标\n  + 克制远程单位\n   - 不适于攻击骑兵"

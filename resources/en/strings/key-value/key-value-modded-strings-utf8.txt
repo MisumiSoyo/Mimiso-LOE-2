@@ -291,7 +291,7 @@
 
 // Short Descriptions
 // BRITONS
-1501001 "Research Yeomen (Archers and Skirmisher-line +1 range; Watch Tower-line +2 attack)"
+1501001 "Research Yeomen (Longbowmen +1 range)"
 1501002 "Research Warwolf (Trebuchets deal blast damage and are more accurate)"
 // FRANKS
 1501003 "Ordonnance Companies (Mounted Crossbowmen cost -40% gold)"
@@ -461,7 +461,7 @@
 
 // Detailed Descriptions
 // BRITONS
-1521001 "Research <b>Yeomen<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nArchers and Skirmisher-line +1 range; Watch Tower-line +2 attack."
+1521001 "Research <b>Yeomen<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nLongbowmen +1 range."
 1521002 "Research <b>Warwolf<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nTrebuchets deal blast damage and are more accurate."
 // FRANKS
 1521003 "Research <b>Ordonnance Companies<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nMounted Crossbowmen cost -40% gold."
@@ -675,6 +675,12 @@
 3000025 "Siege Onager"
 3000026 "Heavy Scorpion"
 3000027 "Longbowman"
+3000028 "Mangudai"
+3000029 "Long Swordsman"
+3000030 "Samurai"
+3000031 "Varangian Guard"
+3000033 "Woad Raider"
+3000034 "Ghulam"
 
 
 
@@ -705,6 +711,12 @@
 3001025 "Upgrade to Siege Onager"
 3001026 "Upgrade to Heavy Scorpion"
 3001027 "Upgrade to Longbowman"
+3001028 "Upgrade to Mangudai"
+3001029 "Upgrade to Long Swordsman"
+3001030 "Upgrade to Samurai"
+3001031 "Upgrade to Varangian Guard"
+3001033 "Upgrade to Woad Raider"
+3001034 "Upgrade to Ghulam"
 
 
 
@@ -735,6 +747,12 @@
 3021025 "Upgrade to <b>Siege Onager<b> (<cost>, 150 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Onagers into the more powerful Siege Onagers."
 3021026 "Upgrade to <b>Heavy Scorpion<b> (<cost>, 50 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Scorpions into the more powerful Heavy Scorpions."
 3021027 "Upgrade to <b>Longbowman<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Longbowmen into the more powerful Longbowmen."
+3021028 "Upgrade to <b>Mangudai<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Mangudai into the more powerful Mangudais."
+3021029 "Upgrade to <b>Long Swordsman<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Men-at-Arms into the more powerful Long Swordsmen."
+3021030 "Upgrade to <b>Samurai<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Samurai into the more powerful Samurai."
+3021031 "Upgrade to <b>Varangian Guard<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Varangian Guards into the more powerful Varangian Guards."
+3021033 "Upgrade to <b>Woad Raider<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Woad Raiders into the more powerful Woad Raiders."
+3021034 "Upgrade to <b>Ghulam<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Ghulams into the more powerful Ghulams."
 
 
 
@@ -1000,6 +1018,11 @@
 4000168 "Elite Steppe Lancer"
 4000169 "Armored Elephant"
 4000170 "Siege Elephant"
+4000171 "Man-at-Arms"
+4000172 "Early Samurai"
+4000173 "Early Varangian Guard"
+4000174 "Early Woad Raider"
+4000175 "Early Ghulam"
 
 // Short Description
 4001001 "Create Early Spearman"
@@ -1170,13 +1193,18 @@
 4001168 "Create Elite Steppe Lancer"
 4001169 "Create Armored Elephant"
 4001170 "Create Siege Elephant"
+4001171 "Create Man-at-Arms"
+4001172 "Create Early Samurai"
+4001173 "Create Early Varangian Guard"
+4001174 "Create Early Woad Raider"
+4001175 "Create Early Ghulam"
 
 // Detailed Description
 4021001 "Create <b><YELLOW>Early Spearman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Inexpensive\n   - Weak in melee\n   - Countered by ranged units"
 4021002 "Create <b><YELLOW>Spearman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Inexpensive\n   - Weak in melee\n   - Countered by ranged units"
 4021003 "Create <b><YELLOW>Pikeman<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + High attack\n   - Weak in melee\n   - Countered by ranged units"
 4021004 "Create <b><YELLOW>Halberdier<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + High attack\n   - Weak in melee\n   - Countered by ranged units"
-4021005 "Create <b><YELLOW>Swordsman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
+4021005 "Create <b><YELLOW>Swordsman<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
 4021006 "Create <b><YELLOW>Elite Swordsman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
 4021007 "Create <b><YELLOW>Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
 4021008 "Create <b><YELLOW>Veteran Archer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Inexpensive\n  + Strong vs. lightly armored units\n   - Weak vs. heavy armor"
@@ -1340,3 +1368,8 @@
 4021168 "Create <b><YELLOW>Elite Steppe Lancer<DEFAULT><b> (<cost>, 20 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Has 1 range\n  + Fast\n   - Low armor"
 4021169 "Create <b><YELLOW>Armored Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Highly effective vs. buildings and siege weapons\n  + Nearly immune to ranged attacks\n   - Countered by spearman"
 4021170 "Create <b><YELLOW>Siege Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Highly effective vs. buildings and siege weapons\n  + Nearly immune to ranged attacks\n   - Countered by spearman"
+4021171 "Create <b><YELLOW>Man-at-Arms<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong in melee\n  + Versatile\n   - Slow movement"
+4021172 "Create <b><YELLOW>Early Samurai<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREEN>Unique to Japanese<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Strong vs. unique units\n  + Fast attack speed\n  + Has charge ability\n   - Weak melee armor"
+4021173 "Create <b><YELLOW>Early Varangian Guard<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nHeavy melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Generates gold in combat\n  + Strong in melee\n   - Low pierce armor"
+4021174 "Create <b><YELLOW>Early Woad Raider<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Celts<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Fast movement\n  + High attack\n   - Weak melee armor"
+4021175 "Create <b><YELLOW>Early Ghulam<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREEN>Unique to Indians<GREEN>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + available in the Feudal Age\n  + Can pierce through enemies behind the target\n  + Strong vs. ranged units\n   - Ineffective vs. cavalry"

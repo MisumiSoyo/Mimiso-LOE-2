@@ -191,6 +191,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -231,11 +237,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -1192,6 +1203,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -1217,11 +1234,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -2278,6 +2300,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -2308,11 +2336,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -3312,6 +3345,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -3342,11 +3381,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -4382,6 +4426,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -4412,11 +4462,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -5428,6 +5483,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -5458,11 +5519,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -7599,6 +7665,11 @@
                         "RequiredAge": 3
                     },
                     {
+                        "ID": 3012,
+                        "Name": "Woad Raider",
+                        "RequiredAge": 3
+                    },
+                    {
                         "ID": 370,
                         "Name": "Elite Woad Raider",
                         "RequiredAge": 4
@@ -7626,9 +7697,15 @@
                         "RequiredAge": 4
                     },
                     {
+                        "ID": 4008,
+                        "Name": "Early Woad Raider",
+                        "RequiredAge": 2
+                    },
+                    {
                         "ID": 232,
                         "Name": "Woad Raider",
-                        "RequiredAge": 3
+                        "RequiredAge": 3,
+                        "RequiredUnitID": 4008
                     },
                     {
                         "ID": 534,
@@ -8630,6 +8707,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -8665,11 +8748,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -9706,6 +9794,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -9736,11 +9830,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -10734,6 +10833,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -10764,11 +10869,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -11818,6 +11928,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -11853,11 +11969,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -12875,6 +12996,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -12910,11 +13037,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -13879,6 +14011,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -13909,11 +14047,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -15870,6 +16013,11 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 3013,
+                        "Name": "Ghulam",
+                        "RequiredAge": 3
+                    },
+                    {
                         "ID": 840,
                         "Name": "Elite Ghulam",
                         "RequiredAge": 4
@@ -15892,9 +16040,15 @@
                         "RequiredAge": 3
                     },
                     {
+                        "ID": 4009,
+                        "Name": "Early Ghulam",
+                        "RequiredAge": 2
+                    },
+                    {
                         "ID": 1747,
                         "Name": "Ghulam",
-                        "RequiredAge": 3
+                        "RequiredAge": 3,
+                        "RequiredUnitID": 4009
                     },
                     {
                         "ID": 1749,
@@ -16861,6 +17015,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -16886,11 +17046,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -17950,6 +18115,11 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 3010,
+                        "Name": "Samurai",
+                        "RequiredAge": 3
+                    },
+                    {
                         "ID": 366,
                         "Name": "Elite Samurai",
                         "RequiredAge": 4
@@ -17977,9 +18147,15 @@
                         "RequiredAge": 4
                     },
                     {
+                        "ID": 4006,
+                        "Name": "Early Samurai",
+                        "RequiredAge": 2
+                    },
+                    {
                         "ID": 291,
                         "Name": "Samurai",
-                        "RequiredAge": 3
+                        "RequiredAge": 3,
+                        "RequiredUnitID": 4006
                     },
                     {
                         "ID": 560,
@@ -18966,6 +19142,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -18991,11 +19173,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -20056,6 +20243,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -20091,11 +20284,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -21113,6 +21311,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -21143,11 +21347,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -22164,6 +22373,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -22189,11 +22404,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -23175,6 +23395,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -23205,11 +23431,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -24241,6 +24472,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -24266,11 +24503,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -25279,6 +25521,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -25319,11 +25567,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -26299,6 +26552,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -26324,11 +26583,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -27359,6 +27623,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -27389,11 +27659,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -28465,6 +28740,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -28490,11 +28771,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -29521,6 +29807,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -29546,11 +29838,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -30592,6 +30889,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -30622,11 +30925,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -31619,6 +31927,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -31649,11 +31963,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -32668,6 +32987,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -32698,11 +33023,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -33764,6 +34094,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -33794,11 +34130,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -34847,6 +35188,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -34882,11 +35229,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -35961,6 +36313,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "ID": 215,
                         "Name": "Squires",
                         "RequiredAge": 3
@@ -35980,11 +36338,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -37065,6 +37428,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -37100,11 +37469,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -39118,6 +39492,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -39143,11 +39523,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -40134,6 +40519,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -40164,11 +40555,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -41184,6 +41580,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -41214,11 +41616,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -42221,6 +42628,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -42251,11 +42664,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -43281,6 +43699,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
@@ -43295,11 +43719,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -44302,6 +44731,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "ID": 885,
                         "Name": "Legionary",
                         "RequiredAge": 4
@@ -44332,11 +44767,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -45298,6 +45738,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 2,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -45328,11 +45774,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -46339,6 +46790,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -46369,11 +46826,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -47373,6 +47835,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -47403,11 +47871,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -48368,6 +48841,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -48398,11 +48877,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -49389,6 +49873,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -49419,11 +49909,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -50426,11 +50921,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -51460,6 +51960,12 @@
                         "RequiredAge": 2
                     },
                     {
+                        "ID": 207,
+                        "Name": "Long Swordsman",
+                        "RequiredAge": 3,
+                        "RequiredTechID": 222
+                    },
+                    {
                         "Name": "Spearman",
                         "RequiredAge": 2,
                         "ID": 3001
@@ -51490,11 +51996,16 @@
                     {
                         "ID": 74,
                         "Name": "Militia",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 75,
                         "Name": "Man-at-Arms",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Long Swordsman",
                         "RequiredAge": 4
                     },
                     {
@@ -58695,6 +59206,11 @@
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
+                    },
+                    {
+                        "Name": "Varangian Guard",
+                        "RequiredAge": 3,
+                        "ID": 3011
                     }
                 ],
                 "Units": [
@@ -58717,6 +59233,11 @@
                         "ID": 359,
                         "Name": "Halberdier",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 4007,
+                        "Name": "Early Varangian Guard",
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 2703,

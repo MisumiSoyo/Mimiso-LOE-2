@@ -19,7 +19,7 @@
             "civ_id": ["JAPANESE", "BYZANTINES", "VIKINGS", "CELTS", "INDIANS", "SAXONS", "VARANGIANS", "DANES"],
             "note": "部分文明移除剑士系",
             "Use Type": "Unit",
-            "Node ID": [74, 75]
+            "Node ID": [74, 75, 77]
         },
         {
             "action": "delete",

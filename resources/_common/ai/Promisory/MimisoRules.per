@@ -6,7 +6,9 @@
 ; 内容:
 ;   0) 禁用黑暗rush (drush): 把 strategy=drush 重定向到 usual 并关
 ;      drushmicro, 官方所有 drush 规则因条件不满足自动失效
-;   1) 点 早期长矛兵 -> 长矛兵 的升级      (研究 3001)
+;   1) 早期形态升级: 长矛兵(3001), 蒙古突骑(3009),
+;      日本武士(3010), 瓦兰吉卫队(3011), 靛蓝突袭者(3012),
+;      古拉姆(3013) —— 早期单位数 >3 且可研究即点
 ;   2) [已停用 10-19] 反应式出弩手系, 由 MimisoXSBridge 接管
 ;   3) 升级精锐弩手(劲弩手)                (研究 3007)
 ;   4) 经济适配 (2026-10-17, 10-19 修订):
@@ -50,6 +52,10 @@
 (defconst mimiso-t-spearman-upg 3001)     ; 长矛兵 升级科技 (早期长矛兵 -> 长矛兵)
 (defconst mimiso-t-arbalester-upg 3007)   ; 劲弩手 升级科技 (弩手 -> 劲弩手)
 (defconst mimiso-t-mangudai-upg 3009)     ; 蒙古突骑 升级科技 (早期蒙古突骑 → 蒙古突骑)
+(defconst mimiso-t-samurai-upg 3010)     ; 日本武士 升级科技 (早期日本武士 → 日本武士)
+(defconst mimiso-t-varangian-guard-upg 3011)     ; 瓦兰吉卫队 升级科技 (早期瓦兰吉卫队 → 瓦兰吉卫队)
+(defconst mimiso-t-woad-raider-upg 3012)     ; 靛蓝突袭者 升级科技 (早期靛蓝突袭者 → 靛蓝突袭者)
+(defconst mimiso-t-ghulam-upg 3013)     ; 古拉姆 升级科技 (早期古拉姆 → 古拉姆)
 (defconst mimiso-goldbank 3030)           ; 封建金农锁存位 (官方 3020-3029 已占用, 3030 起空闲)
 
 ; ---- 0) 禁用黑暗rush (drush) ----
@@ -78,6 +84,36 @@
     (can-research mimiso-t-mangudai-upg)
 =>
     (research mimiso-t-mangudai-upg)
+)
+
+; 早期形态 (4006-4009) 已注册进 unitlines 各线 IDChain,
+; 按 *-line 符号计数即可, 引擎自动解析当前形态
+(defrule
+    (unit-type-count-total samurai-line > 3)
+    (can-research mimiso-t-samurai-upg)
+=>
+    (research mimiso-t-samurai-upg)
+)
+
+(defrule
+    (unit-type-count-total varangian-guard-line > 3)
+    (can-research mimiso-t-varangian-guard-upg)
+=>
+    (research mimiso-t-varangian-guard-upg)
+)
+
+(defrule
+    (unit-type-count-total woad-raider-line > 3)
+    (can-research mimiso-t-woad-raider-upg)
+=>
+    (research mimiso-t-woad-raider-upg)
+)
+
+(defrule
+    (unit-type-count-total ghulam-line > 3)
+    (can-research mimiso-t-ghulam-upg)
+=>
+    (research mimiso-t-ghulam-upg)
 )
 
 ; ---- 2) 出弩手系 (反应式: 敌方重甲目标成规模才出) ----
