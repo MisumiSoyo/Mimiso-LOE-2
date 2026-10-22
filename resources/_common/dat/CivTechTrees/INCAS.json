@@ -573,7 +573,7 @@
             "Use Type": "Unit",
             "Node ID": 4002,
             "Name": "LOE Crossbowman",
-            "Node Status": "ResearchedCompleted",
+            "Node Status": "NotAvailable",
             "Age ID": 3,
             "Building ID": 87,
             "Draw Node Type": "UnitTech",
@@ -597,7 +597,38 @@
             "Draw Node Type": "UnitTech",
             "Name String ID": 4000011,
             "Help String ID": 4100011,
-            "Picture Index": 90
+            "Picture Index": 90,
+            "Node Status": "NotAvailable"
+        },
+        {
+            "Name": "Skirmisher",
+            "Node Type": "Unit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5088,
+            "Age ID": 2,
+            "Building ID": 87,
+            "Help String ID": 4100089,
+            "Node ID": 7,
+            "Picture Index": 20
+        },
+        {
+            "Name": "Elite Skirmisher",
+            "Node Type": "UnitUpgrade",
+            "Link Node Type": "Unit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5087,
+            "Age ID": 3,
+            "Building ID": 87,
+            "Help String ID": 4100090,
+            "Link ID": 7,
+            "Node ID": 6,
+            "Picture Index": 21,
+            "Trigger Tech ID": 98
         },
         {
             "Name": "Hand Cannoneer",
@@ -625,8 +656,7 @@
                 "None",
                 "None",
                 "None"
-            ],
-            "Link ID": 492
+            ]
         },
         {
             "Name": "Cavalry Archer",
@@ -668,7 +698,7 @@
             "Name String ID": 5690,
             "Age ID": 3,
             "Building ID": 87,
-            "Help String ID": 105690,
+            "Help String ID": 4100172,
             "Node ID": 185,
             "Picture Index": 143
         },
@@ -856,6 +886,36 @@
             "Node ID": 359,
             "Picture Index": 104,
             "Trigger Tech ID": 429
+        },
+        {
+            "Name": "Kamayuk",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5686,
+            "Age ID": 3,
+            "Building ID": 12,
+            "Help String ID": 4100113,
+            "Node ID": 879,
+            "Picture Index": 97
+        },
+        {
+            "Name": "Elite Kamayuk",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5688,
+            "Age ID": 4,
+            "Building ID": 12,
+            "Help String ID": 4100114,
+            "Link ID": 879,
+            "Node ID": 881,
+            "Picture Index": 495,
+            "Trigger Tech ID": 509
         },
         {
             "Name": "Arson",
@@ -1985,36 +2045,6 @@
             "Help String ID": 107377,
             "Node ID": 373,
             "Picture Index": 97
-        },
-        {
-            "Name": "Kamayuk",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5686,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105686,
-            "Node ID": 879,
-            "Picture Index": 97
-        },
-        {
-            "Name": "Elite Kamayuk",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5688,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105688,
-            "Link ID": 879,
-            "Node ID": 881,
-            "Picture Index": 495,
-            "Trigger Tech ID": 509
         },
         {
             "Name": "Petard",

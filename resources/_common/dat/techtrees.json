@@ -37,7 +37,14 @@
         },
         {
             "action": "delete",
-            "civ_id": ["BYZANTINES", "MONGOLS", "HUNS"],
+            "civ_id": ["MAGYAR"],
+            "note": "部分文明移除斥候骑兵系",
+            "Use Type": "Unit",
+            "Node ID": [448, 546, 441]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["BYZANTINES", "MONGOLS", "HUNS", "SLAVS"],
             "note": "部分文明移除骑士系",
             "Use Type": "Unit",
             "Node ID": [38, 283]
@@ -188,6 +195,20 @@
             "note": "匈奴科技树",
             "TechIDs": [],
             "UnitIDs": [4002, 4003]
+        },
+        {
+            "action": "disable",
+            "civ_id": "INCAS",
+            "note": "印加科技树",
+            "TechIDs": [],
+            "UnitIDs": [4002, 4003]
+        },
+        {
+            "action": "enable",
+            "civ_id": "SLAVS",
+            "note": "斯拉夫科技树",
+            "TechIDs": [252],
+            "UnitIDs": []
         }
     ]
 }

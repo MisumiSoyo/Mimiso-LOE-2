@@ -10,6 +10,7 @@ extern const int LOEAttrExtraStone = 803;
 
 
 //  Custom Unit IDs
+extern const int LOEEarlyMagyarHuszarID = 4006;
 
 
 
@@ -103,6 +104,9 @@ extern const int FemaleHunterID = 216;
 extern const int FemaleLumberjackID = 218;
 extern const int FemaleStoneMinerID = 220;
 extern const int FemaleRepairerID = 222;
+extern const int GuardTowerID = 234;
+extern const int KeepID = 235;
+extern const int BombardTowerID = 236;
 extern const int WarElephantID = 239;
 extern const int LongBoatID = 250;
 extern const int FemaleFarmerID = 259;
@@ -228,6 +232,7 @@ extern const int KeshikID = 1228;
 extern const int EliteKeshikID = 1230;
 extern const int KipchakID = 1231;
 extern const int EliteKipchakID = 1233;
+extern const int KrepostID = 1251;
 extern const int FootKonnikID = 1252;
 extern const int EliteFootKonnikID = 1253;
 extern const int FeudalBatteringRamID = 1258;
@@ -240,6 +245,7 @@ extern const int CoustillierID = 1655;
 extern const int EliteCoustillierID = 1657;
 extern const int SerjeantID = 1658;
 extern const int EliteSerjeantID = 1659;
+extern const int DonjonID = 1665;
 extern const int FlemishPikemanID = 1699;
 extern const int HussiteWagonID = 1704;
 extern const int EliteHussiteWagonID = 1706;

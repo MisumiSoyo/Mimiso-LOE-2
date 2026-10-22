@@ -14775,14 +14775,14 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 437,
-                        "Name": "Thumb Ring",
+                        "ID": 98,
+                        "Name": "Elite Skirmisher",
                         "RequiredAge": 3
                     },
                     {
-                        "Name": "Arbalester",
-                        "RequiredAge": 4,
-                        "ID": 3007
+                        "ID": 437,
+                        "Name": "Thumb Ring",
+                        "RequiredAge": 3
                     }
                 ],
                 "Units": [
@@ -14802,15 +14802,14 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 4002,
-                        "Name": "LOE Crossbowman",
-                        "RequiredAge": 3
+                        "ID": 7,
+                        "Name": "Skirmisher",
+                        "RequiredAge": 2
                     },
                     {
-                        "ID": 4003,
-                        "Name": "LOE Arbalester",
-                        "RequiredAge": 4,
-                        "RequiredUnitID": 4002
+                        "ID": 6,
+                        "Name": "Elite Skirmisher",
+                        "RequiredAge": 3
                     },
                     {
                         "ID": 185,
@@ -14865,6 +14864,11 @@
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
+                    },
+                    {
+                        "ID": 509,
+                        "Name": "Elite Kamayuk",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -14907,6 +14911,17 @@
                         "ID": 359,
                         "Name": "Halberdier",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 879,
+                        "Name": "Kamayuk",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 881,
+                        "Name": "Elite Kamayuk",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 879
                     }
                 ]
             },
@@ -15350,11 +15365,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 509,
-                        "Name": "Elite Kamayuk",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 516,
                         "Name": "Andean Sling",
                         "RequiredAge": 3
@@ -15386,16 +15396,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 879,
-                        "Name": "Kamayuk",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 881,
-                        "Name": "Elite Kamayuk",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -22223,16 +22223,6 @@
                 "Name": "Stable",
                 "Techs": [
                     {
-                        "ID": 254,
-                        "Name": "Light Cavalry",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 428,
-                        "Name": "Hussar",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 435,
                         "Name": "Bloodlines",
                         "RequiredAge": 2
@@ -22246,25 +22236,19 @@
                         "ID": 39,
                         "Name": "Husbandry",
                         "RequiredAge": 3
-                    }
-                ],
-                "Units": [
-                    {
-                        "ID": 448,
-                        "Name": "Scout Cavalry",
-                        "RequiredAge": 2
                     },
                     {
-                        "ID": 546,
-                        "Name": "Light Cavalry",
+                        "ID": 3010,
+                        "Name": "Magyar Huszar",
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 441,
-                        "Name": "Hussar",
-                        "RequiredAge": 4,
-                        "RequiredUnitID": 546
-                    },
+                        "ID": 472,
+                        "Name": "Elite Magyar Huszar",
+                        "RequiredAge": 4
+                    }
+                ],
+                "Units": [
                     {
                         "ID": 38,
                         "Name": "Knight",
@@ -22274,6 +22258,23 @@
                         "ID": 283,
                         "Name": "Cavalier",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 869,
+                        "Name": "Magyar Huszar",
+                        "RequiredAge": 3,
+                        "RequiredUnitID": 4006
+                    },
+                    {
+                        "ID": 4006,
+                        "Name": "LOE Early Magyar Huszar",
+                        "RequiredAge": 2
+                    },
+                    {
+                        "ID": 871,
+                        "Name": "Elite Magyar Huszar",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 869
                     }
                 ]
             },
@@ -22684,11 +22685,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 472,
-                        "Name": "Elite Magyar Huszar",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 514,
                         "Name": "Corvinian Army",
                         "RequiredAge": 3
@@ -22720,16 +22716,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 869,
-                        "Name": "Magyar Huszar",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 871,
-                        "Name": "Elite Magyar Huszar",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -31698,14 +31684,14 @@
                         "RequiredAge": 2
                     },
                     {
-                        "ID": 209,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 39,
                         "Name": "Husbandry",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 504,
+                        "Name": "Elite Boyar",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -31726,14 +31712,15 @@
                         "RequiredUnitID": 546
                     },
                     {
-                        "ID": 38,
-                        "Name": "Knight",
+                        "ID": 876,
+                        "Name": "Boyar",
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 283,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
+                        "ID": 878,
+                        "Name": "Elite Boyar",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 876
                     }
                 ]
             },
@@ -32165,11 +32152,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 504,
-                        "Name": "Elite Boyar",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 455,
                         "Name": "Detinets",
                         "RequiredAge": 3
@@ -32201,16 +32183,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 876,
-                        "Name": "Boyar",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 878,
-                        "Name": "Elite Boyar",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -32271,6 +32243,11 @@
                     {
                         "ID": 231,
                         "Name": "Sanctity",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 252,
+                        "Name": "Fervor",
                         "RequiredAge": 3
                     }
                 ],

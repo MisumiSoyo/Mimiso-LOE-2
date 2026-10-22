@@ -13,7 +13,7 @@
         "移除掷矛手的文明":
         {
             "all": true,
-            "exclude": ["BYZANTINES", "AZTECS", "MAYANS", "VIETNAMESE"]
+            "exclude": ["BYZANTINES", "AZTECS", "MAYANS", "INCAS", "VIETNAMESE"]
         }
     },
     "changes":
