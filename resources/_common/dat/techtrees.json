@@ -2,14 +2,8 @@
     "changes":
     [
         {
-            "action": "enable",
-            "civ_id": "all",
-            "note": "步弓手系通用",
-            "UnitIDs": [4, 24, 492]
-        },
-        {
             "action": "delete",
-            "civ_id": ["BRITONS"],
+            "civ_id": ["BRITONS", "CHINESE", "MAYANS", "ITALIANS"],
             "note": "部分文明移除步弓手系",
             "Use Type": "Unit",
             "Node ID": [4, 24, 492]
@@ -20,13 +14,6 @@
             "note": "部分文明移除剑士系",
             "Use Type": "Unit",
             "Node ID": [74, 75, 77]
-        },
-        {
-            "action": "delete",
-            "civ_id": ["CHINESE", "MAYANS", "ITALIANS"],
-            "note": "部分文明移除弩手系",
-            "Use Type": "Unit",
-            "Node ID": [4002, 4003]
         },
         {
             "action": "delete",
@@ -110,7 +97,7 @@
             "civ_id": "PERSIANS",
             "note": "波斯科技树",
             "TechIDs": [377, 201],
-            "UnitIDs": [492]
+            "UnitIDs": []
         },
         {
             "action": "enable",
@@ -166,13 +153,13 @@
             "civ_id": "SPANISH",
             "note": "西班牙科技树",
             "TechIDs": [],
-            "UnitIDs": [5, 24, 492]
+            "UnitIDs": [5]
         },
         {
             "action": "enable",
             "civ_id": "AZTECS",
             "note": "阿兹特克科技树",
-            "TechIDs": [437],
+            "TechIDs": [],
             "UnitIDs": []
         },
         {
@@ -180,14 +167,14 @@
             "civ_id": "AZTECS",
             "note": "阿兹特克科技树",
             "TechIDs": [],
-            "UnitIDs": [4002, 4003]
+            "UnitIDs": []
         },
         {
             "action": "disable",
             "civ_id": "HUNS",
             "note": "匈奴科技树",
             "TechIDs": [],
-            "UnitIDs": [4002, 4003]
+            "UnitIDs": []
         }
     ]
 }

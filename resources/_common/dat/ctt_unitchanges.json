@@ -108,64 +108,6 @@
             "Age ID": 2
         },
         {
-            "action": "delete",
-            "civ_id": "移除掷矛手的文明",
-            "note": "掷矛手系不再作为通用单位",
-            "Use Type": "Unit",
-            "Node ID": [7, 6, 1155]
-        },
-        {
-            "action": "add",
-            "civ_id": "all",
-            "note": "靶场: 新增弩手(4002, 城堡时代), 弩手系链首; UnitLine -316 为LOE新线(有效区间(-400,-199)内未占用); 单位对象待dat侧新建",
-            "Use Type": "Unit",
-            "Node ID": 4002,
-            "Name": "LOE Crossbowman",
-            "Node Status": "ResearchedCompleted",
-            "Age ID": 3,
-            "Building ID": 87,
-            "UnitLine": -316,
-            "UnitLineIndex": 0,
-            "position": "after",
-            "target_id": 492
-        },
-        {
-            "action": "add",
-            "civ_id": "all",
-            "note": "靶场: 新增劲弩手(4003, 帝王时代), 从弩手(4002)升级而来, 升级科技3007(待dat侧新建)",
-            "Use Type": "Unit",
-            "Node ID": 4003,
-            "Name": "LOE Arbalester",
-            "Node Type": "UnitUpgrade",
-            "Age ID": 4,
-            "Building ID": 87,
-            "Link ID": 4002,
-            "Link Node Type": "Unit",
-            "Trigger Tech ID": 3007,
-            "UnitLine": -316,
-            "UnitLineIndex": 1,
-            "position": "after",
-            "target_id": 4002
-        },
-        {
-            "civilizations": "all",
-            "type": "add",
-            "note": "FAU: 靶场Techs加入升级科技3007(劲弩手, 帝王时代)",
-            "building_id": 87,
-            "tech_id": 3007,
-            "Name": "Arbalester",
-            "RequiredAge": 4
-        },
-        {
-            "action": "modify",
-            "civ_id": "移除掷矛手的文明",
-            "note": "删除掷矛手系后, 一般文明火枪手(5)的排版挂靠 Link ID 6(精锐掷矛手) 悬空; 改挂到 492(精锐步弓手), 保持 Link Node Type=BuildingTech 仅作排版",
-            "Use Type": "Unit",
-            "Node ID": 5,
-            "Link ID": 492,
-            "Link Node Type": "BuildingTech"
-        },
-        {
             "action": "modify",
             "civ_id": "BRITONS",
             "note": "不列颠火枪手改挂到精锐长弓兵后",
@@ -329,8 +271,7 @@
             "Use Type": "Unit",
             "Node ID": [559, 73],
             "Building ID": 87,
-            "position": "after",
-            "target_id": 492
+            "position": "first"
         },
         {
             "action": "modify",
