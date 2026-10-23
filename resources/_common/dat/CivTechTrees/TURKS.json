@@ -110,22 +110,6 @@
             "Picture Index": 33
         },
         {
-            "Name": "Outpost",
-            "Node Type": "BuildingNonTech",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "Building",
-            "Use Type": "Building",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5504,
-            "Age ID": 1,
-            "Building ID": 598,
-            "Building in new column": false,
-            "Building upgraded from ID": -1,
-            "Help String ID": 105504,
-            "Node ID": 598,
-            "Picture Index": 38
-        },
-        {
             "Name": "Watch Tower",
             "Node Type": "BuildingNonTech",
             "Link Node Type": "BuildingNonTech",
@@ -133,12 +117,12 @@
             "Use Type": "Building",
             "Node Status": "ResearchedCompleted",
             "Name String ID": 5178,
-            "Age ID": 2,
+            "Age ID": 1,
             "Building ID": 79,
             "Building in new column": false,
             "Building upgraded from ID": -1,
-            "Help String ID": 105178,
-            "Link ID": 598,
+            "Help String ID": 4100173,
+            "Link ID": -1,
             "Node ID": 79,
             "Picture Index": 25
         },
@@ -150,28 +134,29 @@
             "Use Type": "Building",
             "Node Status": "ResearchRequired",
             "Name String ID": 5154,
-            "Age ID": 3,
+            "Age ID": 2,
             "Building ID": 234,
             "Building in new column": false,
-            "Building upgraded from ID": 79,
-            "Help String ID": 105154,
+            "Building upgraded from ID": -1,
+            "Help String ID": 4100174,
             "Link ID": 79,
             "Node ID": 234,
             "Picture Index": 27,
             "Prerequisite IDs": [
-                140,
-                0,
-                0,
-                0,
-                0
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
             ],
             "Prerequisite Types": [
-                "Tech",
+                "None",
                 "None",
                 "None",
                 "None",
                 "None"
-            ]
+            ],
+            "Trigger Tech ID": 140
         },
         {
             "Name": "Keep",
@@ -180,29 +165,30 @@
             "Draw Node Type": "Building",
             "Use Type": "Building",
             "Node Status": "ResearchRequired",
-            "Name String ID": 5155,
-            "Age ID": 4,
-            "Building ID": 235,
+            "Name String ID": 4000175,
+            "Age ID": 3,
+            "Building ID": 79,
             "Building in new column": false,
-            "Building upgraded from ID": 234,
-            "Help String ID": 105155,
-            "Link ID": 234,
+            "Building upgraded from ID": -1,
+            "Help String ID": 4100175,
+            "Link ID": -1,
             "Node ID": 235,
             "Picture Index": 26,
             "Prerequisite IDs": [
-                63,
-                0,
-                0,
-                0,
-                0
+                -1,
+                -1,
+                -1,
+                -1,
+                -1
             ],
             "Prerequisite Types": [
-                "Tech",
+                "None",
                 "None",
                 "None",
                 "None",
                 "None"
-            ]
+            ],
+            "Trigger Tech ID": 63
         },
         {
             "Name": "Bombard Tower",
@@ -213,19 +199,19 @@
             "Node Status": "ResearchRequired",
             "Name String ID": 5156,
             "Age ID": 4,
-            "Building ID": 236,
+            "Building ID": 79,
             "Building in new column": false,
-            "Building upgraded from ID": -1,
-            "Help String ID": 105156,
-            "Link ID": 235,
+            "Building upgraded from ID": 79,
+            "Help String ID": 4100176,
+            "Link ID": -1,
             "Node ID": 236,
             "Picture Index": 42,
             "Prerequisite IDs": [
-                64,
-                0,
-                0,
-                0,
-                0
+                47,
+                -1,
+                -1,
+                -1,
+                -1
             ],
             "Prerequisite Types": [
                 "Tech",
@@ -233,7 +219,8 @@
                 "None",
                 "None",
                 "None"
-            ]
+            ],
+            "Trigger Tech ID": 64
         },
         {
             "Name": "Palisade Wall",
@@ -1827,21 +1814,6 @@
             "Picture Index": 12
         },
         {
-            "Name": "Bombard Tower",
-            "Node Type": "Research",
-            "Link Node Type": "Research",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 7320,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 105156,
-            "Link ID": 47,
-            "Node ID": 64,
-            "Picture Index": 47
-        },
-        {
             "Name": "Ballistics",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -1868,35 +1840,6 @@
             "Help String ID": 107378,
             "Node ID": 377,
             "Picture Index": 101
-        },
-        {
-            "Name": "Guard Tower",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 7186,
-            "Age ID": 3,
-            "Building ID": 209,
-            "Help String ID": 107186,
-            "Node ID": 140,
-            "Picture Index": 76
-        },
-        {
-            "Name": "Keep",
-            "Node Type": "Research",
-            "Link Node Type": "Research",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 7063,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107063,
-            "Link ID": 140,
-            "Node ID": 63,
-            "Picture Index": 16
         },
         {
             "Name": "Heated Shot",

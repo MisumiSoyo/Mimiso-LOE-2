@@ -207,6 +207,47 @@
             "Node ID": 54,
             "position": "before",
             "target_id": 373
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "apply_to": "ctt",
+            "note": "从CTT删除科技 63(大型箭塔)/64(炮塔)/140(警戒箭塔): 塔楼升级改在瞭望塔(79)研究, 大学(209)科技树不再显示; apply_to=ctt 不走FAU同步删除(sync_fau第一遍对removed科技是无差别全建筑删除, 会误删下方新挂79的条目), FAU侧由下方三条add显式落地",
+            "Use Type": "Tech",
+            "Node ID": [63, 64, 140]
+        },
+        {
+            "civilizations": "all",
+            "type": "delete",
+            "note": "FAU: 清除科技 63/64/140 旧条目(原挂大学209下; all含FullTechCiv参照池)",
+            "tech_id": [63, 64, 140]
+        },
+        {
+            "civilizations": ["Aztecs", "Armenians", "Bengalis", "Berbers", "Bohemians", "Britons", "Bulgarians", "Burgundians", "Burmese", "Byzantines", "Celts", "Chinese", "Danes", "Dravidians", "Ethiopians", "Franks", "Georgians", "Gurjaras", "Incas", "Indians", "Italians", "Japanese", "Jurchens", "Khitans", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Muisca", "Persians", "Poles", "Portuguese", "Romans", "Saracens", "Saxons", "Shu", "Slavs", "Spanish", "Tatars", "Teutons", "Tupi", "Turks", "Varangians", "Vietnamese", "Vikings", "Wei", "Wu", "FullTechCiv"],
+            "type": "add",
+            "note": "FAU: 警戒箭塔(140)挂到瞭望塔(79)Techs, 城堡时代; 对照CTT建筑234可用列表(无140: CUMANS/GOTHS/HUNS/SICILIANS/MAPUCHE; 6个Chronicles文明无FAU条目跳过)",
+            "building_id": 79,
+            "tech_id": 140,
+            "Name": "Guard Tower",
+            "RequiredAge": 3
+        },
+        {
+            "civilizations": ["Bengalis", "Bohemians", "Britons", "Bulgarians", "Burgundians", "Burmese", "Byzantines", "Celts", "Chinese", "Danes", "Dravidians", "Ethiopians", "Franks", "Georgians", "Gurjaras", "Incas", "Italians", "Japanese", "Jurchens", "Khmer", "Koreans", "Lithuanians", "Malay", "Malians", "Mayans", "Muisca", "Poles", "Portuguese", "Romans", "Saracens", "Saxons", "Spanish", "Teutons", "Tupi", "Turks", "Vietnamese", "Wei", "Wu", "FullTechCiv"],
+            "type": "add",
+            "note": "FAU: 大型箭塔(63)挂到瞭望塔(79)Techs, 帝王时代; 对照CTT建筑235可用列表",
+            "building_id": 79,
+            "tech_id": 63,
+            "Name": "Keep",
+            "RequiredAge": 3
+        },
+        {
+            "civilizations": ["Armenians", "Bohemians", "Burgundians", "Byzantines", "Chinese", "Dravidians", "Italians", "Koreans", "Lithuanians", "Malay", "Mapuche", "Poles", "Portuguese", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "FullTechCiv"],
+            "type": "add",
+            "note": "FAU: 炮塔(64)挂到瞭望塔(79)Techs, 帝王时代; 对照CTT建筑236可用列表",
+            "building_id": 79,
+            "tech_id": 64,
+            "Name": "Bombard Tower",
+            "RequiredAge": 4
         }
     ]
 }

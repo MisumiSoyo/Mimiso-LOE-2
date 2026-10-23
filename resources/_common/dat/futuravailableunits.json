@@ -42,12 +42,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -567,11 +567,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -605,17 +600,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -1006,12 +1000,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -1653,11 +1647,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -1706,17 +1695,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -2102,12 +2090,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -2687,17 +2675,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -2746,17 +2723,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -3142,12 +3123,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -3721,25 +3702,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -3780,17 +3745,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -4196,12 +4170,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -4812,17 +4786,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -4841,17 +4804,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -5253,12 +5220,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -5866,17 +5833,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -5910,17 +5866,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -6321,12 +6281,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -6923,25 +6883,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -7002,17 +6946,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -7408,12 +7361,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -8004,17 +7957,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -8058,17 +8000,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -8444,12 +8390,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -9071,25 +9017,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -9140,17 +9070,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -9541,12 +9480,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -10149,13 +10088,6 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
@@ -10560,12 +10492,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -11199,17 +11131,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -11238,17 +11159,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -11634,12 +11559,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -12271,11 +12196,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -12309,28 +12229,26 @@
                         "ID": 54,
                         "Name": "Treadmill Crane",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     }
                 ],
-                "Units": []
-            },
-            {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
                 "Units": []
             },
             {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -12716,12 +12634,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -13330,13 +13248,6 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
@@ -13716,12 +13627,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -14285,13 +14196,6 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
@@ -14661,12 +14565,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -15219,17 +15123,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -15283,17 +15176,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -15670,12 +15567,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -16264,11 +16161,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -16292,17 +16184,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -16683,12 +16574,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -17271,25 +17162,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -17345,17 +17220,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -17746,12 +17630,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -18343,17 +18227,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -18392,17 +18265,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -18788,12 +18665,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -19417,17 +19294,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -19466,17 +19332,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -19872,12 +19742,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -20469,11 +20339,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -20482,17 +20347,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -20548,17 +20402,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -20929,12 +20792,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -21511,25 +21374,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -21565,17 +21412,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -21986,12 +21842,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -22565,11 +22421,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -22603,17 +22454,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -22993,12 +22843,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -23569,11 +23419,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -23582,17 +23427,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -23638,17 +23472,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -24049,12 +23892,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -24653,17 +24496,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -24697,17 +24529,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -25093,12 +24929,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -25656,17 +25492,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -25695,17 +25520,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -26096,12 +25925,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -26743,11 +26572,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -26776,17 +26600,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -27157,12 +26980,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -27835,11 +27658,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -27883,17 +27701,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -28269,12 +28086,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -28855,11 +28672,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -28868,17 +28680,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -28919,17 +28720,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -29321,12 +29131,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -29962,17 +29772,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -30016,17 +29815,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -31035,13 +30838,6 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 72,
                 "Name": "Palisade Wall",
                 "RequiredAge": 1,
@@ -31433,12 +31229,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -32034,11 +31830,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -32067,17 +31858,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -32468,12 +32258,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -33085,25 +32875,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -33149,17 +32923,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -33559,12 +33342,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -34199,11 +33982,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -34212,11 +33990,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
                     },
                     {
                         "ID": 380,
@@ -34252,17 +34025,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -34647,12 +34424,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -35270,11 +35047,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -35283,17 +35055,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -35334,17 +35095,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -35745,12 +35515,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -36371,25 +36141,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -36445,17 +36199,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -36841,12 +36604,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -37484,11 +37247,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -37497,17 +37255,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 380,
@@ -37548,17 +37295,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -37959,12 +37715,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -38515,11 +38271,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -38563,17 +38314,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -38929,12 +38679,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -39501,11 +39251,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
@@ -39514,17 +39259,6 @@
                         "ID": 377,
                         "Name": "Siege Engineers",
                         "RequiredAge": 4
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -39560,17 +39294,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -39950,12 +39693,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -40530,25 +40273,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -40584,17 +40311,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -40990,12 +40726,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -41587,25 +41323,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -41651,17 +41371,26 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -42037,12 +41766,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -42628,17 +42357,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -42702,17 +42420,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -43091,12 +42813,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -43681,17 +43403,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -43720,17 +43431,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -44117,12 +43832,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -44691,17 +44406,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -44725,17 +44429,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -45124,12 +44832,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 487,
@@ -45687,11 +45395,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -45720,17 +45423,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -46144,12 +45851,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -46753,17 +46460,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -46787,17 +46483,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -47189,12 +46889,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 487,
@@ -47764,11 +47464,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -47802,17 +47497,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -48189,12 +47883,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -48763,17 +48457,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -48807,17 +48490,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -49204,12 +48891,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -49783,17 +49470,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -49817,17 +49493,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -50201,12 +49881,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -50822,17 +50502,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -50866,17 +50535,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -51270,12 +50943,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -51879,11 +51552,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -51902,17 +51570,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {
@@ -53070,25 +52737,9 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
                     },
                     {
                         "ID": 608,
@@ -53145,7 +52796,24 @@
             {
                 "ID": 79,
                 "Name": "Watch Tower",
-                "RequiredAge": 2
+                "RequiredAge": 2,
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    },
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ]
             },
             {
                 "ID": 234,
@@ -53533,12 +53201,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -54076,17 +53744,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -54110,17 +53767,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -54517,12 +54178,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -55057,11 +54718,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 64,
-                        "Name": "Bombard Tower",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 608,
                         "Name": "Arrowslits",
                         "RequiredAge": 4
@@ -55096,17 +54752,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Bombard Tower",
+                        "RequiredAge": 4,
+                        "ID": 64
+                    }
+                ],
                 "Units": []
             },
             {
@@ -55500,12 +55155,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -56016,17 +55671,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -56060,17 +55704,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -56452,12 +56100,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -57019,17 +56667,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -57068,17 +56705,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -57442,12 +57083,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 235,
@@ -58023,17 +57664,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 63,
-                        "Name": "Keep",
-                        "RequiredAge": 4,
-                        "RequiredTechID": 140
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -58072,17 +57702,21 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    },
+                    {
+                        "Name": "Keep",
+                        "RequiredAge": 3,
+                        "ID": 63
+                    }
+                ],
                 "Units": []
             },
             {
@@ -58486,12 +58120,12 @@
                     {
                         "ID": 79,
                         "Name": "Watch Tower",
-                        "RequiredAge": 2
+                        "RequiredAge": 1
                     },
                     {
                         "ID": 234,
                         "Name": "Guard Tower",
-                        "RequiredAge": 3
+                        "RequiredAge": 2
                     },
                     {
                         "ID": 487,
@@ -59075,11 +58709,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 140,
-                        "Name": "Guard Tower",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
@@ -59128,17 +58757,16 @@
                 "Units": []
             },
             {
-                "ID": 598,
-                "Name": "Outpost",
-                "RequiredAge": 1,
-                "Techs": [],
-                "Units": []
-            },
-            {
                 "ID": 79,
                 "Name": "Watch Tower",
                 "RequiredAge": 2,
-                "Techs": [],
+                "Techs": [
+                    {
+                        "Name": "Guard Tower",
+                        "RequiredAge": 3,
+                        "ID": 140
+                    }
+                ],
                 "Units": []
             },
             {

@@ -66,9 +66,17 @@
         {
             "action": "enable",
             "civ_id": "FRANKS",
-            "note": "法兰克科技树",
-            "TechIDs": [437, 201, 219, 15, 63],
-            "UnitIDs": [441, 235]
+            "note": "法兰克科技树; TechIDs移除63(科技63已从CTT删除, 塔楼升级改挂瞭望塔79研究, 见ctt_changes.json)",
+            "TechIDs": [437, 201, 219, 15],
+            "UnitIDs": [441]
+        },
+        {
+            "action": "enable",
+            "civ_id": "FRANKS",
+            "affect_fau": false,
+            "note": "法兰克可升级大型箭塔(235, 模组改动); affect_fau=false: 官方FAU本就有235条目, enable补回只会把trigger科技63(已改挂79)重写到235下产生垃圾条目",
+            "TechIDs": [],
+            "UnitIDs": [235]
         },
         {
             "action": "enable",
@@ -101,9 +109,9 @@
         {
             "action": "enable",
             "civ_id": "CHINESE",
-            "note": "中国科技树",
+            "note": "中国科技树; UnitIDs移除236(官方中国本就有炮塔, enable重复; 且会把trigger科技64重写到FAU 236下产生垃圾条目)",
             "TechIDs": [377, 379, 15, 54],
-            "UnitIDs": [5, 474, 36, 441, 36, 236]
+            "UnitIDs": [5, 474, 36, 441, 36]
         },
         {
             "action": "enable",

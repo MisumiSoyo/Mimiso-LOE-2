@@ -677,6 +677,9 @@
 3000027 "Longbowman"
 3000028 "Mangudai"
 3000029 "Magyar Huszar"
+3000030 "Guard Tower"
+3000031 "Keep"
+3000032 "Bombard Tower"
 
 
 
@@ -709,6 +712,9 @@
 3001027 "Upgrade to Longbowman"
 3001028 "Upgrade to Mangudai"
 3001029 "Upgrade to Magyar Huszar"
+3001030 "Upgrade to Guard Tower"
+3001031 "Upgrade to Keep"
+3001032 "Upgrade to Bombard Tower"
 
 
 
@@ -741,6 +747,9 @@
 3021027 "Upgrade to <b>Longbowman<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Longbowmen into the more powerful Longbowmen."
 3021028 "Upgrade to <b>Mangudai<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Mangudai into the more powerful Mangudais."
 3021029 "Upgrade to <b>Magyar Huszar<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Early Magyar Huszars into the more powerful Magyar Huszars."
+3021030 "Upgrade to <b>Guard Tower<b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Watch Towers into Guard Towers."
+3021031 "Upgrade to <b>Keep<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Watch Towers into Keeps."
+3021032 "Upgrade to <b>Bombard Tower<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\nUpgrades your Watch Towers into Bombard Towers."
 
 
 
@@ -1011,6 +1020,10 @@
 4000170 "Siege Elephant"
 4000171 "Early Magyar Huszar"
 4000172 "Slinger"
+4000173 "Watch Tower"
+4000174 "Guard Tower"
+4000175 "Keep"
+4000176 "Bombard Tower"
 
 // Short Description
 4001001 "Create Early Spearman"
@@ -1183,6 +1196,10 @@
 4001170 "Create Siege Elephant"
 4001171 "Create Early Magyar Huszar"
 4001172 "Create Slinger"
+4001173 "Build Watch Tower"
+4001174 "Guard Tower"
+4001175 "Keep"
+4001176 "Bombard Tower"
 
 // Detailed Description
 4021001 "Create <b><YELLOW>Early Spearman<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight melee infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT063ScaleMailArmor> <MATERIAL=TechIconsT080Squires> <MATERIAL=TechIconsT118Arson><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. cavalry\n  + Inexpensive\n   - Weak in melee\n   - Countered by ranged units"
@@ -1355,3 +1372,7 @@
 4021170 "Create <b><YELLOW>Siege Elephant<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\nHeavy melee cavalry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Highly effective vs. buildings and siege weapons\n  + Nearly immune to ranged attacks\n   - Countered by spearman"
 4021171 "Create <b><YELLOW>Early Magyar Huszar<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\nLight melee cavalry\n<GREEN>Unique to Magyars<DEFAULT>\n<GREY><i>Upgrades: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + To be added\n   - To be added"
 4021172 "Create <b><YELLOW>Slinger<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\nLight ranged infantry\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + Strong vs. melee infantry\n  + Strong vs. monks\n  + Increased attack vs. siege weapons\n   - Ineffective vs. other units"
+4021173 "Build <b><YELLOW>Watch Tower<DEFAULT><b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nDefensive building\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + Can garrison units\n  + Wide line of sight\n   - Low damage"
+4021174 "<b><YELLOW>Guard Tower<DEFAULT><b>\nDefensive building\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + Can garrison units\n  + Wide line of sight\n  + Fires an additional arrow"
+4021175 "<b><YELLOW>Keep<DEFAULT><b>\nDefensive building\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + Can garrison more units\n  + Wide line of sight\n  + Fires an additional arrow"
+4021176 "<b><YELLOW>Bombard Tower<DEFAULT><b>\nDefensive building\n<GREY><i>Upgrades: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + Can garrison units\n  + Wide line of sight\n  + Fires cannonballs"

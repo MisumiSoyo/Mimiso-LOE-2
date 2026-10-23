@@ -677,6 +677,9 @@
 3000027 "长弓兵"
 3000028 "蒙古突骑"
 3000029 "马扎尔骠骑"
+3000030 "警戒箭塔"
+3000031 "大型箭塔"
+3000032 "炮塔"
 
 
 
@@ -709,6 +712,9 @@
 3001027 "升级到长弓兵"
 3001028 "升级到蒙古突骑"
 3001029 "升级到马扎尔骠骑"
+3001030 "升级到警戒箭塔"
+3001031 "升级到大型箭塔"
+3001032 "升级到炮塔"
 
 
 
@@ -741,6 +747,9 @@
 3021027 "升级到<b>长弓兵<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期长弓兵升级, 生产更为强大的长弓兵。"
 3021028 "升级到<b>蒙古突骑<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期蒙古突骑升级, 生产更为强大的蒙古突骑。"
 3021029 "升级到<b>马扎尔骠骑<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将您的早期马扎尔升级, 生产更为强大的马扎尔骠骑。"
+3021030 "升级到<b>警戒箭塔<b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n将瞭望箭塔升级为警戒塔。"
+3021031 "升级到<b>大型箭塔<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\n将瞭望箭塔升级为大型箭塔。"
+3021032 "升级到<b>炮塔<b> (<cost>, 60 <MATERIAL=MPIconGoodCPU>)\n将瞭望箭塔升级为炮塔。"
 
 
 
@@ -1011,6 +1020,10 @@
 4000170 "攻城战象"
 4000171 "早期马扎尔骠骑"
 4000172 "投石手"
+4000173 "瞭望箭塔"
+4000174 "警戒箭塔"
+4000175 "大型箭塔"
+4000176 "炮塔"
 
 
 
@@ -1185,6 +1198,10 @@
 4001170 "生产攻城战象"
 4001171 "生产早期马扎尔骠骑"
 4001172 "生产投石手"
+4001173 "建造瞭望箭塔"
+4001174 "警戒箭塔"
+4001175 "大型箭塔"
+4001176 "炮塔"
 
 
 
@@ -1359,3 +1376,7 @@
 4021170 "生产<b><YELLOW>攻城战象<DEFAULT><b> (<cost>, 40 <MATERIAL=MPIconGoodCPU>)\n重型近战骑兵\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry> <MATERIAL=TechIconsT101SiegeEngineers><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 对建筑和攻城武器破坏力极强\n  + 几乎免疫远程攻击\n   - 受到长矛兵克制"
 4021171 "生产<b><YELLOW>早期马扎尔骠骑<DEFAULT><b> (<cost>, 30 <MATERIAL=MPIconGoodCPU>)\n轻型近战骑兵\n<GREEN>马扎尔独有<DEFAULT>\n<GREY><i>升级: <MATERIAL=TechIconsT017Forging> <MATERIAL=TechIconsT066ScaleBardingArmor> <MATERIAL=TechIconsT110Bloodlines> <MATERIAL=TechIconsT010Husbandry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 待补充\n  - 待补充"
 4021172 "生产<b><YELLOW>投石手<DEFAULT><b> (<cost>, 25 <MATERIAL=MPIconGoodCPU>)\n轻型远程步兵\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT049PaddedArcherArmor> <MATERIAL=TechIconsT112ThumbRing> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range>\n  + 克制近战步兵\n  + 克制僧侣\n  + 对攻城武器攻击力增加\n   - 对其他单位乏力"
+4021173 "建造<b><YELLOW>瞭望箭塔<DEFAULT><b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\n防御建筑\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + 可驻扎单位\n  + 视野广阔\n   - 伤害较低"
+4021174 "<b><YELLOW>警戒箭塔<DEFAULT><b>\n防御建筑\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + 可驻扎单位\n  + 视野广阔\n  + 拥有一根额外箭矢"
+4021175 "<b><YELLOW>大型箭塔<DEFAULT><b>\n防御建筑\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch> <MATERIAL=TechIconsT025Ballistics> <MATERIAL=TechIconsT012Chemistry><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + 可驻扎更多单位\n  + 视野广阔\n  + 拥有一根额外箭矢"
+4021176 "<b><YELLOW>炮塔<DEFAULT><b>\n防御建筑\n<GREY><i>升级: <MATERIAL=TechIconsT034Fletching> <MATERIAL=TechIconsT013Masonry> <MATERIAL=TechIconsT069TownWatch><i><DEFAULT>\n<hp> <attack> <armor> <piercearmor> <range> <garrison>\n  + 可驻扎单位\n  + 视野广阔\n  + 可发射炮弹"

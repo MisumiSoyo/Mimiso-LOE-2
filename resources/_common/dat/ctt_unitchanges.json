@@ -124,7 +124,7 @@
         {
             "action": "add",
             "civ_id": "all",
-            "note": "靶场: 新增劲弩手(4003, 帝王时代), 从弩手(4002)升级而来, 升级科技3007(待dat侧新建)",
+            "note": "靶场: 新增劲弩手(4003, 帝王时代), 从弩手(4002)升级而来, 升级科技3007",
             "Use Type": "Unit",
             "Node ID": 4003,
             "Name": "LOE Arbalester",
@@ -182,6 +182,65 @@
             "Use Type": "Building",
             "Node ID": 621,
             "Age ID": 2
+        },
+        {
+            "action": "delete",
+            "civ_id": "all",
+            "note": "移除哨站",
+            "Use Type": "Building",
+            "Node ID":  598
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "瞭望箭塔改为黑暗时代可建造",
+            "Use Type": "Building",
+            "Node ID": 79,
+            "Age ID": 1,
+            "Link ID": -1
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "note": "警戒箭塔改为封建时代可升级",
+            "Use Type": "Building",
+            "Node ID": 234,
+            "Age ID": 2,
+            "Link ID": 79,
+            "Building upgraded from ID": -1,
+            "Prerequisite IDs": [-1, -1, -1, -1, -1],
+            "Prerequisite Types": ["None", "None", "None", "None", "None"],
+            "Trigger Tech ID": 140
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "apply_to": "ctt",
+            "note": "大型箭塔改为城堡时代可升级; apply_to=ctt: Building ID标量写入会触发FAU移动逻辑(删整条235+重建+trigger科技63重写到235下产生垃圾条目), 科技63已改挂瞭望塔79下, 此处只改CTT",
+            "Use Type": "Building",
+            "Node ID": 235,
+            "Building ID": 79,
+            "Age ID": 3,
+            "Link ID": -1,
+            "Building upgraded from ID": -1,
+            "Prerequisite IDs": [-1, -1, -1, -1, -1],
+            "Prerequisite Types": ["None", "None", "None", "None", "None"],
+            "Trigger Tech ID": 63
+        },
+        {
+            "action": "modify",
+            "civ_id": "all",
+            "apply_to": "ctt",
+            "note": "炮塔; apply_to=ctt: 同235, 避免FAU移动逻辑把trigger科技64重写到236下产生垃圾条目, 科技64已改挂瞭望塔79下",
+            "Use Type": "Building",
+            "Node ID": 236,
+            "Building ID": 79,
+            "Age ID": 4,
+            "Link ID": -1,
+            "Building upgraded from ID": 79,
+            "Prerequisite IDs": [47, -1, -1, -1, -1],
+            "Prerequisite Types": ["Tech", "None", "None", "None", "None"],
+            "Trigger Tech ID": 64
         },
         {
             "action": "modify",
