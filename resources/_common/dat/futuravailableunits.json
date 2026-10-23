@@ -1102,11 +1102,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 218,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 599,
                         "Name": "Elite Genitour",
                         "RequiredAge": 4
@@ -1122,8 +1117,18 @@
                         "ID": 3007
                     },
                     {
+                        "ID": 436,
+                        "Name": "Parthian Tactics",
+                        "RequiredAge": 4
+                    },
+                    {
                         "ID": 237,
                         "Name": "Arbalester",
+                        "RequiredAge": 4
+                    },
+                    {
+                        "ID": 565,
+                        "Name": "Elite Camel Archer",
                         "RequiredAge": 4
                     }
                 ],
@@ -1141,16 +1146,6 @@
                     {
                         "ID": 5,
                         "Name": "Hand Cannoneer",
-                        "RequiredAge": 4
-                    },
-                    {
-                        "ID": 39,
-                        "Name": "Cavalry Archer",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 474,
-                        "Name": "Heavy Cavalry Archer",
                         "RequiredAge": 4
                     },
                     {
@@ -1179,6 +1174,17 @@
                         "Name": "Arbalester",
                         "RequiredAge": 4,
                         "RequiredUnitID": 24
+                    },
+                    {
+                        "ID": 1007,
+                        "Name": "Camel Archer",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1009,
+                        "Name": "Elite Camel Archer",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1007
                     }
                 ]
             },
@@ -1774,11 +1780,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 565,
-                        "Name": "Elite Camel Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 578,
                         "Name": "Kasbah",
                         "RequiredAge": 3
@@ -1805,16 +1806,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1007,
-                        "Name": "Camel Archer",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1009,
-                        "Name": "Elite Camel Archer",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -10758,6 +10749,11 @@
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
+                    },
+                    {
+                        "ID": 569,
+                        "Name": "Elite Shotel Warrior",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -10790,6 +10786,17 @@
                         "ID": 359,
                         "Name": "Halberdier",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 1016,
+                        "Name": "Shotel Warrior",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1018,
+                        "Name": "Elite Shotel Warrior",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1016
                     }
                 ]
             },
@@ -11305,11 +11312,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 569,
-                        "Name": "Elite Shotel Warrior",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 574,
                         "Name": "Royal Heirs",
                         "RequiredAge": 3
@@ -11336,16 +11338,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1016,
-                        "Name": "Shotel Warrior",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1018,
-                        "Name": "Elite Shotel Warrior",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -24246,6 +24238,11 @@
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
+                    },
+                    {
+                        "ID": 567,
+                        "Name": "Elite Gbeto",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -24273,6 +24270,17 @@
                         "ID": 358,
                         "Name": "Pikeman",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1013,
+                        "Name": "Gbeto",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1015,
+                        "Name": "Elite Gbeto",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1013
                     }
                 ]
             },
@@ -24763,11 +24771,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 567,
-                        "Name": "Elite Gbeto",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 576,
                         "Name": "Tigui",
                         "RequiredAge": 3
@@ -24799,16 +24802,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1013,
-                        "Name": "Gbeto",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1015,
-                        "Name": "Elite Gbeto",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -28566,6 +28559,11 @@
                         "ID": 257,
                         "Name": "Onager",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 563,
+                        "Name": "Elite Organ Gun",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -28591,11 +28589,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 279,
-                        "Name": "Scorpion",
-                        "RequiredAge": 3
-                    },
-                    {
                         "ID": 1105,
                         "Name": "Siege Tower",
                         "RequiredAge": 3
@@ -28604,6 +28597,17 @@
                         "ID": 36,
                         "Name": "Bombard Cannon",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 1001,
+                        "Name": "Organ Gun",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1003,
+                        "Name": "Elite Organ Gun",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1001
                     }
                 ]
             },
@@ -28989,11 +28993,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 563,
-                        "Name": "Elite Organ Gun",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 1404,
                         "Name": "Circumnavigation",
                         "RequiredAge": 3
@@ -29020,16 +29019,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1001,
-                        "Name": "Organ Gun",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1003,
-                        "Name": "Elite Organ Gun",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -32590,6 +32579,11 @@
                         "ID": 3007
                     },
                     {
+                        "ID": 436,
+                        "Name": "Parthian Tactics",
+                        "RequiredAge": 4
+                    },
+                    {
                         "ID": 60,
                         "Name": "Elite Conquistador",
                         "RequiredAge": 4
@@ -33144,6 +33138,11 @@
                     {
                         "ID": 909,
                         "Name": "Siphons",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 54,
+                        "Name": "Treadmill Crane",
                         "RequiredAge": 3
                     }
                 ],

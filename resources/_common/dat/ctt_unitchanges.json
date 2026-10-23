@@ -594,6 +594,46 @@
             "Building ID": 101,
             "position": "after",
             "target_id": 441
+        },
+        {
+            "action": "modify",
+            "civ_id": "PORTUGUESE",
+            "note": "风琴炮移入攻城武器厂",
+            "Use Type": "Unit",
+            "Node ID": [1003, 1001],
+            "Building ID": 49,
+            "position": "after",
+            "target_id": 588
+        },
+        {
+            "action": "modify",
+            "civ_id": "ETHIOPIANS",
+            "note": "弯刀勇士移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [1018, 1016],
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "MALIANS",
+            "note": "飞刀女兵移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [1015, 1013],
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "BERBERS",
+            "note": "骆驼射手移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [1009, 1007],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
         }
     ]
 }

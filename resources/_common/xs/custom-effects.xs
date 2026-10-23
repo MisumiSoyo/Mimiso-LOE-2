@@ -31,6 +31,6 @@ void EffectFunction10002(int playerId = -1)
 void main()
 {
     xsChatData("Mod: Legacy of Empires 2");
-    xsChatData("Patch: 0.6  2026.10.23");
+    xsChatData("Patch: 0.7  2026.10.24");
     xsChatData("Author: Misumi Soyo");
 }

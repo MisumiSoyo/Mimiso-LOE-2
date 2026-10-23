@@ -1,10 +1,18 @@
 {
-  "includes": [],
-  "groups": [],
-  "effect_adjustments": [],
-  "unit_copies": [],
-  "unit_changes": [],
-  "tech_changes": [],
-  "resource_changes": [],
-  "tech_tree_changes": []
+    "includes": [],
+    "groups": [],
+    "effect_adjustments": [],
+    "unit_copies": [],
+    "unit_changes":
+    [
+        {
+            "note": "村民护甲减少为0",
+            "unit_id": "all",
+            "search": ["class_", 4],
+            "attributes": [["type_50.armours", "list_search", ["class_", "in", [3, 4]], ["amount", 0]]]
+        }
+    ],
+    "tech_changes": [],
+    "resource_changes": [],
+    "tech_tree_changes": []
 }

@@ -30,7 +30,7 @@
         },
         {
             "action": "delete",
-            "civ_id": ["MONGOLS", "KOREANS"],
+            "civ_id": ["MONGOLS", "KOREANS", "BERBERS"],
             "note": "部分文明移除骑射手系",
             "Use Type": "Unit",
             "Node ID": [39, 474]
@@ -48,6 +48,13 @@
             "note": "部分文明移除骑士系",
             "Use Type": "Unit",
             "Node ID": [38, 283]
+        },
+        {
+            "action": "delete",
+            "civ_id": ["PORTUGUESE"],
+            "note": "部分文明移除弩炮系",
+            "Use Type": "Unit",
+            "Node ID": [279, 542]
         },
         {
             "action": "delete",
@@ -165,7 +172,7 @@
             "action": "enable",
             "civ_id": "SPANISH",
             "note": "西班牙科技树",
-            "TechIDs": [],
+            "TechIDs": [436, 54],
             "UnitIDs": []
         },
         {
@@ -208,6 +215,13 @@
             "civ_id": "SLAVS",
             "note": "斯拉夫科技树",
             "TechIDs": [252],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "BERBERS",
+            "note": "柏柏尔科技树",
+            "TechIDs": [436],
             "UnitIDs": []
         }
     ]
