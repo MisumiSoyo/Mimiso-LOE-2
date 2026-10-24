@@ -693,6 +693,177 @@
             "Building ID": 87,
             "position": "after",
             "target_id": 4003
+        },
+        {
+            "action": "modify",
+            "civ_id": "KHMER",
+            "note": "重弩战象移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [1122, 1120],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
+        },
+        {
+            "action": "modify",
+            "civ_id": "MALAY",
+            "note": "爪刀勇士移入兵营",
+            "Use Type": "Unit",
+            "Node ID": [1125, 1123],
+            "Building ID": 12,
+            "position": "after",
+            "target_id": 359
+        },
+        {
+            "action": "modify",
+            "civ_id": "BURMESE",
+            "note": "飞镖骑兵移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [1128, 1126],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
+        },
+        {
+            "action": "modify",
+            "civ_id": "VIETNAMESE",
+            "note": "藤弓兵移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [1131, 1129],
+            "Building ID": 87,
+            "position": "first"
+        },
+        {
+            "action": "add",
+            "civ_id": "VIETNAMESE",
+            "note": "早期藤弓兵",
+            "Use Type": "Unit",
+            "Node ID": 4007,
+            "Name": "LOE Early Rattan Archer",
+            "Node Status": "ResearchedCompleted",
+            "Node Type": "UniqueUnit",
+            "Age ID": 2,
+            "Building ID": 87,
+            "UnitLine": -251,
+            "UnitLineIndex": 0,
+            "position": "first"
+        },
+        {
+            "action": "modify",
+            "civ_id": "VIETNAMESE",
+            "Use Type": "Unit",
+            "Node ID": 1129,
+            "Link ID": 4007,
+            "Link Node Type": "UniqueUnit",
+            "Trigger Tech ID": 3018
+        },
+        {
+            "action": "modify",
+            "civ_id": "BULGARIANS",
+            "note": "保加利亚骑兵移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [1227, 1225],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 441
+        },
+        {
+            "action": "modify",
+            "civ_id": "TATARS",
+            "note": "怯薛移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [1230, 1228],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 441
+        },
+        {
+            "action": "modify",
+            "civ_id": "CUMANS",
+            "note": "钦察移入靶场",
+            "Use Type": "Unit",
+            "Node ID": [1233, 1231],
+            "Building ID": 87,
+            "position": "after",
+            "target_id": 4003
+        },
+        {
+            "action": "modify",
+            "civ_id": "LITHUANIANS",
+            "note": "烈提司移入马厩",
+            "Use Type": "Unit",
+            "Node ID": [1236, 1234],
+            "Building ID": 101,
+            "position": "after",
+            "target_id": 1707
+        },
+        {
+            "action": "delete",
+            "civ_id": "BULGARIANS",
+            "note": "删除营垒(Krepost 1251)专属Konnik副本1254/1255: dat中1225/1227已可双建筑生产, 营垒改用标准单位; remove_trigger=false 避免连带删除升级科技678(马厩101仍需要)",
+            "Use Type": "Unit",
+            "Node ID": [1254, 1255],
+            "remove_trigger": false
+        },
+        {
+            "action": "copy",
+            "civ_id": "BULGARIANS",
+            "note": "暂存标准Konnik(1225)节点",
+            "Use Type": "Unit",
+            "Node ID": 1225,
+            "Building ID": 101
+        },
+        {
+            "action": "add",
+            "civ_id": "BULGARIANS",
+            "note": "营垒(1251)补入标准Konnik(1225), 与马厩101变体并存",
+            "use_store": true,
+            "Building ID": 1251,
+            "position": "first"
+        },
+        {
+            "action": "copy",
+            "civ_id": "BULGARIANS",
+            "note": "暂存标准精锐Konnik(1227)节点",
+            "Use Type": "Unit",
+            "Node ID": 1227,
+            "Building ID": 101
+        },
+        {
+            "action": "add",
+            "civ_id": "BULGARIANS",
+            "note": "营垒(1251)补入标准精锐Konnik(1227), Link/升级科技678随暂存区继承",
+            "use_store": true,
+            "Building ID": 1251,
+            "position": "after",
+            "target_id": 1225
+        },
+        {
+            "civilizations": "Bulgarians",
+            "type": "add",
+            "note": "FAU: 营垒Units按原Konnik位置补入1225(排在Petard 440之前); 顺序须显式指定, CTT add的派生条目在此时已存在会自动跳过",
+            "building_id": 1251,
+            "unit_id": 1225,
+            "Name": "Konnik",
+            "RequiredAge": 3,
+            "position": "before",
+            "target_id": 440
+        },
+        {
+            "civilizations": "Bulgarians",
+            "type": "add",
+            "note": "FAU: 精锐Konnik(1227)紧跟1225之后",
+            "building_id": 1251,
+            "unit_id": 1227,
+            "Name": "Elite Konnik",
+            "RequiredAge": 4,
+            "RequiredUnitID": 1225,
+            "position": "after",
+            "target_id": 1225
+        },
+        {
+            "action": "reset_store",
+            "note": "清空暂存区"
         }
     ]
 }

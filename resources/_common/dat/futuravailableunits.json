@@ -572,11 +572,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -1652,11 +1647,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -2678,11 +2668,6 @@
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -3707,11 +3692,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -4426,14 +4406,14 @@
                         "RequiredAge": 2
                     },
                     {
-                        "ID": 209,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 39,
                         "Name": "Husbandry",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 678,
+                        "Name": "Elite Konnik",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -4454,14 +4434,15 @@
                         "RequiredUnitID": 546
                     },
                     {
-                        "ID": 38,
-                        "Name": "Knight",
+                        "ID": 1225,
+                        "Name": "Konnik",
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 283,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
+                        "ID": 1227,
+                        "Name": "Elite Konnik",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1225
                     }
                 ]
             },
@@ -4882,11 +4863,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 678,
-                        "Name": "Elite Konnik",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 685,
                         "Name": "Stirrups",
                         "RequiredAge": 3
@@ -4935,14 +4911,15 @@
                 "Name": "Krepost",
                 "Units": [
                     {
-                        "ID": 1254,
                         "Name": "Konnik",
-                        "RequiredAge": 3
+                        "RequiredAge": 3,
+                        "ID": 1225
                     },
                     {
-                        "ID": 1255,
                         "Name": "Elite Konnik",
-                        "RequiredAge": 4
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1225,
+                        "ID": 1227
                     },
                     {
                         "ID": 440,
@@ -4950,7 +4927,13 @@
                         "RequiredAge": 3
                     }
                 ],
-                "Techs": []
+                "Techs": [
+                    {
+                        "ID": 678,
+                        "Name": "Elite Konnik",
+                        "RequiredAge": 4
+                    }
+                ]
             },
             {
                 "ID": 104,
@@ -5316,11 +5299,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 218,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 436,
                         "Name": "Parthian Tactics",
                         "RequiredAge": 4
@@ -5329,6 +5307,11 @@
                         "Name": "Arbalester",
                         "RequiredAge": 4,
                         "ID": 3007
+                    },
+                    {
+                        "ID": 619,
+                        "Name": "Elite Arambai",
+                        "RequiredAge": 4
                     },
                     {
                         "ID": 237,
@@ -5348,16 +5331,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 39,
-                        "Name": "Cavalry Archer",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 474,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 4002,
                         "Name": "LOE Crossbowman",
                         "RequiredAge": 3
@@ -5367,6 +5340,17 @@
                         "Name": "LOE Arbalester",
                         "RequiredAge": 4,
                         "RequiredUnitID": 4002
+                    },
+                    {
+                        "ID": 1126,
+                        "Name": "Arambai",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1128,
+                        "Name": "Elite Arambai",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1126
                     },
                     {
                         "ID": 492,
@@ -5944,11 +5928,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 619,
-                        "Name": "Elite Arambai",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 627,
                         "Name": "Manipur Cavalry",
                         "RequiredAge": 3
@@ -5970,16 +5949,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1126,
-                        "Name": "Arambai",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1128,
-                        "Name": "Elite Arambai",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -6886,11 +6855,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -7962,11 +7926,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -9027,11 +8986,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -9561,11 +9515,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 218,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 437,
                         "Name": "Thumb Ring",
                         "RequiredAge": 3
@@ -9584,6 +9533,11 @@
                         "ID": 237,
                         "Name": "Arbalester",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 682,
+                        "Name": "Elite Kipchak",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -9596,16 +9550,6 @@
                         "ID": 24,
                         "Name": "Crossbowman",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 39,
-                        "Name": "Cavalry Archer",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 474,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 4002,
@@ -9623,6 +9567,17 @@
                         "Name": "Arbalester",
                         "RequiredAge": 4,
                         "RequiredUnitID": 24
+                    },
+                    {
+                        "ID": 1231,
+                        "Name": "Kipchak",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1233,
+                        "Name": "Elite Kipchak",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1231
                     }
                 ]
             },
@@ -9723,6 +9678,11 @@
                         "ID": 715,
                         "Name": "Elite Steppe Lancer",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 39,
+                        "Name": "Husbandry",
+                        "RequiredAge": 3
                     }
                 ],
                 "Units": [
@@ -10155,11 +10115,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 682,
-                        "Name": "Elite Kipchak",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 689,
                         "Name": "Steppe Husbandry",
                         "RequiredAge": 3
@@ -10191,16 +10146,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1231,
-                        "Name": "Kipchak",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1233,
-                        "Name": "Elite Kipchak",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 1260,
                         "Name": "Elite Kipchak",
@@ -11830,6 +11775,11 @@
                         "RequiredAge": 3
                     },
                     {
+                        "ID": 435,
+                        "Name": "Bloodlines",
+                        "RequiredAge": 2
+                    },
+                    {
                         "ID": 428,
                         "Name": "Hussar",
                         "RequiredAge": 4
@@ -12193,11 +12143,6 @@
                     {
                         "ID": 377,
                         "Name": "Siege Engineers",
-                        "RequiredAge": 4
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
                         "RequiredAge": 4
                     },
                     {
@@ -15128,11 +15073,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -17172,11 +17112,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -18227,11 +18162,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -18766,11 +18696,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 218,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 436,
                         "Name": "Parthian Tactics",
                         "RequiredAge": 4
@@ -18779,6 +18704,11 @@
                         "Name": "Arbalester",
                         "RequiredAge": 4,
                         "ID": 3007
+                    },
+                    {
+                        "ID": 615,
+                        "Name": "Elite Ballista Elephant",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -18814,14 +18744,15 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 39,
-                        "Name": "Cavalry Archer",
+                        "ID": 1120,
+                        "Name": "Ballista Elephant",
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 474,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
+                        "ID": 1122,
+                        "Name": "Elite Ballista Elephant",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1120
                     }
                 ]
             },
@@ -19410,11 +19341,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 615,
-                        "Name": "Elite Ballista Elephant",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 622,
                         "Name": "Tusk Swords",
                         "RequiredAge": 3
@@ -19446,16 +19372,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1120,
-                        "Name": "Ballista Elephant",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1122,
-                        "Name": "Elite Ballista Elephant",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -20354,11 +20270,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -20888,8 +20799,8 @@
                 "Name": "Archery Range",
                 "Techs": [
                     {
-                        "ID": 100,
-                        "Name": "Crossbowman",
+                        "ID": 98,
+                        "Name": "Elite Skirmisher",
                         "RequiredAge": 3
                     },
                     {
@@ -20906,22 +20817,17 @@
                         "Name": "Arbalester",
                         "RequiredAge": 4,
                         "ID": 3007
-                    },
-                    {
-                        "ID": 237,
-                        "Name": "Arbalester",
-                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
                     {
-                        "ID": 4,
-                        "Name": "Archer",
+                        "ID": 7,
+                        "Name": "Skirmisher",
                         "RequiredAge": 2
                     },
                     {
-                        "ID": 24,
-                        "Name": "Crossbowman",
+                        "ID": 6,
+                        "Name": "Elite Skirmisher",
                         "RequiredAge": 3
                     },
                     {
@@ -20949,12 +20855,6 @@
                         "Name": "LOE Arbalester",
                         "RequiredAge": 4,
                         "RequiredUnitID": 4002
-                    },
-                    {
-                        "ID": 492,
-                        "Name": "Arbalester",
-                        "RequiredAge": 4,
-                        "RequiredUnitID": 24
                     }
                 ]
             },
@@ -21047,14 +20947,14 @@
                         "RequiredAge": 2
                     },
                     {
-                        "ID": 209,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 39,
                         "Name": "Husbandry",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 684,
+                        "Name": "Elite Leitis",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -21074,14 +20974,15 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 38,
-                        "Name": "Knight",
+                        "ID": 1234,
+                        "Name": "Leitis",
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 283,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
+                        "ID": 1236,
+                        "Name": "Elite Leitis",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1234
                     }
                 ]
             },
@@ -21208,6 +21109,16 @@
                         "ID": 76,
                         "Name": "Chain Mail Armor",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 75,
+                        "Name": "Blast Furnace",
+                        "RequiredAge": 4
+                    },
+                    {
+                        "ID": 77,
+                        "Name": "Plate Mail Armor",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": []
@@ -21495,11 +21406,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 684,
-                        "Name": "Elite Leitis",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 691,
                         "Name": "Hill Forts",
                         "RequiredAge": 3
@@ -21526,16 +21432,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1234,
-                        "Name": "Leitis",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1236,
-                        "Name": "Elite Leitis",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -23027,6 +22923,11 @@
                         "ID": 602,
                         "Name": "Arson",
                         "RequiredAge": 2
+                    },
+                    {
+                        "ID": 617,
+                        "Name": "Elite Karambit Warrior",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -23059,6 +22960,17 @@
                         "ID": 359,
                         "Name": "Halberdier",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 1123,
+                        "Name": "Karambit Warrior",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1125,
+                        "Name": "Elite Karambit Warrior",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1123
                     }
                 ]
             },
@@ -23252,11 +23164,6 @@
                         "ID": 76,
                         "Name": "Chain Mail Armor",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 77,
-                        "Name": "Plate Mail Armor",
-                        "RequiredAge": 4
                     }
                 ],
                 "Units": []
@@ -23555,11 +23462,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 617,
-                        "Name": "Elite Karambit Warrior",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 624,
                         "Name": "Thalassocracy",
                         "RequiredAge": 3
@@ -23586,16 +23488,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1123,
-                        "Name": "Karambit Warrior",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1125,
-                        "Name": "Elite Karambit Warrior",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -29772,11 +29664,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -30798,11 +30685,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -32880,11 +32762,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -33602,11 +33479,6 @@
                         "RequiredAge": 2
                     },
                     {
-                        "ID": 209,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 236,
                         "Name": "Heavy Camel Rider",
                         "RequiredAge": 4
@@ -33620,6 +33492,11 @@
                         "ID": 39,
                         "Name": "Husbandry",
                         "RequiredAge": 3
+                    },
+                    {
+                        "ID": 680,
+                        "Name": "Elite Keshik",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
@@ -33640,16 +33517,6 @@
                         "RequiredUnitID": 546
                     },
                     {
-                        "ID": 38,
-                        "Name": "Knight",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 283,
-                        "Name": "Cavalier",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 329,
                         "Name": "Camel Rider",
                         "RequiredAge": 3
@@ -33668,6 +33535,17 @@
                         "ID": 1372,
                         "Name": "Elite Steppe Lancer",
                         "RequiredAge": 4
+                    },
+                    {
+                        "ID": 1228,
+                        "Name": "Keshik",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 1230,
+                        "Name": "Elite Keshik",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1228
                     }
                 ]
             },
@@ -34103,11 +33981,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 680,
-                        "Name": "Elite Keshik",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 687,
                         "Name": "Silk Armor",
                         "RequiredAge": 3
@@ -34134,16 +34007,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1228,
-                        "Name": "Keshik",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1230,
-                        "Name": "Elite Keshik",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -35060,11 +34923,6 @@
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -36151,11 +36009,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -36705,16 +36558,6 @@
                 "Name": "Archery Range",
                 "Techs": [
                     {
-                        "ID": 100,
-                        "Name": "Crossbowman",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 237,
-                        "Name": "Arbalester",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 98,
                         "Name": "Elite Skirmisher",
                         "RequiredAge": 3
@@ -36725,48 +36568,22 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 218,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 437,
                         "Name": "Thumb Ring",
                         "RequiredAge": 3
                     },
                     {
-                        "Name": "Arbalester",
-                        "RequiredAge": 4,
-                        "ID": 3007
+                        "ID": 3018,
+                        "Name": "Rattan Archer",
+                        "RequiredAge": 3
+                    },
+                    {
+                        "ID": 621,
+                        "Name": "Elite Rattan Archer",
+                        "RequiredAge": 4
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 4,
-                        "Name": "Archer",
-                        "RequiredAge": 2
-                    },
-                    {
-                        "ID": 24,
-                        "Name": "Crossbowman",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 492,
-                        "Name": "Arbalester",
-                        "RequiredAge": 4
-                    },
-                    {
-                        "ID": 4002,
-                        "Name": "LOE Crossbowman",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 4003,
-                        "Name": "LOE Arbalester",
-                        "RequiredAge": 4,
-                        "RequiredUnitID": 4002
-                    },
                     {
                         "ID": 7,
                         "Name": "Skirmisher",
@@ -36783,14 +36600,21 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 39,
-                        "Name": "Cavalry Archer",
-                        "RequiredAge": 3
+                        "ID": 4007,
+                        "Name": "LOE Early Rattan Archer",
+                        "RequiredAge": 2
                     },
                     {
-                        "ID": 474,
-                        "Name": "Heavy Cavalry Archer",
-                        "RequiredAge": 4
+                        "ID": 1129,
+                        "Name": "Rattan Archer",
+                        "RequiredAge": 3,
+                        "RequiredUnitID": 4007
+                    },
+                    {
+                        "ID": 1131,
+                        "Name": "Elite Rattan Archer",
+                        "RequiredAge": 4,
+                        "RequiredUnitID": 1129
                     }
                 ]
             },
@@ -37262,11 +37086,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -37378,11 +37197,6 @@
                 "Name": "Castle",
                 "Techs": [
                     {
-                        "ID": 621,
-                        "Name": "Elite Rattan Archer",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 628,
                         "Name": "Chatras",
                         "RequiredAge": 3
@@ -37414,16 +37228,6 @@
                     }
                 ],
                 "Units": [
-                    {
-                        "ID": 1129,
-                        "Name": "Rattan Archer",
-                        "RequiredAge": 3
-                    },
-                    {
-                        "ID": 1131,
-                        "Name": "Elite Rattan Archer",
-                        "RequiredAge": 4
-                    },
                     {
                         "ID": 440,
                         "Name": "Petard",
@@ -38274,11 +38078,6 @@
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -39258,11 +39057,6 @@
                     {
                         "ID": 377,
                         "Name": "Siege Engineers",
-                        "RequiredAge": 4
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
                         "RequiredAge": 4
                     },
                     {
@@ -40276,11 +40070,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -41328,11 +41117,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -42355,11 +42139,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -46460,11 +46239,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -47462,11 +47236,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -50500,11 +50269,6 @@
                         "ID": 93,
                         "Name": "Ballistics",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -54718,11 +54482,6 @@
                         "RequiredAge": 4
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Careening",
                         "RequiredAge": 3
@@ -55674,11 +55433,6 @@
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,
@@ -56672,11 +56426,6 @@
                         "RequiredAge": 3
                     },
                     {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
-                    },
-                    {
                         "ID": 373,
                         "Name": "Shipwright",
                         "RequiredAge": 4
@@ -57667,11 +57416,6 @@
                         "ID": 380,
                         "Name": "Heated Shot",
                         "RequiredAge": 3
-                    },
-                    {
-                        "ID": 608,
-                        "Name": "Arrowslits",
-                        "RequiredAge": 4
                     },
                     {
                         "ID": 373,

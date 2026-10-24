@@ -1856,20 +1856,6 @@
             "Picture Index": 104
         },
         {
-            "Name": "Arrowslits",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 7278,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107278,
-            "Node ID": 608,
-            "Picture Index": 119
-        },
-        {
             "Name": "Careening",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",

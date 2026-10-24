@@ -750,6 +750,36 @@
             "Trigger Tech ID": 429
         },
         {
+            "Name": "Karambit Warrior",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5148,
+            "Age ID": 3,
+            "Building ID": 12,
+            "Help String ID": 4100133,
+            "Node ID": 1123,
+            "Picture Index": 233
+        },
+        {
+            "Name": "Elite Karambit Warrior",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5150,
+            "Age ID": 4,
+            "Building ID": 12,
+            "Help String ID": 4100134,
+            "Link ID": 1123,
+            "Node ID": 1125,
+            "Picture Index": 503,
+            "Trigger Tech ID": 617
+        },
+        {
             "Name": "Arson",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -1289,7 +1319,7 @@
             "Link Node Type": "Research",
             "Draw Node Type": "UnitTech",
             "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
+            "Node Status": "NotAvailable",
             "Name String ID": 7077,
             "Age ID": 4,
             "Building ID": 103,
@@ -1856,20 +1886,6 @@
             "Picture Index": 104
         },
         {
-            "Name": "Arrowslits",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "NotAvailable",
-            "Name String ID": 7278,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107278,
-            "Node ID": 608,
-            "Picture Index": 119
-        },
-        {
             "Name": "Careening",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -1983,36 +1999,6 @@
             "Help String ID": 107377,
             "Node ID": 373,
             "Picture Index": 97
-        },
-        {
-            "Name": "Karambit Warrior",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5148,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105148,
-            "Node ID": 1123,
-            "Picture Index": 233
-        },
-        {
-            "Name": "Elite Karambit Warrior",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5150,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105150,
-            "Link ID": 1123,
-            "Node ID": 1125,
-            "Picture Index": 503,
-            "Trigger Tech ID": 617
         },
         {
             "Name": "Petard",

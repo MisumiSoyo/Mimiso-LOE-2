@@ -6,6 +6,8 @@
 extern const int LOEAttrExtraWood = 801;
 extern const int LOEAttrExtraGold = 802;
 extern const int LOEAttrExtraStone = 803;
+extern const int LOEAttrTowerUpgrade = 804;
+extern const int LOEAttrPaperMoney = 805;
 
 
 

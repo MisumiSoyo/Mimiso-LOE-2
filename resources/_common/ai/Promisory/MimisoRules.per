@@ -6,7 +6,8 @@
 ; 内容:
 ;   0) 禁用黑暗rush (drush): 把 strategy=drush 重定向到 usual 并关
 ;      drushmicro, 官方所有 drush 规则因条件不满足自动失效
-;   1) 点 早期长矛兵 -> 长矛兵 的升级      (研究 3001)
+;   1) 早期形态升级: 长矛兵(3001)/长弓兵(3008)/蒙古突骑(3009)/
+;      马扎尔骠骑(3010)/藤弓兵(3018) —— 有早期单位且可研究即点
 ;   2) [已停用 10-19] 反应式出弩手系, 由 MimisoXSBridge 接管
 ;   3) 升级精锐弩手(劲弩手)                (研究 3007)
 ;   4) 经济适配 (2026-10-17, 10-19 修订):
@@ -35,6 +36,10 @@
 ;      并行训练; 封建长矛反骑直训 (5d, 仅敌有骑兵, 上限15);
 ;      封建肉马直训 (5e, 有马厩即训, 上限6) —— 肉马不耗金,
 ;      鼓励封建出肉马; 城堡起交回官方 trainhussar 链
+;   6) 文明单位/科技同步 (6a…): #load-if-defined <文明宏> 内重定义
+;      官方常量 —— 同名 defconst 后定义覆盖先定义, MimisoRules 在
+;      加载链最后故生效; 宏名 = civilizations.json 的 data_name。
+;      6a 蒙古: 骑士系->怯薛, 重装骑士升级->精锐怯薛升级(680)
 ;
 ; 说明: 模组对象(dat 单位/科技 ID 4001/4002/4003/3001/3006/3007)
 ;       不在引擎内置符号表内, 必须先 defconst 起名再用。
@@ -49,7 +54,10 @@
 (defconst mimiso-u-crossbowman 4002)      ; 弩手 (城堡, 科技3006自动启用)
 (defconst mimiso-t-spearman-upg 3001)     ; 长矛兵 升级科技 (早期长矛兵 -> 长矛兵)
 (defconst mimiso-t-arbalester-upg 3007)   ; 劲弩手 升级科技 (弩手 -> 劲弩手)
-(defconst mimiso-t-mangudai-upg 3009)     ; 蒙古突骑 升级科技 (早期蒙古突骑 → 蒙古突骑)
+(defconst mimiso-t-longbowman-upg 3008)   ; 长弓兵 升级科技 (早期长弓兵 -> 长弓兵)
+(defconst mimiso-t-mangudai-upg 3009)     ; 蒙古突骑 升级科技 (早期蒙古突骑 -> 蒙古突骑)
+(defconst mimiso-t-magyar-huszar-upg 3010)   ; 马扎尔骠骑 升级科技 (早期马扎尔骠骑 -> 马扎尔骠骑)
+(defconst mimiso-t-rattan-archer-upg 3018)   ; 藤弓兵 升级科技 (早期藤弓兵 -> 藤弓兵)
 (defconst mimiso-goldbank 3030)           ; 封建金农锁存位 (官方 3020-3029 已占用, 3030 起空闲)
 
 ; ---- 0) 禁用黑暗rush (drush) ----
@@ -78,6 +86,27 @@
     (can-research mimiso-t-mangudai-upg)
 =>
     (research mimiso-t-mangudai-upg)
+)
+
+(defrule
+    (unit-type-count-total longbowman-line > 3)
+    (can-research mimiso-t-longbowman-upg)
+=>
+    (research mimiso-t-longbowman-upg)
+)
+
+(defrule
+    (unit-type-count-total magyar-huszar-line > 3)
+    (can-research mimiso-t-magyar-huszar-upg)
+=>
+    (research mimiso-t-magyar-huszar-upg)
+)
+
+(defrule
+    (unit-type-count-total rattan-archer-line > 3)
+    (can-research mimiso-t-rattan-archer-upg)
+=>
+    (research mimiso-t-rattan-archer-upg)
 )
 
 ; ---- 2) 出弩手系 (反应式: 敌方重甲目标成规模才出) ----
@@ -567,3 +596,39 @@
 =>
     (train scout-cavalry-line)
 )
+
+; ============================================================
+; 6) 文明单位/科技同步 (2026-10-24, 编译期 defconst 重定义)
+; ------------------------------------------------------------
+; 机制 (官方 AI 文档明确 + 官方文件实证):
+;   * 同名 defconst 多次定义时, 最后一个的值为最终值 -> MimisoRules
+;     在加载链最后, 此处重定义覆盖官方全链同名常量;
+;   * #load-if-defined <宏> 是编译期条件, 宏名 = civilizations.json
+;     的 data_name 字段 (蒙古是 MONGOL-CIV, 单复数以文件为准),
+;     块内 defconst 只对该文明玩家的 AI 编译生效;
+;   * 官方先例: KHITANS-CIV 农田块 (官方 customConstants.per L5614,
+;     farm<->pasture + 牧场版农田科技重映射), SHU-CIV / JURCHENS-CIV
+;     knight-line 块 (AI (HD version).per L3384 / L2172, 骑士线整线
+;     换黑光骑/草原枪兵, 连 ri-cavalier 升级科技一起重映射)。
+; 注意:
+;   * 只影响本玩家 AI: 敌方 AI 数 knight-line 看不到替换单位
+;     (官方契丹牧场同款局限, 影响小);
+;   * 替换线要能当原线用: 训练建筑/费用需与原线兼容 (骑士线 ->
+;     必须马厩 101 训练), dat 层先改好再接 AI;
+;   * ri-* 重映射后 can-research 跟随新科技真实前置/费用/文明
+;     可用性, 需 techtrees.json 给目标文明启用该科技。
+; ============================================================
+
+(defconst mimiso-t-keshik-elite 680)  ; 精锐怯薛升级 (1228->1230, 官方 Tatar 科技, 模组给蒙古)
+
+; ---- 6a) 蒙古: 骑士系 -> 怯薛 ----
+; keshik-line [-242, 1228/1230]; 模组怯薛已下放马厩(101)训练,
+; 40F 30G 30s 与骑士同建筑同节奏, 官方全部 knight-line 逻辑
+; (训练/计数/加建/克制评估) 整体落在怯薛上。
+; 重装骑士升级 ri-cavalier -> 精锐怯薛升级(680, 500F 900G 马厩75s):
+; 官方研究重装骑士的规则改研精锐怯薛; 蒙古无游侠,
+; ri-paladin 规则 can-research 为假自然跳过。
+#load-if-defined MONGOL-CIV
+(defconst knight-line keshik-line)
+(defconst ri-cavalier mimiso-t-keshik-elite)
+#end-if

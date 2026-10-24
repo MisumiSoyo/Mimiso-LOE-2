@@ -565,6 +565,36 @@
             "Picture Index": 90
         },
         {
+            "Name": "Ballista Elephant",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "BuildingTech",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5146,
+            "Age ID": 3,
+            "Building ID": 87,
+            "Help String ID": 4100131,
+            "Node ID": 1120,
+            "Picture Index": 231
+        },
+        {
+            "Name": "Elite Ballista Elephant",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
+            "Draw Node Type": "UnitTech",
+            "Use Type": "Unit",
+            "Node Status": "ResearchedCompleted",
+            "Name String ID": 5147,
+            "Age ID": 4,
+            "Building ID": 87,
+            "Help String ID": 4100132,
+            "Link ID": 1120,
+            "Node ID": 1122,
+            "Picture Index": 502,
+            "Trigger Tech ID": 615
+        },
+        {
             "Name": "Hand Cannoneer",
             "Node Type": "Unit",
             "Link Node Type": "BuildingTech",
@@ -592,36 +622,6 @@
                 "None"
             ],
             "Link ID": 492
-        },
-        {
-            "Name": "Cavalry Archer",
-            "Node Type": "Unit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5085,
-            "Age ID": 3,
-            "Building ID": 87,
-            "Help String ID": 4100020,
-            "Node ID": 39,
-            "Picture Index": 19
-        },
-        {
-            "Name": "Heavy Cavalry Archer",
-            "Node Type": "UnitUpgrade",
-            "Link Node Type": "Unit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5412,
-            "Age ID": 4,
-            "Building ID": 87,
-            "Help String ID": 4100021,
-            "Link ID": 39,
-            "Node ID": 474,
-            "Picture Index": 71,
-            "Trigger Tech ID": 218
         },
         {
             "Name": "Thumb Ring",
@@ -1822,20 +1822,6 @@
             "Picture Index": 104
         },
         {
-            "Name": "Arrowslits",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "NotAvailable",
-            "Name String ID": 7278,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107278,
-            "Node ID": 608,
-            "Picture Index": 119
-        },
-        {
             "Name": "Careening",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -1949,36 +1935,6 @@
             "Help String ID": 107377,
             "Node ID": 373,
             "Picture Index": 97
-        },
-        {
-            "Name": "Ballista Elephant",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5146,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 105146,
-            "Node ID": 1120,
-            "Picture Index": 231
-        },
-        {
-            "Name": "Elite Ballista Elephant",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 5147,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 105147,
-            "Link ID": 1120,
-            "Node ID": 1122,
-            "Picture Index": 502,
-            "Trigger Tech ID": 615
         },
         {
             "Name": "Petard",

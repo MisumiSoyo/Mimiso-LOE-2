@@ -832,7 +832,7 @@
             "Name String ID": 5577,
             "Age ID": 4,
             "Building ID": 101,
-            "Help String ID": 105577,
+            "Help String ID": 4100146,
             "Link ID": 546,
             "Node ID": 1707,
             "Picture Index": 371,
@@ -1808,20 +1808,6 @@
             "Help String ID": 107374,
             "Node ID": 380,
             "Picture Index": 104
-        },
-        {
-            "Name": "Arrowslits",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 7278,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107278,
-            "Node ID": 608,
-            "Picture Index": 119
         },
         {
             "Name": "Careening",

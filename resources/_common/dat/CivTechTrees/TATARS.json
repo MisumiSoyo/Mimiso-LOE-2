@@ -825,34 +825,34 @@
             "Trigger Tech ID": 428
         },
         {
-            "Name": "Knight",
-            "Node Type": "Unit",
+            "Name": "Keshik",
+            "Node Type": "UniqueUnit",
             "Link Node Type": "BuildingTech",
             "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
             "Node Status": "ResearchedCompleted",
-            "Name String ID": 5068,
+            "Name String ID": 4000081,
             "Age ID": 3,
             "Building ID": 101,
-            "Help String ID": 4100029,
-            "Node ID": 38,
-            "Picture Index": 1
+            "Help String ID": 4100081,
+            "Node ID": 1228,
+            "Picture Index": 251
         },
         {
-            "Name": "Cavalier",
-            "Node Type": "UnitUpgrade",
-            "Link Node Type": "Unit",
+            "Name": "Elite Keshik",
+            "Node Type": "UniqueUnit",
+            "Link Node Type": "UniqueUnit",
             "Draw Node Type": "UnitTech",
             "Use Type": "Unit",
             "Node Status": "ResearchedCompleted",
-            "Name String ID": 4000030,
+            "Name String ID": 4000082,
             "Age ID": 4,
             "Building ID": 101,
-            "Help String ID": 4100030,
-            "Link ID": 38,
-            "Node ID": 283,
-            "Picture Index": 49,
-            "Trigger Tech ID": 209
+            "Help String ID": 4100082,
+            "Link ID": 1228,
+            "Node ID": 1230,
+            "Picture Index": 507,
+            "Trigger Tech ID": 680
         },
         {
             "Name": "Camel Rider",
@@ -1074,7 +1074,7 @@
             "Name String ID": 5375,
             "Age ID": 4,
             "Building ID": 49,
-            "Help String ID": 105375,
+            "Help String ID": 4100141,
             "Link ID": 542,
             "Node ID": 1263,
             "Picture Index": 270
@@ -1870,20 +1870,6 @@
             "Picture Index": 104
         },
         {
-            "Name": "Arrowslits",
-            "Node Type": "Research",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Tech",
-            "Node Status": "NotAvailable",
-            "Name String ID": 7278,
-            "Age ID": 4,
-            "Building ID": 209,
-            "Help String ID": 107278,
-            "Node ID": 608,
-            "Picture Index": 119
-        },
-        {
             "Name": "Careening",
             "Node Type": "Research",
             "Link Node Type": "BuildingTech",
@@ -1999,36 +1985,6 @@
             "Picture Index": 97
         },
         {
-            "Name": "Keshik",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "BuildingTech",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 4000081,
-            "Age ID": 3,
-            "Building ID": 82,
-            "Help String ID": 4100081,
-            "Node ID": 1228,
-            "Picture Index": 251
-        },
-        {
-            "Name": "Elite Keshik",
-            "Node Type": "UniqueUnit",
-            "Link Node Type": "UniqueUnit",
-            "Draw Node Type": "UnitTech",
-            "Use Type": "Unit",
-            "Node Status": "ResearchedCompleted",
-            "Name String ID": 4000082,
-            "Age ID": 4,
-            "Building ID": 82,
-            "Help String ID": 4100082,
-            "Link ID": 1228,
-            "Node ID": 1230,
-            "Picture Index": 507,
-            "Trigger Tech ID": 680
-        },
-        {
             "Name": "Petard",
             "Node Type": "Unit",
             "Link Node Type": "BuildingTech",
@@ -2052,7 +2008,7 @@
             "Name String ID": 7309,
             "Age ID": 3,
             "Building ID": 82,
-            "Help String ID": 107309,
+            "Help String ID": 1600065,
             "Node ID": 687,
             "Picture Index": 33
         },

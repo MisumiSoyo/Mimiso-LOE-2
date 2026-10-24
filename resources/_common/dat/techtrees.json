@@ -9,7 +9,7 @@
         },
         {
             "action": "delete",
-            "civ_id": ["BRITONS"],
+            "civ_id": ["BRITONS", "VIETNAMESE"],
             "note": "部分文明移除步弓手系",
             "Use Type": "Unit",
             "Node ID": [4, 24, 492]
@@ -30,7 +30,7 @@
         },
         {
             "action": "delete",
-            "civ_id": ["MONGOLS", "KOREANS", "BERBERS"],
+            "civ_id": ["MONGOLS", "KOREANS", "BERBERS", "KHMER", "BURMESE", "VIETNAMESE", "CUMANS"],
             "note": "部分文明移除骑射手系",
             "Use Type": "Unit",
             "Node ID": [39, 474]
@@ -44,7 +44,7 @@
         },
         {
             "action": "delete",
-            "civ_id": ["BYZANTINES", "MONGOLS", "HUNS", "SLAVS"],
+            "civ_id": ["BYZANTINES", "MONGOLS", "HUNS", "SLAVS", "BULGARIANS", "TATARS", "LITHUANIANS"],
             "note": "部分文明移除骑士系",
             "Use Type": "Unit",
             "Node ID": [38, 283]
@@ -67,7 +67,7 @@
             "action": "enable",
             "civ_id": "FRANKS",
             "note": "法兰克科技树; TechIDs移除63(科技63已从CTT删除, 塔楼升级改挂瞭望塔79研究, 见ctt_changes.json)",
-            "TechIDs": [437, 201, 219, 15],
+            "TechIDs": [437, 201, 219, 15, 435],
             "UnitIDs": [441]
         },
         {
@@ -231,6 +231,41 @@
             "note": "柏柏尔科技树",
             "TechIDs": [436],
             "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "MALAY",
+            "note": "马来科技树",
+            "TechIDs": [77],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "VIETNAMESE",
+            "note": "越南科技树",
+            "TechIDs": [],
+            "UnitIDs": [4002, 4003]
+        },
+        {
+            "action": "enable",
+            "civ_id": "CUMANS",
+            "note": "库曼科技树",
+            "TechIDs": [39],
+            "UnitIDs": []
+        },
+        {
+            "action": "enable",
+            "civ_id": "LITHUANIANS",
+            "note": "立陶宛科技树",
+            "TechIDs": [75, 77],
+            "UnitIDs": []
+        },
+        {
+            "action": "disable",
+            "civ_id": "LITHUANIANS",
+            "note": "立陶宛科技树",
+            "TechIDs": [],
+            "UnitIDs": [4, 24, 492]
         }
     ]
 }

@@ -17,13 +17,28 @@ void EffectFunction10001(int playerId = -1)
 //  10002 - Detinets
 void EffectFunction10002(int playerId = -1)
 {
-    DetinetsApplier(playerId, CastleID);
-    DetinetsApplier(playerId, WatchTowerID);
-    DetinetsApplier(playerId, GuardTowerID);
-    DetinetsApplier(playerId, KeepID);
-    DetinetsApplier(playerId, BombardTowerID);
-    DetinetsApplier(playerId, KrepostID);
-    DetinetsApplier(playerId, DonjonID);
+    DetinetsObjectApplier(playerId, CastleID);
+    DetinetsObjectApplier(playerId, KrepostID);
+    DetinetsObjectApplier(playerId, DonjonID);
+    DetinetsTechApplier(playerId, GuardTowerTechID);
+    DetinetsTechApplier(playerId, KeepTechID);
+    DetinetsTechApplier(playerId, BombardTowerTechID);
+}
+
+
+
+//  10003 - Paper Money
+void EffectFunction10003(int playerId = -1)
+{
+    xsResetTaskAmount();
+    xsTaskAmount(cTaskAttrSearchWaitTime, 1001);
+    xsTaskAmount(cTaskAttrWorkValue1, 0.01);
+    xsTaskAmount(cTaskAttrProductivityResource, LOEAttrPaperMoney);
+    xsTaskAmount(cTaskAttrResourceOut, cAttributeGold);
+
+    xsTask(MaleLumberjackID, cTaskTypeAdditionalResource, -1, playerId);
+    xsTask(FemaleLumberjackID, cTaskTypeAdditionalResource, -1, playerId);
+    xsResetTaskAmount();
 }
 
 
@@ -31,6 +46,6 @@ void EffectFunction10002(int playerId = -1)
 void main()
 {
     xsChatData("Mod: Legacy of Empires 2");
-    xsChatData("Patch: 0.8  2026.10.24");
+    xsChatData("Patch: 0.9  2026.10.25");
     xsChatData("Author: Misumi Soyo");
 }

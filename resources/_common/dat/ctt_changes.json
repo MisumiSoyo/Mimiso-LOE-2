@@ -13,7 +13,7 @@
         "移除掷矛手的文明":
         {
             "all": true,
-            "exclude": ["BYZANTINES", "AZTECS", "MAYANS", "INCAS", "VIETNAMESE"]
+            "exclude": ["BYZANTINES", "AZTECS", "MAYANS", "INCAS", "VIETNAMESE", "LITHUANIANS"]
         }
     },
     "changes":
@@ -101,9 +101,9 @@
         {
             "action": "delete",
             "civ_id": "all",
-            "note": "从科技树移除软甲(875, Gambesons)与近射孔(322, Murder Holes)并同步移出FAU; Use Type=Tech 只作用于科技列表; 6个无875节点的Chronicles文明(ACHAEMENIDS/ATHENIANS/MACEDONIANS/PURU/SPARTANS/THRACIANS)自动跳过",
+            "note": "从科技树移除软甲, 近射孔, 射箭槽",
             "Use Type": "Tech",
-            "Node ID": [875, 322]
+            "Node ID": [875, 322, 608]
         },
         {
             "action": "modify",
