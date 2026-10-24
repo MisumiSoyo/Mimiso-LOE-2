@@ -48,7 +48,7 @@
 // MAGYAR
 1000022 "Cavalry civilization\n\n• Villagers defeat wolves with one strike\n• Forging, Iron Casting and Blast Furnace are free\n\n<b>Unique Unit:<b> \nMagyar Huszar (Light cavalry strong vs. siege weapons)\n\n<b>Unique Techs:<b> \n• Corvinian Army (Magyar Huszar gold cost is replaced by additional food cost)\n• Recurve Bow (Cavalry Archers +1 attack, +1 range)\n\n<b>Team Bonus:<b> \nCavalry Archers train +25% faster"
 // SLAVS
-1000023 "Infantry and Siege civilization\n\n• Villagers gather from Farms +15% faster\n• Arson free\n• Siege Workshop units cost -15%\n• Monks +15% movement speed\n\n<b>Unique Unit:<b>\nBoyar (Knight with extremely high armor)\n\n<b>Unique Techs:<b> \n• Detinets (Replaces 40% of Castle and tower upgrade stone cost with additional wood cost)\n• Druzhina (Infantry deals trample damage)\n\n<b>Team Bonus:<b>\nMilitary buildings (except Castles) provide +5 population space"
+1000023 "Infantry and Siege civilization\n\n• Villagers gather from Farms +10% faster\n• Arson free\n• Siege Workshop units cost -15%\n• Monks +15% movement speed\n\n<b>Unique Unit:<b>\nBoyar (Knight with extremely high armor)\n\n<b>Unique Techs:<b> \n• Detinets (Replaces 40% of Castle and tower upgrade stone cost with additional wood cost)\n• Druzhina (Infantry deals trample damage)\n\n<b>Team Bonus:<b>\nMilitary buildings (except Castles) provide +5 population space"
 // PORTUGUESE
 1000024 "Naval and Gunpowder civilization\n\n• Villagers generate 50% additional wood when gathering from Berry Bushes\n• All units cost -20% gold\n• Can build Feitoria in Imperial Age\n• Ships +15% HP\n\n<b>Unique Units:<b> \nOrgan Gun (Gunpowder unit strong vs. infantry), Caravel (Warship)\n\n<b>Unique Techs:<b> \n• Circumnavigation (Sets the entire map to explored; Ships train +33% faster)\n• Arquebus (Gunpowder units gain Ballistics effect and fire faster projectiles)\n\n<b>Team Bonus:<b> \nTechnologies research +25% faster"
 // ETHIOPIANS
@@ -787,9 +787,9 @@
 
 
 3501001 "Research Loom (Villagers +50% hit points)"
-3501002 "Research Horse Collar (Farmers +10% work rate)"
-3501003 "Research Heavy Plow (Farmers +10% work rate)"
-3501004 "Research Crop Rotation (Farmers +10% work rate)"
+3501002 "Research Horse Collar (Farmers +7% work rate)"
+3501003 "Research Heavy Plow (Farmers +7% work rate)"
+3501004 "Research Crop Rotation (Farmers +7% work rate)"
 3501005 "Research Double-Bit Axe (Villagers chop wood +15% faster)"
 3501006 "Research Bow Saw (Villagers chop wood +15% faster)"
 3501007 "Research Two-Man Saw (Villagers deposit +15% more wood)"
@@ -820,9 +820,9 @@
 
 
 3521001 "Research <b>Loom<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nVillagers +50% hit points."
-3521002 "Research <b>Horse Collar<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nFarmers +10% work rate."
-3521003 "Research <b>Heavy Plow<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nFarmers +10% work rate."
-3521004 "Research <b>Crop Rotation<b> (<cost>, 105 <MATERIAL=MPIconGoodCPU>)\nFarmers +10% work rate."
+3521002 "Research <b>Horse Collar<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nFarmers +7% work rate."
+3521003 "Research <b>Heavy Plow<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nFarmers +7% work rate."
+3521004 "Research <b>Crop Rotation<b> (<cost>, 105 <MATERIAL=MPIconGoodCPU>)\nFarmers +7% work rate."
 3521005 "Research <b>Double-Bit Axe<b> (<cost>, 45 <MATERIAL=MPIconGoodCPU>)\nVillagers chop wood +15% faster."
 3521006 "Research <b>Bow Saw<b> (<cost>, 75 <MATERIAL=MPIconGoodCPU>)\nVillagers chop wood +15% faster."
 3521007 "Research <b>Two-Man Saw<b> (<cost>, 105 <MATERIAL=MPIconGoodCPU>)\nVillagers deposit +15% more wood."
